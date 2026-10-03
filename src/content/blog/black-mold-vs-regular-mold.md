@@ -18,6 +18,7 @@ faq: [{"question": "Can I test for black mold myself without a lab?", "answer": 
 published_at: "2026-09-07"
 services: ["mold-remediation"]
 rendered: true
+author: "Rachelle Elliston"
 ---
 Most mold you find in a home is not the toxic black mold you've read about online, but some of it is, and the difference matters for how you respond. The short answer: you cannot reliably tell the two apart by color alone. "Black mold" almost always refers to *Stachybotrys chartarum*, a specific species, but dozens of other mold types can appear black, gray, or dark green. Meanwhile, *Stachybotrys* itself can look greenish or dark brown depending on the surface and moisture level. What you can do is look at a combination of clues, including location, texture, smell, and the conditions that allowed it to grow.
 

@@ -17,6 +17,7 @@ faq: [{"question": "How much does mold remediation cost in North Las Vegas?", "a
 published_at: "2026-09-29"
 services: ["mold-remediation", "water-damage-restoration"]
 rendered: true
+author: "Rachelle Elliston"
 ---
 **TL;DR:** Mold remediation in North Las Vegas typically runs $500 to $1,500 for a small, contained area like a bathroom wall, $1,500 to $4,500 for a single room, and $10,000 or more for structural mold in a crawlspace, attic, or subfloor. The biggest cost drivers are affected square footage, whether mold reached the HVAC system, and whether the moisture source has been fixed. Most homeowners insurance policies cover mold remediation only when it results from a sudden, covered water event, not a long-term leak or condensation problem.
 

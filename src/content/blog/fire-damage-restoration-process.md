@@ -18,6 +18,7 @@ faq: [{"question": "How long does fire damage restoration typically take?", "ans
 published_at: "2026-09-14"
 services: ["fire-damage-restoration", "smoke-damage-restoration"]
 rendered: true
+author: "Rachelle Elliston"
 ---
 A house fire leaves behind more than charred walls. Even after the flames are out, smoke residue is still moving through your home, soot is bonding to surfaces, and odor compounds are working their way into insulation, ductwork, and furniture. The restoration process is not a single event, it is a sequence of steps that have to happen in the right order, or you end up with hidden damage that surfaces months later. This post walks through that sequence so you know what to expect, what to do right now, and what to leave to a trained crew.
 

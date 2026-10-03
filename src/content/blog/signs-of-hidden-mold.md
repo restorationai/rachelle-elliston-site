@@ -18,6 +18,7 @@ faq: [{"question": "How do I know if the musty smell is mold or just a dirty dra
 published_at: "2026-09-07"
 services: ["mold-remediation"]
 rendered: true
+author: "Rachelle Elliston"
 ---
 Mold does not always announce itself with a visible patch on the wall. In dry climates like the Las Vegas Valley, where indoor humidity is routinely low, mold can colonize inside wall cavities, under flooring, and above ceiling tiles for weeks before a homeowner notices anything at all. The seven warning signs below are the ones most likely to show up before you ever see spores. If you recognize more than one of them, take it seriously: mold can begin colonizing a wet surface within 24 to 48 hours of a moisture event, and the longer it goes undetected, the deeper into building materials it roots.
 

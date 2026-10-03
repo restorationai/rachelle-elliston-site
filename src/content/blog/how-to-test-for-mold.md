@@ -18,6 +18,7 @@ faq: [{"question": "How long does it take to get results from a DIY mold test ki
 published_at: "2026-09-07"
 services: ["mold-remediation", "mold-inspection-testing"]
 rendered: true
+author: "Rachelle Elliston"
 ---
 ## The Short Answer: DIY Kits Can Confirm a Suspicion, but They Rarely Tell You Enough
 

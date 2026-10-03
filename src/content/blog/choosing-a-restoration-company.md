@@ -18,6 +18,7 @@ faq: [{"question": "Should I call my insurance company before I call a restorati
 published_at: "2026-09-12"
 services: ["water-damage-restoration", "fire-damage-restoration", "mold-remediation"]
 rendered: true
+author: "Rachelle Elliston"
 ---
 Choosing a restoration company after water damage, fire damage, or a mold discovery is one of the few purchasing decisions you'll make while your home is actively getting worse. The wrong call costs you time, money, and sometimes your insurance claim. The right call gets a trained crew on-site with the right equipment before secondary damage sets in. Here is what to look for, what to avoid, and how to avoid the contractors who profit from your panic.
 

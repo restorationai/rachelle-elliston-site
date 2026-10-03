@@ -17,6 +17,7 @@ faq: [{"question": "Do I need a licensed general contractor for reconstruction a
 published_at: "2026-09-24"
 services: []
 rendered: true
+author: "Rachelle Elliston"
 ---
 **TL;DR:** In Boulder City, NV, general contracting covers everything from post-disaster reconstruction after water, fire, or storm damage to planned kitchen, bath, and structural renovations. A licensed contractor coordinates permits, subcontractors, and materials so you get a finished, code-compliant space without managing the job yourself. Desert Valley Contracting Inc holds Nevada license 0072652-B & B6 and has served the greater Las Vegas area since 2000.
 

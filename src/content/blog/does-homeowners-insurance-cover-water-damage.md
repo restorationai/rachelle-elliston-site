@@ -18,6 +18,7 @@ faq: [{"question": "Will filing a water damage claim raise my homeowners insuran
 published_at: "2026-09-03"
 services: ["water-damage-restoration"]
 rendered: true
+author: "Rachelle Elliston"
 ---
 ## The Short Answer: It Depends on the Source
 

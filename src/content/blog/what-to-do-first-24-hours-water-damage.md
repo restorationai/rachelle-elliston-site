@@ -18,6 +18,7 @@ faq: [{"question": "How long does it take for mold to grow after water damage?",
 published_at: "2026-09-17"
 services: ["water-damage-restoration"]
 rendered: true
+author: "Rachelle Elliston"
 ---
 If water is actively spreading through your home right now, stop the source first. Shut off the main water supply valve (usually near the meter, in a utility closet, or under a sink), then cut power to any rooms where water is touching outlets, baseboards, or appliances. Those two steps alone reduce how much damage the next 24 hours will cause. Everything after that is about slowing the spread and documenting what happened before materials start to deteriorate.
 
