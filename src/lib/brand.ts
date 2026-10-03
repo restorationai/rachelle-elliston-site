@@ -58,7 +58,7 @@ export const brand = {
   // Operator-confirmed "licensed & insured" attestation from plan-input.json —
   // lets the TrustStrip show the badge before a license number is on file.
   licensedInsuredAttested: true as boolean,
-  certifications: ["IICRC CERTIFIED FIRM", "IICRC AMRT (MOLD)", "OSHA TRAINED", "IICRC FSRT (FIRE & SMOKE)", "IICRC WRT (WATER)", "IICRC ASD (STRUCTURAL DRYING)", "EPA LEAD-SAFE CERTIFIED"] as string[],
+  certifications: ["IICRC Certified Firm", "IICRC AMRT (Mold)", "OSHA Trained", "IICRC FSRT (Fire & Smoke)", "IICRC WRT (Water)", "IICRC ASD (Structural Drying)", "EPA Lead-Safe Certified"] as string[],
   trustBadges: ["IICRC Certified Firm", "Licensed & Insured", "24/7 Emergency Service", "Locally Owned & Operated"] as string[],
   jobPhotos: [] as string[],
   sameAsUrls: ["https://www.facebook.com/DesertValleyContractor/", "https://www.instagram.com/desertvalleycontractinginc/", "https://www.linkedin.com/company/desert-valley-contracting-inc.", "https://maps.google.com/maps?cid=14252583205007514250", "https://www.yelp.com/biz/desert-valley-contracting-north-las-vegas-3", "https://homeguide.com/nv/north-las-vegas/water-damage-restoration/desert-valley-contracting-inc-z30PG1i5H"] as string[],
