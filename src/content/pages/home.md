@@ -1,10 +1,10 @@
 ---
 archetype: "home"
-title: "Desert Valley Contracting Inc  | Restoration Services in North Las Vegas, NV"
-h1: "24/7 Restoration Services in North Las Vegas"
-meta_description: "Desert Valley Contracting Inc  provides 24/7 water, fire, mold, and storm damage restoration across North Las Vegas and surrounding areas. Licensed, insured, IICRC-certified. Call (702) 633-5033."
-primary_keyword: "restoration services north las vegas"
-secondary_keywords: ["restoration company near me", "24/7 damage restoration", "emergency restoration"]
+title: "Water Damage Restoration in North Las Vegas, NV | Desert Valley Contracting Inc"
+h1: "24/7 Water Damage Restoration in North Las Vegas, NV"
+meta_description: "Desert Valley Contracting Inc provides water damage restoration in North Las Vegas, NV, answering 24/7. IICRC certified. Call (702) 633-5033 now."
+primary_keyword: "water damage restoration north las vegas"
+secondary_keywords: ["best restoration company in north las vegas", "restoration company north las vegas", "water damage restoration near me"]
 search_intent: "local_commercial"
 priority: 5.0
 plan_hash: "cc8740488f81a3e2"
