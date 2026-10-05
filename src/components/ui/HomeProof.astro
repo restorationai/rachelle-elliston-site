@@ -83,10 +83,12 @@ const lead = topRated
 
 const show = Boolean(city && name) && (hasRating || reviews.length > 0);
 const short = str(brand.shortName);
-const pick = name.length <= 24 ? name
-  : short && short.length <= 24 ? short : "us";
-// two lines on a phone holds ~48 characters of this headline
-const headName = `Why ${city} homeowners choose ${pick}`.length <= 48 ? pick : "us";
+// the full name if short enough, else the short name, else "us"; the inline
+// script under the headline shrinks it until it sits on two lines at most
+// (character counts can't predict wrapping: "Why Federal Way homeowners
+// choose NARESTCO" is 42 characters and still ran three lines on a phone)
+const fits = (n: string) => n.length <= 24;
+const headName = fits(name) ? name : short && fits(short) ? short : "us";
 ---
 
 {show && (
@@ -97,6 +99,28 @@ const headName = `Why ${city} homeowners choose ${pick}`.length <= 48 ? pick : "
         <h2 id="home-proof-heading" class="text-base min-[360px]:text-xl sm:text-3xl md:text-4xl text-balance font-black uppercase tracking-tight text-dark-900 mb-4">
           Why {city} homeowners choose {headName}
         </h2>
+        <script is:inline>
+          (() => {
+            const h = document.getElementById("home-proof-heading");
+            if (!h) return;
+            const fit = () => {
+              h.style.fontSize = ""; h.style.lineHeight = "";
+              let fs = parseFloat(getComputedStyle(h).fontSize);
+              h.style.lineHeight = "1.15";
+              for (let i = 0; i < 24 && fs > 14 && h.getBoundingClientRect().height > fs * 1.15 * 2.3; i++) {
+                fs -= 1; h.style.fontSize = fs + "px";
+              }
+            };
+            fit();
+            addEventListener("resize", fit);
+            addEventListener("load", fit);
+            // the web font can swap in after the first pass and re-wrap the line
+            if (document.fonts) {
+              document.fonts.ready.then(fit);
+              document.fonts.addEventListener("loadingdone", fit);
+            }
+          })();
+        </script>
         <p class="text-lg text-dark-700 m-0">{lead}</p>
         {stars > 0 && (
           <div class="flex justify-center gap-1 text-amber-500 mt-4" aria-hidden="true">
