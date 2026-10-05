@@ -14,7 +14,7 @@ internal_links: ["/services/", "/contact/", "/service-areas/blue-diamond-nv/", "
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "flood-damage-restoration"}]
 faq: []
 service_slug: "flood-damage-restoration"
-service_display: "flood-damage-restoration"
+service_display: "Flood Damage Restoration"
 ---
 <!-- Page body not yet generated. Run `build_site.py render --slug rachelle-elliston` to populate. The frontmatter above is the source-of-truth metadata from the plan. -->
 

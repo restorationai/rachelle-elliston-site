@@ -1,4 +1,7 @@
 ---
+// 2026-10-04 (Santino, Dry1 review): stat tiles REMOVED from the template
+// and every site; headline capped at two lines (short name when the full
+// name is long, else "us"). Applied by scripts/home_proof_slim.py.
 // HomeProof: "Why {City} homeowners choose {Brand}" (Santino 2026-10-03).
 //
 // The homepage does NOT carry a "The Best Restoration Company in {City}"
@@ -26,7 +29,7 @@
 // AggregateRating schema is NOT emitted here: schema.ts already embeds it in
 // the homepage LocalBusiness block when both GBP fields are present.
 import { brand } from "~/lib/brand";
-import { Star, Shield, BadgeCheck, Clock, Award, Phone } from "@lucide/astro";
+import { Star, Phone } from "@lucide/astro";
 
 const TOP_RATED_MIN_RATING = 4.5;
 const TOP_RATED_MIN_REVIEWS = 20;
@@ -50,44 +53,6 @@ const reviewsUrl = brand.googleCid
   : brand.placeId
     ? `https://search.google.com/local/reviews?placeid=${brand.placeId}`
     : "";
-
-const is247 = /24\s*[\/x-]?\s*7|24 ?hours/i.test(str(brand.hours));
-const respMin = parseInt(str(B.responseMinutes), 10);
-const hasResp = respMin > 0;
-
-const licenses = ((B.licenseNumbers as string[]) || []).map(str).filter(Boolean);
-const licenseType = str(B.licenseType);
-const licenseAuthority = str(B.licenseAuthority);
-const licenseLookupUrl = str(B.licenseLookupUrl);
-const attested = B.licensedInsuredAttested === true;
-const certs = ((B.certifications as string[]) || []).map(str).filter(Boolean).slice(0, 4);
-
-const founded = parseInt(str(brand.foundedYear), 10);
-const since = founded > 1900 && founded <= new Date().getFullYear() ? founded : null;
-
-type Tile = { icon: typeof Star; value: string; label: string; href?: string; linkText?: string };
-const tiles: Tile[] = [];
-if (hasRating) {
-  tiles.push({ icon: Star, value: `${rating} stars`, label: `${count} Google reviews`,
-    href: reviewsUrl || undefined, linkText: "Read them on Google" });
-}
-if (licenses.length) {
-  tiles.push({ icon: Shield, value: "Licensed",
-    label: `${licenseType || "License"} #${licenses[0]}${licenseAuthority ? `, ${licenseAuthority}` : ""}`,
-    href: licenseLookupUrl || undefined, linkText: "Verify the license" });
-} else if (attested) {
-  tiles.push({ icon: Shield, value: "Licensed & Insured", label: "" });
-}
-if (certs.length) {
-  tiles.push({ icon: BadgeCheck, value: "Certified", label: certs.join(" · ") });
-}
-if (since) {
-  tiles.push({ icon: Award, value: `Since ${since}`, label: `Serving ${city} and nearby towns` });
-}
-if (is247 || hasResp) {
-  tiles.push({ icon: Clock, value: is247 ? "24/7" : `${respMin} min`,
-    label: hasResp ? `Typically on site within ${respMin} minutes` : "We answer the phone day and night" });
-}
 
 // Review excerpts: real synced reviews, 4+ stars, ones that mention the city
 // first; trimmed to whole sentences (never mid-word) so the quote stays honest.
@@ -116,16 +81,21 @@ const lead = topRated
     ? `${city} homeowners rate ${name} ${rating} out of 5 stars across ${count} Google reviews.`
     : `Here is what ${name} brings to every ${trade} job in ${city}.`;
 
-const show = Boolean(city && name) && (tiles.length > 0 || reviews.length > 0);
+const show = Boolean(city && name) && (hasRating || reviews.length > 0);
+const short = str(brand.shortName);
+const pick = name.length <= 24 ? name
+  : short && short.length <= 24 ? short : "us";
+// two lines on a phone holds ~48 characters of this headline
+const headName = `Why ${city} homeowners choose ${pick}`.length <= 48 ? pick : "us";
 ---
 
 {show && (
   <section class="bg-dark-50 py-20 border-y border-dark/10 text-dark-900" aria-labelledby="home-proof-heading">
     <div class="container-wide">
-      <div class="max-w-3xl mx-auto text-center">
+      <div class="max-w-4xl mx-auto text-center">
         <div class="eyebrow">Proof, not promises</div>
-        <h2 id="home-proof-heading" class="text-3xl md:text-5xl font-black uppercase tracking-tight text-dark-900 mb-4">
-          Why {city} homeowners choose {name}
+        <h2 id="home-proof-heading" class="text-base min-[360px]:text-xl sm:text-3xl md:text-4xl text-balance font-black uppercase tracking-tight text-dark-900 mb-4">
+          Why {city} homeowners choose {headName}
         </h2>
         <p class="text-lg text-dark-700 m-0">{lead}</p>
         {stars > 0 && (
@@ -134,29 +104,6 @@ const show = Boolean(city && name) && (tiles.length > 0 || reviews.length > 0);
           </div>
         )}
       </div>
-
-      {tiles.length > 0 && (
-        <ul class="list-none p-0 m-0 mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto">
-          {tiles.map((t) => {
-            const Icon = t.icon;
-            return (
-              <li class="m-0 p-6 rounded-lg border border-dark/10 bg-white flex gap-4 items-start">
-                <span class="text-primary-700 shrink-0 mt-1"><Icon size={26} /></span>
-                <div class="min-w-0">
-                  <p class="m-0 text-xl font-black uppercase tracking-tight text-dark-900">{t.value}</p>
-                  {t.label && <p class="m-0 mt-1 text-sm text-dark-600 break-words">{t.label}</p>}
-                  {t.href && (
-                    <a href={t.href} target="_blank" rel="noopener"
-                       class="inline-block mt-2 text-xs font-bold uppercase tracking-widest text-primary-700 no-underline hover:underline">
-                      {t.linkText}
-                    </a>
-                  )}
-                </div>
-              </li>
-            );
-          })}
-        </ul>
-      )}
 
       {reviews.length > 0 && (
         <div class="grid gap-6 md:grid-cols-3 max-w-6xl mx-auto mt-10">
