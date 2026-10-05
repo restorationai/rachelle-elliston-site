@@ -66,7 +66,7 @@ A trained restoration crew follows a defined process. Here is what that typicall
 
 **Water extraction and drying.** Any water introduced during firefighting is extracted and the affected areas are dried using commercial-grade air movers and dehumidifiers. In a desert climate, ambient humidity is low, which helps, but enclosed cavities still require active drying equipment.
 
-**Soot and smoke residue removal.** This is where the chemistry matters. Different surfaces require different cleaning agents and techniques. Protein-based smoke from a kitchen fire behaves differently than the thick, wet smoke from burning synthetic materials. Crews trained in smoke damage restoration match the method to the residue type.
+**Soot and smoke residue removal.** This is where the chemistry matters. Different surfaces require different cleaning agents and techniques. Protein-based smoke from a kitchen fire behaves differently than the thick, wet smoke from burning synthetic materials. Crews trained in [smoke damage restoration](/services/smoke-damage-restoration/) match the method to the residue type.
 
 **Odor treatment.** Thermal fogging, hydroxyl generators, or ozone treatment (used only in unoccupied spaces) are used to neutralize odor compounds at the molecular level rather than masking them.
 

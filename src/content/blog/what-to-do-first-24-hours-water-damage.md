@@ -85,4 +85,4 @@ Throughout this process, keep all receipts, all communication with your insuranc
 
 ## If You Are in North Las Vegas and Need Help
 
-If the situation is beyond what you can manage on your own, Desert Valley Contracting Inc handles water damage restoration for residential properties in North Las Vegas and the surrounding area. Call (702) 633-5033 to speak with someone about your situation and schedule an assessment. The sooner moisture is addressed, the more of your home's structure can be preserved.
+If the situation is beyond what you can manage on your own, Desert Valley Contracting Inc handles [water damage restoration](/services/water-damage-restoration/) for residential properties in North Las Vegas and the surrounding area. Call (702) 633-5033 to speak with someone about your situation and schedule an assessment. The sooner moisture is addressed, the more of your home's structure can be preserved.

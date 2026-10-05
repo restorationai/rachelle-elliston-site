@@ -54,7 +54,7 @@ Common bathroom molds, by contrast, can appear within 24 to 48 hours on tile, ca
 
 Some people experience symptoms in a mold-affected space that improve when they leave. These can include nasal congestion, eye irritation, coughing, or headaches. Individuals with asthma, mold allergies, or compromised immune systems are generally more sensitive.
 
-It is important to say clearly: this post is not medical advice, and no mold remediation company can tell you whether your symptoms are caused by mold. That determination belongs to a physician. What is true is that if multiple people in a household report similar symptoms that improve when they are out of the home, and there is a known or suspected moisture problem, it is worth having the space inspected.
+It is important to say clearly: this post is not medical advice, and no [mold remediation](/services/mold-remediation/) company can tell you whether your symptoms are caused by mold. That determination belongs to a physician. What is true is that if multiple people in a household report similar symptoms that improve when they are out of the home, and there is a known or suspected moisture problem, it is worth having the space inspected.
 
 Do not use symptom severity alone to decide whether mold is dangerous. *Stachybotrys* produces mycotoxins under certain conditions, but not all exposures produce the same effects, and other mold species can also trigger reactions in sensitive individuals.
 

@@ -49,7 +49,7 @@ The duct system in a Nevada home is essentially a highway for air, and if there 
 
 If two or more of the signs above apply to your home, here is where to start.
 
-1. **Find and stop the moisture source first.** Mold remediation without fixing the underlying moisture problem is temporary. Check under sinks, around the water heater, along the base of exterior walls after a rare rain event, and at every supply and drain line you can access.
+1. **Find and stop the moisture source first.** [Mold remediation](/services/mold-remediation/) without fixing the underlying moisture problem is temporary. Check under sinks, around the water heater, along the base of exterior walls after a rare rain event, and at every supply and drain line you can access.
 2. **Do not disturb suspected mold with dry brushing or a vacuum without a HEPA filter.** Disturbing mold colonies releases spores into the air and can spread contamination to areas that were previously unaffected.
 3. **Document what you see and smell.** Take dated photos of staining, warping, and any visible growth. If you are going to file a homeowner's insurance claim, this documentation matters.
 4. **Reduce indoor humidity while you arrange an inspection.** Run bathroom and kitchen exhaust fans longer than usual. If you have a portable dehumidifier, deploy it in the area of concern. In the Las Vegas Valley's dry climate, this is usually easier than in more humid regions, but summer monsoonal moisture can raise indoor humidity quickly if a home is not well-sealed.

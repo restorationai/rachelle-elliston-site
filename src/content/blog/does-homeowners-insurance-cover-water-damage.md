@@ -75,7 +75,7 @@ The steps you take in the first hour affect both the physical outcome and your c
 
 ## When the Claim Is Approved: What the Restoration Process Looks Like
 
-Insurance approval is the beginning of the work, not the end of the problem. Water damage restoration follows a defined sequence:
+Insurance approval is the beginning of the work, not the end of the problem. [Water damage restoration](/services/water-damage-restoration/) follows a defined sequence:
 
 - **Moisture mapping**: Technicians use thermal imaging cameras and moisture meters to find exactly where water traveled, including inside wall cavities and under flooring. Water moves along framing and subfloor in ways that are not visible at the surface.
 - **Extraction and drying**: Industrial air movers and dehumidifiers run for several days. The goal is to bring structural moisture readings down to levels that will not support mold growth. This is not a process that a box fan from the hardware store can replicate.

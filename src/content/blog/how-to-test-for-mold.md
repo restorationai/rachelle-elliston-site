@@ -48,7 +48,7 @@ Third, they collect air and surface samples in a controlled way, including an ou
 
 Finally, they produce a written report that identifies what was found, where, and at what concentration. That report is also what your insurance carrier and a remediation contractor will ask for before any work begins.
 
-Desert Valley Contracting Inc offers mold inspection and testing services, so if you're at the point where you need that documented assessment, you can reach the team at (702) 633-5033.
+Desert Valley Contracting Inc offers [mold inspection](/services/mold-inspection-testing/) and testing services, so if you're at the point where you need that documented assessment, you can reach the team at (702) 633-5033.
 
 ## When a DIY Kit Is Reasonable and When It Is Not
 

@@ -70,7 +70,7 @@ Restoration contractors use thermal imaging cameras and calibrated moisture mete
 
 The same applies to appliance-related leaks. A washing machine supply line failure or a refrigerator ice maker line that has been seeping slowly behind cabinetry can saturate the subfloor and wall framing long before the water reaches the finished floor surface. By the time you see the buckle or the stain, the structural material underneath may have been wet for days.
 
-If your loss involves any of these hidden-moisture scenarios, professional water damage restoration is the appropriate next step, not a longer drying period with household fans.
+If your loss involves any of these hidden-moisture scenarios, professional [water damage restoration](/services/water-damage-restoration/) is the appropriate next step, not a longer drying period with household fans.
 
 ---
 
