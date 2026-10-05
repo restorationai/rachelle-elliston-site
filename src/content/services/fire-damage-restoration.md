@@ -72,6 +72,6 @@ Dry desert air also means that odor molecules disperse differently than in humid
 
 ## Service area
 
-Desert Valley Contracting Inc is based in North Las Vegas and serves surrounding communities including Las Vegas, Henderson, Summerlin, Boulder City, and the broader Clark County area. The city-specific service pages for fire damage restoration in each community link back here for the full technical detail on what the work actually involves.
+Desert Valley Contracting Inc is based in North Las Vegas and serves surrounding communities including [Las Vegas](/service-areas/las-vegas-nv/fire-damage-restoration/), Henderson, [Summerlin](/service-areas/summerlin-nv/fire-damage-restoration/), [Boulder City](/service-areas/boulder-city-nv/fire-damage-restoration/), and the broader Clark County area. The city-specific service pages for fire damage restoration in each community link back here for the full technical detail on what the work actually involves.
 
 If you are looking at smoke-stained walls right now and wondering whether the smell will ever leave, the answer depends almost entirely on how quickly the right process starts. Call (702) 633-5033 to begin smoke and soot removal, Desert Valley Contracting Inc is available around the clock.

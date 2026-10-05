@@ -69,6 +69,6 @@ North Las Vegas sits in a low-humidity desert, but that does not make it mold-pr
 
 ## Service area
 
-Desert Valley Contracting is based in North Las Vegas and serves surrounding communities including Las Vegas, Henderson, Boulder City, Summerlin, and unincorporated Clark County. The city-specific pages for each area link back here for full process detail.
+Desert Valley Contracting is based in North Las Vegas and serves surrounding communities including [Las Vegas](/service-areas/las-vegas-nv/mold-remediation/), Henderson, [Boulder City](/service-areas/boulder-city-nv/mold-remediation/), [Summerlin](/service-areas/summerlin-nv/mold-remediation/), and unincorporated Clark County. The city-specific pages for each area link back here for full process detail.
 
 If you are seeing visible growth, smelling that distinctive earthy or musty odor, or have had a water event in the last 24 to 72 hours, call (702) 633-5033 to request an air quality assessment. The sooner the moisture source and affected materials are identified, the smaller the remediation scope tends to be.

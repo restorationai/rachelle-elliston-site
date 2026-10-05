@@ -70,6 +70,6 @@ North Las Vegas sits in a high-desert basin where the soil is predominantly cali
 
 ## Service area
 
-Desert Valley Contracting Inc is based in North Las Vegas and responds to sewage backup and sanitization calls throughout the greater Las Vegas valley, including Henderson, Summerlin, Enterprise, Boulder City, and surrounding communities. The city-specific pages linked from this page cover local considerations for each area.
+Desert Valley Contracting Inc is based in North Las Vegas and responds to sewage backup and sanitization calls throughout the greater Las Vegas valley, including Henderson, [Summerlin](/service-areas/summerlin-nv/sewage-cleanup/), [Enterprise](/service-areas/enterprise-nv/sewage-cleanup/), [Boulder City](/service-areas/boulder-city-nv/sewage-cleanup/), and surrounding communities. The city-specific pages linked from this page cover local considerations for each area.
 
 If sewage has backed up into your home or property, call (702) 633-5033 now. Desert Valley Contracting Inc responds 24/7, and a certified technician will walk you through immediate containment steps while the crew is on the way. The sooner Category 3 contamination is contained, the smaller the remediation footprint and the cleaner the insurance documentation.

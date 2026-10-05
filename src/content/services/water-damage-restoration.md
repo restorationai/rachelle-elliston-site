@@ -74,6 +74,6 @@ Low ambient humidity is a double-edged factor. It accelerates surface drying, wh
 
 ## Service area
 
-Desert Valley Contracting Inc is based in North Las Vegas and serves the surrounding communities throughout the Las Vegas Valley, including Henderson, Summerlin, Enterprise, Boulder City, and unincorporated Clark County. The city-specific service pages for each area link back here for the full technical detail on what water damage restoration involves.
+Desert Valley Contracting Inc is based in North Las Vegas and serves the surrounding communities throughout the Las Vegas Valley, including Henderson, [Summerlin](/service-areas/summerlin-nv/water-damage-restoration/), [Enterprise](/service-areas/enterprise-nv/water-damage-restoration/), [Boulder City](/service-areas/boulder-city-nv/water-damage-restoration/), and unincorporated Clark County. The city-specific service pages for each area link back here for the full technical detail on what water damage restoration involves.
 
 If you are seeing water on your floor, a wet ceiling, or a spike in your water bill with no clear explanation, call (702) 633-5033 now to schedule your moisture assessment. We are available 24/7 and will walk you through exactly what to do while you wait for the crew to arrive.

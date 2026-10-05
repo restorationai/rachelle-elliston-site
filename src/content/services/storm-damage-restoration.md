@@ -20,7 +20,7 @@ rendered: true
 <!-- emergency-open -->
 **Storm damage emergency in North Las Vegas? We answer 24/7.** Call now and our crew heads out to secure the property and stop further damage.
 
-A storm rolls through the Las Vegas Valley fast. Within minutes, wind-driven rain can push water under door thresholds, lift roofing felt off decking, and drop debris through attic vents. What looks like surface damage from the street is often the beginning of a longer problem: water tracking behind stucco, saturating blown-in insulation, and sitting against framing that dries slowly in a sealed attic. The window between the storm passing and secondary damage taking hold is shorter than most homeowners expect.
+A storm rolls through the [Las Vegas](/service-areas/las-vegas-nv/storm-damage-restoration/) Valley fast. Within minutes, wind-driven rain can push water under door thresholds, lift roofing felt off decking, and drop debris through attic vents. What looks like surface damage from the street is often the beginning of a longer problem: water tracking behind stucco, saturating blown-in insulation, and sitting against framing that dries slowly in a sealed attic. The window between the storm passing and secondary damage taking hold is shorter than most homeowners expect.
 
 ## What Storm Damage Restoration actually involves
 
@@ -74,6 +74,6 @@ The valley's caliche soil sheds water quickly rather than absorbing it, which me
 
 ## Service area
 
-Desert Valley Contracting Inc is based in North Las Vegas and provides storm damage restoration throughout the Las Vegas Valley, including Henderson, Summerlin, Boulder City, Laughlin, and surrounding communities. The city-specific service pages for each area link back to this page for full process and technical detail.
+Desert Valley Contracting Inc is based in North Las Vegas and provides storm damage restoration throughout the Las Vegas Valley, including Henderson, [Summerlin](/service-areas/summerlin-nv/storm-damage-restoration/), [Boulder City](/service-areas/boulder-city-nv/storm-damage-restoration/), Laughlin, and surrounding communities. The city-specific service pages for each area link back to this page for full process and technical detail.
 
 If your property took damage in a recent storm, call (702) 633-5033 to schedule an emergency damage assessment. The crew is available around the clock, and the first step is always a documented site inspection so you know exactly what you are dealing with before any work begins.
