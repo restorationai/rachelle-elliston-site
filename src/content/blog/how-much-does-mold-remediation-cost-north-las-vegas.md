@@ -47,7 +47,7 @@ Hidden mold is the biggest wildcard. A patch that looks like one square foot on 
 
 HVAC contamination adds real cost. If spores have circulated through the ductwork, remediation has to include duct cleaning or, in some cases, partial duct replacement, on top of the room-level work. This is common in homes where mold sat undetected for weeks near a return vent.
 
-Containment level matters too. A job affecting Category 3 or heavily colonized black mold requires full poly sheeting containment and negative air pressure per the [IICRC S520 mold remediation standard](https://www.iicrc.org/page/IICRCS520), which adds labor hours a small surface-level cleanup doesn't need. And if the moisture source, a roof leak, a slab leak, a swamp cooler drip, hasn't been fixed yet, remediation is a temporary win. The mold comes back, and you pay twice.
+Containment level matters too. A job affecting Category 3 or heavily colonized black mold requires full poly sheeting containment and negative air pressure per the [IICRC S520 mold remediation standard](https://iicrc.org/s520/), which adds labor hours a small surface-level cleanup doesn't need. And if the moisture source, a roof leak, a slab leak, a swamp cooler drip, hasn't been fixed yet, remediation is a temporary win. The mold comes back, and you pay twice.
 
 ## Does mold remediation include replacing drywall?
 

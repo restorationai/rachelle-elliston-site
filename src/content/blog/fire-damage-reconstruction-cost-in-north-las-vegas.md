@@ -48,7 +48,7 @@ The type of fire matters too. A protein fire, meaning a kitchen fire fueled by c
 
 Timing matters as much as scope. Soot is acidic, and that chemistry works faster in the Mojave Desert's dry heat than it would in a humid climate. Left untreated even a few days, soot etches glass, pits metal fixtures, and permanently yellows grout and paint, turning a cleanable surface into one that has to be replaced.
 
-Finally, any structural rebuild in North Las Vegas has to meet current building code, not the code the house was originally built under. That can mean upgraded electrical, smoke detectors, or egress requirements the original room didn't have. Permits for structural fire repair go through the [City of North Las Vegas permit application process](https://www.cityofnorthlasvegas.com/business/permit-application-center), and that review adds both time and cost that a cleanup-only job never sees.
+Finally, any structural rebuild in North Las Vegas has to meet current building code, not the code the house was originally built under. That can mean upgraded electrical, smoke detectors, or egress requirements the original room didn't have. Permits for structural fire repair go through the City of North Las Vegas permit application process, and that review adds both time and cost that a cleanup-only job never sees.
 
 ![What Determines the Cost of Fire Damage Reconstruction: fire damage reconstruction cost in north las vegas](/images/blog/2026/10/fire-damage-reconstruction-cost-in-north-las-vegas/section.webp)
 

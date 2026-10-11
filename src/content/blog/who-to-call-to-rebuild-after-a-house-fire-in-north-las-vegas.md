@@ -36,7 +36,7 @@ The only other calls that come before the contractor: 911 or your utility if the
 
 The contractor doing the rebuild pulls the permits, not the homeowner and not the insurance company, and in North Las Vegas that filing runs through the city's Permit Application Center under the contractor's own Nevada State Contractors Board license number.
 
-Structural repair, electrical rework, and plumbing changes after a fire almost always trigger a permit review, whether the loss is a single-story home near Aliante or an older property closer to Craig Ranch Regional Park. Before signing with anyone, you can verify a contractor's license status, bond, and monetary limit directly through the [Nevada State Contractors Board's consumer checklist](https://www.nvcontractorsboard.com/resources/consumer-checklist/), and confirm permit requirements through the [City of North Las Vegas Permit Application Center](https://www.cityofnorthlasvegas.com/business/permit-application-center).
+Structural repair, electrical rework, and plumbing changes after a fire almost always trigger a permit review, whether the loss is a single-story home near Aliante or an older property closer to Craig Ranch Regional Park. Before signing with anyone, you can verify a contractor's license status, bond, and monetary limit directly through the [Nevada State Contractors Board's consumer checklist](https://www.nvcontractorsboard.com/resources/consumer-checklist/), and confirm permit requirements through the City of North Las Vegas Permit Application Center.
 
 ![Who pulls the permits for a North Las Vegas fire rebuild: who to call to rebuild after a house fire in north las vegas](/images/blog/2026/10/who-to-call-to-rebuild-after-a-house-fire-in-north-las-vegas/section.webp)
 
