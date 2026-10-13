@@ -31,7 +31,6 @@
 import { brand } from "~/lib/brand";
 import { Star, Phone, Award } from "@lucide/astro";
 import { awards, awardSeal } from "~/lib/awards";
-import { getCollection } from "astro:content";
 
 const TOP_RATED_MIN_RATING = 4.5;
 const TOP_RATED_MIN_REVIEWS = 20;
@@ -40,19 +39,6 @@ const B = brand as unknown as Record<string, unknown>;
 const str = (v: unknown) => String(v ?? "").trim();
 
 const city = str(brand.primaryCity);
-// MARKET NAME (Santino 2026-10-12): headings speak to the metro ("Las Vegas
-// homeowners"), not one office's suburb ("North Las Vegas"), which also holds
-// up once a client runs several Google profiles. brand.marketCity overrides;
-// otherwise a directional prefix is dropped when the bare city is also one of
-// the site's service areas (North Las Vegas -> Las Vegas).
-let areaSlugs: string[] = [];
-try {
-  areaSlugs = (await getCollection("serviceAreas" as never)).map((e: any) => String(e.slug || e.id).replace(/\.mdx?$/, ""));
-} catch { areaSlugs = []; }
-const stateAb = str(brand.primaryState).toLowerCase();
-const bare = city.replace(/^(North|South|East|West|Northeast|Northwest|Southeast|Southwest)\s+/i, "");
-const slugOf = (c: string) => `${c.toLowerCase().replace(/[^a-z0-9]+/g, "-")}-${stateAb}`;
-const market = str(B.marketCity) || (bare !== city && areaSlugs.includes(slugOf(bare)) ? bare : city);
 const name = str(brand.displayName);
 const trade = str(B.tradeNoun) || "restoration";
 
@@ -93,42 +79,12 @@ const reviews = ((B.gbpReviews as { author: string; rating: number; text: string
   .map((r) => ({ author: r.author, rating: r.rating, when: r.when, quote: excerpt(r.text) }));
 
 const lead = topRated
-  ? `${name} is a top-rated ${trade} company in ${market}, with a ${rating}-star Google rating across ${count} reviews.`
+  ? `${name} is a top-rated ${trade} company in ${city}, with a ${rating}-star Google rating across ${count} reviews.`
   : hasRating && ratingNum >= 4
-    ? `${market} homeowners rate ${name} ${rating} out of 5 stars across ${count} Google reviews.`
-    : `Here is what ${name} brings to every ${trade} job in ${market}.`;
+    ? `${city} homeowners rate ${name} ${rating} out of 5 stars across ${count} Google reviews.`
+    : `Here is what ${name} brings to every ${trade} job in ${city}.`;
 
-// AWARD (Santino 2026-10-12): the client's real award joins this section
-// (its official badge image when we hold one, else a gold medallion), so the
-// proof reads "rated X by homeowners + award winner" in one place. Same data
-// as the trust strip, schema and llms.txt (brand.ts awards, ai_answers.py).
-type Aw = { name: string; year?: string | number; category?: string; organizer?: string; url?: string; image?: string; display_only?: boolean };
-const award = (((B.awards as Aw[]) || []).filter((a) => a && a.name && !a.display_only
-  && !/businessrate/i.test(`${a.organizer || ""} ${a.name}`)))[0];
-const awardYear = award ? String(award.year || (String(award.name).match(/20\d\d/) || [""])[0]) : "";
-const awardLabel = award ? `${award.name}${awardYear && !String(award.name).includes(awardYear) ? ` ${awardYear}` : ""}` : "";
-const leadFull = award ? `${lead} Winner of the ${awardLabel}.` : lead;
-
-// Premium fallback when a real award has no official badge image: a gold
-// laurel medallion with the award year (never the ribbon icon).
-function medallion(year: string): string {
-  const leaves = Array.from({ length: 7 }, (_, i) => {
-    const a = (200 + i * 18) * Math.PI / 180, r = 62;
-    const x = 100 + r * Math.cos(a), y = 100 + r * Math.sin(a);
-    const deg = 200 + i * 18 + 90;
-    return `<ellipse cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" rx="5" ry="11" transform="rotate(${deg} ${x.toFixed(1)} ${y.toFixed(1)})"/>` +
-           `<ellipse cx="${(200 - x).toFixed(1)}" cy="${y.toFixed(1)}" rx="5" ry="11" transform="rotate(${-deg} ${(200 - x).toFixed(1)} ${y.toFixed(1)})"/>`;
-  }).join("");
-  return `<svg viewBox="0 0 200 200" class="w-40 md:w-48 h-auto drop-shadow-xl" role="img" aria-label="Award winner ${year}">` +
-    `<defs><linearGradient id="hpGold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f6d77a"/><stop offset=".5" stop-color="#d4a017"/><stop offset="1" stop-color="#a87708"/></linearGradient></defs>` +
-    `<circle cx="100" cy="100" r="92" fill="#1f2937"/><circle cx="100" cy="100" r="84" fill="none" stroke="url(#hpGold)" stroke-width="3"/>` +
-    `<g fill="url(#hpGold)">${leaves}</g>` +
-    `<text x="100" y="92" text-anchor="middle" font-family="inherit" font-weight="900" font-size="15" letter-spacing="3" fill="#f6d77a">AWARD</text>` +
-    `<text x="100" y="118" text-anchor="middle" font-family="inherit" font-weight="900" font-size="26" fill="#ffffff">${year || "WINNER"}</text>` +
-    `<text x="100" y="138" text-anchor="middle" font-family="inherit" font-weight="800" font-size="11" letter-spacing="3" fill="#f6d77a">WINNER</text></svg>`;
-}
-
-const show = Boolean(city && name) && (hasRating || reviews.length > 0 || Boolean(award));
+const show = Boolean(city && name) && (hasRating || reviews.length > 0);
 const short = str(brand.shortName);
 // the full name if short enough, else the short name, else "us"; the inline
 // script under the headline shrinks it until it sits on two lines at most
@@ -137,28 +93,16 @@ const short = str(brand.shortName);
 const fits = (n: string) => n.length <= 24;
 const headName = fits(name) ? name : short && fits(short) ? short : "us";
 // Awards as seals (Santino 2026-10-12, Desert Valley): proof belongs here.
-// The featured award already shows as the big badge beside the heading, so
-// the seals list the client's OTHER awards (no duplicate card).
-const awardList = awards().filter((a) => !award || a.name !== award.name).slice(0, 3);
+const awardList = awards().slice(0, 3);
 ---
 
 {show && (
-  <section class="bg-dark-50 py-14 border-y border-dark/10 text-dark-900" aria-labelledby="home-proof-heading">
+  <section class="bg-dark-50 py-20 border-y border-dark/10 text-dark-900" aria-labelledby="home-proof-heading">
     <div class="container-wide">
-      <div class={award ? "max-w-5xl mx-auto grid gap-8 md:grid-cols-[220px_1fr] items-center text-center md:text-left" : "max-w-4xl mx-auto text-center"}>
-        {award && (
-          <figure class="m-0 flex flex-col items-center gap-2">
-            {award.image
-              ? <img src={award.image} alt={`${awardLabel} badge`} class="w-40 md:w-48 h-auto rounded-full shadow-xl" loading="lazy" decoding="async" />
-              : <Fragment set:html={medallion(awardYear)} />}
-            <figcaption class="text-dark-500 text-[11px] font-bold uppercase tracking-widest text-center max-w-[14rem]">{awardLabel}</figcaption>
-            {award.url && <a href={award.url} target="_blank" rel="noopener" class="text-xs font-bold">View the award</a>}
-          </figure>
-        )}
-        <div>
+      <div class="max-w-4xl mx-auto text-center">
         <div class="eyebrow">Proof, not promises</div>
-        <h2 id="home-proof-heading" class="text-base min-[360px]:text-lg sm:text-2xl md:text-3xl text-balance font-black uppercase tracking-tight text-dark-900 mb-4">
-          Why {market} homeowners choose {headName}
+        <h2 id="home-proof-heading" class="text-base min-[360px]:text-xl sm:text-3xl md:text-4xl text-balance font-black uppercase tracking-tight text-dark-900 mb-4">
+          Why {city} homeowners choose {headName}
         </h2>
         <script is:inline>
           (() => {
@@ -182,9 +126,9 @@ const awardList = awards().filter((a) => !award || a.name !== award.name).slice(
             }
           })();
         </script>
-        <p class="text-base md:text-lg text-dark-700 m-0">{leadFull}</p>
+        <p class="text-lg text-dark-700 m-0">{lead}</p>
         {stars > 0 && (
-          <div class={`flex justify-center ${award ? "md:justify-start" : ""} gap-1 text-amber-500 mt-3`} aria-hidden="true">
+          <div class="flex justify-center gap-1 text-amber-500 mt-4" aria-hidden="true">
             {Array.from({ length: stars }).map(() => <Star size={22} class="fill-current" />)}
           </div>
         )}
@@ -208,11 +152,10 @@ const awardList = awards().filter((a) => !award || a.name !== award.name).slice(
             })}
           </div>
         )}
-        </div>
       </div>
 
       {reviews.length > 0 && (
-        <div class="grid gap-6 md:grid-cols-3 max-w-6xl mx-auto mt-8">
+        <div class="grid gap-6 md:grid-cols-3 max-w-6xl mx-auto mt-10">
           {reviews.map((r) => (
             <figure class="m-0 p-6 rounded-lg border border-dark/10 bg-white flex flex-col gap-3">
               <div class="flex gap-1 text-amber-500" role="img" aria-label={`${r.rating} out of 5 stars`}>
@@ -227,7 +170,7 @@ const awardList = awards().filter((a) => !award || a.name !== award.name).slice(
         </div>
       )}
 
-      <div class="text-center mt-10">
+      <div class="text-center mt-12">
         <a href={`tel:${brand.phoneRaw}`}
            class="inline-flex items-center justify-center gap-2 font-bold px-8 py-3 rounded-md transition-all text-lg shadow-lg bg-cta text-cta-fg hover:bg-cta-hover no-underline">
           <Phone size={20} /> Call {brand.phone}
