@@ -29,7 +29,8 @@
 // AggregateRating schema is NOT emitted here: schema.ts already embeds it in
 // the homepage LocalBusiness block when both GBP fields are present.
 import { brand } from "~/lib/brand";
-import { Star, Phone } from "@lucide/astro";
+import { Star, Phone, Award } from "@lucide/astro";
+import { awards, awardSeal } from "~/lib/awards";
 
 const TOP_RATED_MIN_RATING = 4.5;
 const TOP_RATED_MIN_REVIEWS = 20;
@@ -89,6 +90,8 @@ const short = str(brand.shortName);
 // choose NARESTCO" is 42 characters and still ran three lines on a phone)
 const fits = (n: string) => n.length <= 24;
 const headName = fits(name) ? name : short && fits(short) ? short : "us";
+// Awards as seals (Santino 2026-10-12, Desert Valley): proof belongs here.
+const awardList = awards().slice(0, 3);
 ---
 
 {show && (
@@ -125,6 +128,26 @@ const headName = fits(name) ? name : short && fits(short) ? short : "us";
         {stars > 0 && (
           <div class="flex justify-center gap-1 text-amber-500 mt-4" aria-hidden="true">
             {Array.from({ length: stars }).map(() => <Star size={22} class="fill-current" />)}
+          </div>
+        )}
+        {awardList.length > 0 && (
+          <div class="mt-8 flex flex-wrap justify-center gap-3">
+            {awardList.map((a) => {
+              const seal = awardSeal(a);
+              const Tag = a.url ? "a" : "div";
+              return (
+                <Tag href={a.url || undefined} target={a.url ? "_blank" : undefined} rel={a.url ? "noopener" : undefined}
+                  class="flex items-center gap-3 rounded-2xl border border-amber-300/70 bg-white px-4 py-3 text-left shadow-sm no-underline">
+                  <span class="w-11 h-11 rounded-full bg-gradient-to-b from-amber-300 to-amber-500 text-white flex items-center justify-center shrink-0 ring-4 ring-amber-100" aria-hidden="true">
+                    <Award size={22} strokeWidth={2.5} />
+                  </span>
+                  <span class="flex flex-col leading-tight">
+                    <span class="font-black text-dark-900">{seal.title}</span>
+                    {seal.sub && <span class="text-xs font-semibold text-dark-500">{seal.sub}</span>}
+                  </span>
+                </Tag>
+              );
+            })}
           </div>
         )}
       </div>

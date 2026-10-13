@@ -16,8 +16,26 @@ export type Award = {
   short?: string; // hand-set strip label, wins over the generated one
 };
 
+const yearOf = (a: Award) =>
+  parseInt(String(a.year || "").match(/\d{4}/)?.[0] || String(a.name).match(/\b(19|20)\d{2}\b/)?.[0] || "0", 10);
+
+/** Newest first: the strip and the hero lead with the latest win. */
 export function awards(): Award[] {
-  return ((brand as { awards?: Award[] }).awards || []).filter((a) => a && a.name);
+  return ((brand as { awards?: Award[] }).awards || [])
+    .filter((a) => a && a.name)
+    .sort((x, y) => yearOf(y) - yearOf(x));
+}
+
+/** Seal in the proof section: { title: "Best of 2026", sub: "BusinessRate · Contractor, North Las Vegas" }. */
+export function awardSeal(a: Award): { title: string; sub: string } {
+  let title = String(a.name).trim();
+  if (a.organizer && title.toLowerCase().startsWith(a.organizer.toLowerCase())) {
+    title = title.slice(a.organizer.length).trim();
+  }
+  const year = yearOf(a);
+  if (year && !title.includes(String(year))) title = `${title} ${year}`;
+  const sub = [a.organizer, a.category].filter(Boolean).join(" · ");
+  return { title, sub };
 }
 
 /** Strip label: "Voted Best of 2024". */
@@ -36,6 +54,7 @@ export function awardLine(a: Award): string {
   }
   const year = String(a.year || "").match(/\d{4}/)?.[0] || "";
   if (year && !title.includes(year)) title = `${title} · ${year} Winner`;
+  if (a.category && !title.toLowerCase().includes(String(a.category).toLowerCase())) title = `${title} · ${a.category}`;
   return title;
 }
 
