@@ -86,4 +86,4 @@ If your policy covers the loss, the restoration contractor often works directly 
 
 ---
 
-If you are looking at water damage right now and trying to figure out your next step, the most useful thing you can do is document the loss thoroughly and get a professional assessment of the extent of the moisture before anything is rebuilt. Desert Valley Contracting Inc handles water damage restoration in North Las Vegas and can be reached at (702) 633-5033. A clear picture of what the water actually reached will make the conversation with your adjuster more straightforward.
+If you are looking at water damage right now and trying to figure out your next step, the most useful thing you can do is document the loss thoroughly and get a professional assessment of the extent of the moisture before anything is rebuilt. Desert Valley Restoration handles water damage restoration in North Las Vegas and can be reached at (702) 633-5033. A clear picture of what the water actually reached will make the conversation with your adjuster more straightforward.

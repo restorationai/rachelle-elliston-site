@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "24/7 Emergency Water Damage Restoration in Blue Diamond, NV | Desert Valley Contracting Inc "
+title: "24/7 Emergency Water Damage Restoration in Blue Diamond, NV | Desert Valley Restoration "
 h1: "24/7 Emergency Water Damage Restoration in Blue Diamond"
 meta_description: "24/7 emergency water damage restoration in Blue Diamond, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033."
 primary_keyword: "water damage restoration blue diamond"
@@ -20,7 +20,7 @@ state: "NV"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
-**Water damage emergency in Blue Diamond?** We answer 24/7, and because Blue Diamond sits outside the municipal utility grid along NV-159, our crews know to check private well pressure tanks and septic lines right alongside the drywall and flooring when a pipe lets go or a supply line fails. Desert Valley Contracting has been handling water losses across the Las Vegas valley since 2000, and the unincorporated stretch of Clark County around Blue Diamond and Red Rock Canyon brings its own set of problems that a standard suburban job doesn't.
+**Water damage emergency in Blue Diamond?** We answer 24/7, and because Blue Diamond sits outside the municipal utility grid along NV-159, our crews know to check private well pressure tanks and septic lines right alongside the drywall and flooring when a pipe lets go or a supply line fails. Desert Valley Restoration has been handling water losses across the Las Vegas valley since 2000, and the unincorporated stretch of Clark County around Blue Diamond and Red Rock Canyon brings its own set of problems that a standard suburban job doesn't.
 
 ## Why Blue Diamond Properties See Water Damage Issues
 
@@ -38,4 +38,4 @@ Our crews dispatch from North Las Vegas and run the valley loop out toward NV-15
 
 Because so many Blue Diamond homes run on private wells rather than municipal water lines, a burst supply pipe or a failed pressure switch can quietly drain a holding tank before anyone in the house notices low water pressure somewhere else. We check well equipment and the pressure tank as part of the initial walk-through, not as an afterthought, since missing that step can mean the water keeps running even after the visible damage inside the home looks handled.
 
-If you're standing in a wet hallway right now, stop moving valuables through the affected area and call. Desert Valley Contracting is licensed and insured, IICRC WRT and ASD certified for water damage and structural drying, and available around the clock to get a crew moving toward Blue Diamond and start documenting the loss for your insurance carrier.
+If you're standing in a wet hallway right now, stop moving valuables through the affected area and call. Desert Valley Restoration is licensed and insured, IICRC WRT and ASD certified for water damage and structural drying, and available around the clock to get a crew moving toward Blue Diamond and start documenting the loss for your insurance carrier.

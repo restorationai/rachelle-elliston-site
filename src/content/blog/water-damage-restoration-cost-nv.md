@@ -39,7 +39,7 @@ Here's a realistic range by scenario, based on typical restoration industry pric
 | Water heater failure with replacement | $2,500 - $6,000 |
 | Whole-home flooding or slab saturation | $10,000 - $25,000+ |
 
-These ranges assume mitigation starts within 24 to 48 hours. Every job is different, and the only way to know your actual cost is a written scope after an on-site inspection. Desert Valley Contracting provides that scope before any work begins, so there are no surprises on the invoice.
+These ranges assume mitigation starts within 24 to 48 hours. Every job is different, and the only way to know your actual cost is a written scope after an on-site inspection. Desert Valley Restoration provides that scope before any work begins, so there are no surprises on the invoice.
 
 ## What Factors Change the Price?
 
@@ -61,7 +61,7 @@ Most Nevada homeowners policies cover sudden, accidental water damage, like a bu
 
 Flood damage from rising water, including the flash flooding the Las Vegas valley sees during summer monsoon season, is usually excluded from a standard homeowners policy entirely. Flood coverage requires a separate policy, often through the National Flood Insurance Program (see [FEMA's flood insurance program](https://www.fema.gov/flood-insurance)). Check your policy's flood exclusion language before you assume you're covered.
 
-The deductible is the real number that matters for small losses. If your policy has a $1,000 deductible and the repair comes in at $2,500, you're paying out of pocket for the difference on a cost-benefit basis anyway, and a claim still goes on your record. Desert Valley Contracting documents moisture readings, photos, and a detailed scope of work at every job, which is exactly what adjusters ask for when a claim moves forward. For a deeper breakdown of what's typically covered, see our guide on [whether homeowners insurance covers water damage](/blog/does-homeowners-insurance-cover-water-damage/).
+The deductible is the real number that matters for small losses. If your policy has a $1,000 deductible and the repair comes in at $2,500, you're paying out of pocket for the difference on a cost-benefit basis anyway, and a claim still goes on your record. Desert Valley Restoration documents moisture readings, photos, and a detailed scope of work at every job, which is exactly what adjusters ask for when a claim moves forward. For a deeper breakdown of what's typically covered, see our guide on [whether homeowners insurance covers water damage](/blog/does-homeowners-insurance-cover-water-damage/).
 
 ## What Does the Restoration Process Actually Involve?
 
@@ -79,12 +79,12 @@ If you're in the first hours after a leak right now, our [first-24-hours checkli
 
 Get a written, itemized scope before agreeing to any repair, and ask whether the price is based on dry-standard verification or just a flat estimate. A legitimate restoration company measures moisture daily and documents when the structure actually reaches dry standard, not just when the equipment gets picked up.
 
-If water is actively spreading in a North Las Vegas home or business right now, the priority is stopping the source and starting extraction, not shopping three quotes. [Call Desert Valley Contracting Inc at (702) 633-5033](tel:+17026335033) for an on-site assessment and written scope before any work begins.
+If water is actively spreading in a North Las Vegas home or business right now, the priority is stopping the source and starting extraction, not shopping three quotes. [Call Desert Valley Restoration at (702) 633-5033](tel:+17026335033) for an on-site assessment and written scope before any work begins.
 
 Water damage costs real money either way. The expensive version is the one where drying gets rushed or skipped and mold shows up in the wall cavity three weeks later. A documented, standards-based dry-out costs more upfront than a shortcut, and less than redoing the job twice.
 
 ---
 
-**About Desert Valley Contracting Inc**
+**About Desert Valley Restoration**
 
-Desert Valley Contracting Inc is an IICRC Certified Firm serving North Las Vegas, NV and the surrounding valley since 2000, licensed under NV Contractor's License #0072652-B & B6. Their technicians hold IICRC Water Damage Restoration (WRT) and Applied Structural Drying (ASD) certifications and handle water damage restoration, sewage cleanup, mold remediation, fire damage restoration, storm damage restoration, and general contracting across North Las Vegas, Las Vegas, Henderson, and nearby communities. This guide was prepared with input from Rachelle Elliston and the Desert Valley Contracting team.
+Desert Valley Restoration is an IICRC Certified Firm serving North Las Vegas, NV and the surrounding valley since 2000, licensed under NV Contractor's License #0072652-B & B6. Their technicians hold IICRC Water Damage Restoration (WRT) and Applied Structural Drying (ASD) certifications and handle water damage restoration, sewage cleanup, mold remediation, fire damage restoration, storm damage restoration, and general contracting across North Las Vegas, Las Vegas, Henderson, and nearby communities. This guide was prepared with input from Rachelle Elliston and the Desert Valley Restoration team.

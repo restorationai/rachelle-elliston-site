@@ -1,6 +1,6 @@
 ---
 archetype: "service-area"
-title: "Restoration Services in Mount Charleston, NV | Desert Valley Contracting Inc "
+title: "Restoration Services in Mount Charleston, NV | Desert Valley Restoration "
 h1: "Restoration Services in Mount Charleston"
 meta_description: "Serving Mount Charleston, NV with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (702) 633-5033."
 primary_keyword: "restoration services mount charleston"
@@ -19,7 +19,7 @@ state: "NV"
 primary: false
 rendered: true
 ---
-Desert Valley Contracting Inc handles water, fire, storm, and mold damage for cabins and full-time residences up in Mount Charleston, coordinating directly with insurance carriers so property owners aren't managing the claims process alone. The mountain community's elevation, snow load, and wildfire exposure create a different damage profile than the valley floor, and our scopes account for that from the first walkthrough.
+Desert Valley Restoration handles water, fire, storm, and mold damage for cabins and full-time residences up in Mount Charleston, coordinating directly with insurance carriers so property owners aren't managing the claims process alone. The mountain community's elevation, snow load, and wildfire exposure create a different damage profile than the valley floor, and our scopes account for that from the first walkthrough.
 
 ## Restoration emergencies common in Mount Charleston
 

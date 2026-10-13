@@ -86,10 +86,10 @@ If the source turns out to be storm-related roof damage rather than an HVAC issu
 
 If you're seeing staining, smelling must, or just had a roof inspection flag moisture after this season's storms, the next step is a proper assessment, not a bleach bottle from the hardware store. Bleach kills surface spores on nonporous surfaces but doesn't touch the roots growing into wood grain or insulation, and it does nothing about the moisture source that caused the problem in the first place.
 
-Desert Valley Contracting works attics across Las Vegas, Henderson, and North Las Vegas with the same process: find the water first, then remove what grew because of it. If you want a written scope before anyone touches the attic, request a [mold remediation assessment](/services/mold-remediation/) or see what we cover specifically in the [Las Vegas service area](/service-areas/las-vegas-nv/mold-remediation/).
+Desert Valley Restoration works attics across Las Vegas, Henderson, and North Las Vegas with the same process: find the water first, then remove what grew because of it. If you want a written scope before anyone touches the attic, request a [mold remediation assessment](/services/mold-remediation/) or see what we cover specifically in the [Las Vegas service area](/service-areas/las-vegas-nv/mold-remediation/).
 
 ---
 
-**About Desert Valley Contracting Inc**
+**About Desert Valley Restoration**
 
-Desert Valley Contracting Inc is an IICRC-certified firm (AMRT mold remediation, WRT water, ASD structural drying) serving North Las Vegas, Las Vegas, Henderson, and surrounding Clark County since 2000, operating under license 0072652-B & B6. Their crews handle mold remediation, water damage restoration, storm damage restoration, fire damage restoration, and general contracting across the valley, with 24/7 emergency response for active water and storm losses.
+Desert Valley Restoration is an IICRC-certified firm (AMRT mold remediation, WRT water, ASD structural drying) serving North Las Vegas, Las Vegas, Henderson, and surrounding Clark County since 2000, operating under license 0072652-B & B6. Their crews handle mold remediation, water damage restoration, storm damage restoration, fire damage restoration, and general contracting across the valley, with 24/7 emergency response for active water and storm losses.

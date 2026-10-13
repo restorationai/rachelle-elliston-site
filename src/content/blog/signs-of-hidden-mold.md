@@ -81,4 +81,4 @@ The timeline depends on the extent of the damage, but a contained single-room re
 
 ---
 
-If you are seeing more than one of these signs in your North Las Vegas home, the most useful next step is an on-site moisture inspection, not more internet research. Desert Valley Contracting Inc provides mold remediation services and can be reached at (702) 633-5033. Getting eyes on the problem early is almost always less expensive than addressing it after it has spread further into the structure.
+If you are seeing more than one of these signs in your North Las Vegas home, the most useful next step is an on-site moisture inspection, not more internet research. Desert Valley Restoration provides mold remediation services and can be reached at (702) 633-5033. Getting eyes on the problem early is almost always less expensive than addressing it after it has spread further into the structure.

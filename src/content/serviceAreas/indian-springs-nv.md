@@ -1,6 +1,6 @@
 ---
 archetype: "service-area"
-title: "Restoration Services in Indian Springs, NV | Desert Valley Contracting Inc "
+title: "Restoration Services in Indian Springs, NV | Desert Valley Restoration "
 h1: "Restoration Services in Indian Springs"
 meta_description: "Serving Indian Springs, NV with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (702) 633-5033."
 primary_keyword: "restoration services indian springs"
@@ -19,7 +19,7 @@ state: "NV"
 primary: false
 rendered: true
 ---
-Desert Valley Contracting Inc handles water damage, fire and smoke damage, mold remediation, and storm cleanup for homeowners and property managers in Indian Springs, an unincorporated Clark County community northwest of the Las Vegas valley. Because the area sits outside the dense suburban grid, many properties here are on private wells, septic systems, or stand alone on larger desert lots, which changes how a loss gets diagnosed and scoped compared to a typical subdivision job.
+Desert Valley Restoration handles water damage, fire and smoke damage, mold remediation, and storm cleanup for homeowners and property managers in Indian Springs, an unincorporated Clark County community northwest of the Las Vegas valley. Because the area sits outside the dense suburban grid, many properties here are on private wells, septic systems, or stand alone on larger desert lots, which changes how a loss gets diagnosed and scoped compared to a typical subdivision job.
 
 ## Restoration emergencies common in Indian Springs
 
@@ -43,4 +43,4 @@ Our crews run out of North Las Vegas, which puts Indian Springs within a managea
 
 Much of Indian Springs' housing is lower-density: manufactured homes, ranch-style single-story construction, and some older site-built homes on slab or raised pier foundations, reflecting the area's rural development pattern rather than a tract-home boom. Many properties rely on private wells and septic systems instead of municipal water and sewer, which matters when a plumbing failure or saturated drain field is part of the loss. Desert soils here are typically sandy and well-draining in most spots, but caliche layers can trap water close to the surface near foundations after a heavy storm. As an unincorporated part of Clark County, building and repair permits for structural work go through the county rather than a city building department, and the open desert exposure means wind load and roof attachment details get real scrutiny during inspection.
 
-If Indian Springs property owners are dealing with standing water, storm damage, smoke odor, or a mold problem that started with a leak, call Desert Valley Contracting Inc at (702) 633-5033. We're available 24/7 and can talk through what to do before a crew is even on the road.
+If Indian Springs property owners are dealing with standing water, storm damage, smoke odor, or a mold problem that started with a leak, call Desert Valley Restoration at (702) 633-5033. We're available 24/7 and can talk through what to do before a crew is even on the road.

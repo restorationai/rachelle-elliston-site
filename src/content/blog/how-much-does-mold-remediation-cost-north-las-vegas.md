@@ -37,7 +37,7 @@ Here's how pricing typically breaks down by scope:
 | Structural mold (crawlspace, attic, subfloor) | $10,000 - $20,000+ |
 | Black mold (Stachybotrys) in a contained area | $2,000 - $6,500, roughly 20-30% above visually similar non-black mold due to stricter containment |
 
-On a per-square-foot basis, expect $10 to $25 per square foot for labor, containment, and disposal on a typical residential job, before any drywall or flooring replacement. Whole-house or catastrophic jobs, where mold has spread through wall cavities and HVAC ductwork after a slow, undetected leak, are what push North Las Vegas quotes toward the higher end of the range homeowners see cited online. Desert Valley Contracting provides a written scope after an on-site inspection because every property, and every leak history, is different.
+On a per-square-foot basis, expect $10 to $25 per square foot for labor, containment, and disposal on a typical residential job, before any drywall or flooring replacement. Whole-house or catastrophic jobs, where mold has spread through wall cavities and HVAC ductwork after a slow, undetected leak, are what push North Las Vegas quotes toward the higher end of the range homeowners see cited online. Desert Valley Restoration provides a written scope after an on-site inspection because every property, and every leak history, is different.
 
 ## What actually drives the cost up or down?
 
@@ -55,7 +55,7 @@ Mold remediation itself does not automatically include rebuilding what was remov
 
 This distinction matters because most published "mold remediation cost" ranges online, including the ones AI tools tend to quote, only reflect the removal side. If mold has spread through drywall paper or insulation, that material gets cut out and bagged for disposal, not sanitized and reused. The remediation quote should say explicitly what demolition is included and what square footage of drywall, insulation, or subfloor will need replacement afterward.
 
-Because Desert Valley Contracting handles [general contracting](/services/mold-remediation/) alongside mold work, homeowners can go from containment and removal straight into drywall, paint, and flooring replacement with one company managing both phases instead of coordinating two separate contractors and two separate invoices.
+Because Desert Valley Restoration handles [general contracting](/services/mold-remediation/) alongside mold work, homeowners can go from containment and removal straight into drywall, paint, and flooring replacement with one company managing both phases instead of coordinating two separate contractors and two separate invoices.
 
 ## Who pays for mold remediation, insurance or the homeowner?
 
@@ -63,7 +63,7 @@ Homeowners insurance typically pays for mold remediation only when the mold resu
 
 That distinction is why documentation matters from the first phone call. If a water heater failed overnight and mold shows up two weeks later, that's usually a covered loss. If a slow leak under a sink went unnoticed for months and mold developed gradually, most policies treat that as a maintenance issue and deny the claim, sometimes citing a mold coverage sub-limit as low as $1,000 to $10,000 even when the broader claim is approved.
 
-Before filing, read your policy's mold exclusion or sub-limit language, and don't start remediation without photos of the source and the damage. Desert Valley Contracting documents moisture readings, photos, and the likely cause on every job so homeowners have what an adjuster needs, whether the claim is covered or the work is paid out of pocket. For more on how water damage claims typically get evaluated, see [Does Homeowners Insurance Cover Water Damage?](/blog/does-homeowners-insurance-cover-water-damage/)
+Before filing, read your policy's mold exclusion or sub-limit language, and don't start remediation without photos of the source and the damage. Desert Valley Restoration documents moisture readings, photos, and the likely cause on every job so homeowners have what an adjuster needs, whether the claim is covered or the work is paid out of pocket. For more on how water damage claims typically get evaluated, see [Does Homeowners Insurance Cover Water Damage?](/blog/does-homeowners-insurance-cover-water-damage/)
 
 ## What does the remediation process actually involve?
 
@@ -77,10 +77,10 @@ A typical mold remediation job runs four to seven days for a single room and fol
 
 If you're not sure whether what you're looking at is mold at all, [How To Test for Mold in Your Home](/blog/how-to-test-for-mold/) walks through DIY kits versus a professional inspection, and [Black Mold vs Regular Mold](/blog/black-mold-vs-regular-mold/) covers how to tell the difference by sight before you spend money on testing.
 
-Getting an accurate number starts with an in-person inspection, not a phone estimate. Desert Valley Contracting has served North Las Vegas since 2000 and can map the full extent of a mold problem, including what's hidden, before quoting a fixed scope of work.
+Getting an accurate number starts with an in-person inspection, not a phone estimate. Desert Valley Restoration has served North Las Vegas since 2000 and can map the full extent of a mold problem, including what's hidden, before quoting a fixed scope of work.
 
 ---
 
-**About Desert Valley Contracting Inc**
+**About Desert Valley Restoration**
 
-Desert Valley Contracting Inc is an IICRC Certified Firm serving North Las Vegas, NV and the surrounding valley since 2000 (license 0072652-B & B6). Their technicians hold IICRC AMRT mold remediation, WRT water damage, and ASD structural drying certifications, and the company offers 24/7 emergency service. Desert Valley handles mold remediation, water damage restoration, fire and smoke restoration, and general contracting and reconstruction across North Las Vegas, Las Vegas, and Henderson.
+Desert Valley Restoration is an IICRC Certified Firm serving North Las Vegas, NV and the surrounding valley since 2000 (license 0072652-B & B6). Their technicians hold IICRC AMRT mold remediation, WRT water damage, and ASD structural drying certifications, and the company offers 24/7 emergency service. Desert Valley handles mold remediation, water damage restoration, fire and smoke restoration, and general contracting and reconstruction across North Las Vegas, Las Vegas, and Henderson.

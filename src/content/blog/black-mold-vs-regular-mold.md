@@ -90,4 +90,4 @@ Professional remediation involves containment to prevent cross-contamination, re
 
 If you have found mold in your home and are not sure what you are dealing with, the most useful first step is an honest assessment of the moisture history of that space. How long could water have been present? Is the material porous? Is the smell contained to one room or spreading?
 
-Desert Valley Contracting Inc. provides mold remediation services in North Las Vegas and the surrounding area. If you want a professional set of eyes on what you have found, call (702) 633-5033. Even if the answer turns out to be straightforward, knowing for certain is worth the call.
+Desert Valley Restoration. provides mold remediation services in North Las Vegas and the surrounding area. If you want a professional set of eyes on what you have found, call (702) 633-5033. Even if the answer turns out to be straightforward, knowing for certain is worth the call.

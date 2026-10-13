@@ -84,7 +84,7 @@ Once the source is stopped and the immediate hazards are controlled, the recover
 
 **Repairs and reconstruction.** Drywall replacement, flooring installation, painting, and any plumbing repairs happen in this phase. Depending on the scope, this may involve coordinating multiple trades.
 
-Desert Valley Contracting Inc handles the water damage restoration and appliance leak cleanup sides of this process. If you are at the point where you need professional extraction, drying, and documentation, call (702) 633-5033 to talk through what your situation requires.
+Desert Valley Restoration handles the water damage restoration and appliance leak cleanup sides of this process. If you are at the point where you need professional extraction, drying, and documentation, call (702) 633-5033 to talk through what your situation requires.
 
 ---
 

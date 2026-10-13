@@ -1,6 +1,6 @@
 ---
 archetype: "service-area"
-title: "Restoration Services in Moapa Valley, NV | Desert Valley Contracting Inc "
+title: "Restoration Services in Moapa Valley, NV | Desert Valley Restoration "
 h1: "Restoration Services in Moapa Valley"
 meta_description: "Serving Moapa Valley, NV with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (702) 633-5033."
 primary_keyword: "restoration services moapa valley"
@@ -19,7 +19,7 @@ state: "NV"
 primary: false
 rendered: true
 ---
-Desert Valley Contracting Inc provides water damage, fire and smoke, mold, storm, and reconstruction services for homes and properties throughout Moapa Valley, from the irrigated bottomlands along the Muddy River to the drier benches above it. Property owners out here deal with a different set of problems than a Las Vegas subdivision: private wells and septic systems, older stick-built ranch homes mixed with manufactured housing, and a long drive for most contractors. We treat Moapa Valley as a standing part of our coverage area, not an afterthought.
+Desert Valley Restoration provides water damage, fire and smoke, mold, storm, and reconstruction services for homes and properties throughout Moapa Valley, from the irrigated bottomlands along the Muddy River to the drier benches above it. Property owners out here deal with a different set of problems than a Las Vegas subdivision: private wells and septic systems, older stick-built ranch homes mixed with manufactured housing, and a long drive for most contractors. We treat Moapa Valley as a standing part of our coverage area, not an afterthought.
 
 ## Restoration emergencies common in Moapa Valley
 
@@ -37,4 +37,4 @@ We run crews to Moapa Valley out of our North Las Vegas headquarters via Interst
 
 Much of Moapa Valley's housing dates from the mid-20th century forward, a mix of slab-on-grade ranch homes, manufactured and mobile housing on piers, and newer custom builds on larger acreage parcels. Older homes commonly still run galvanized or early copper supply lines and may carry asbestos-containing materials in flooring, siding, or duct wrap, which changes how a demolition scope has to be handled. Soil along the valley floor holds more moisture than the surrounding desert because of the Muddy River and its spring-fed tributaries, which means crawlspaces and slab edges here see more sustained dampness than a typical dry-desert lot, even without a plumbing failure. Moapa Valley is unincorporated Clark County, so structural repair, electrical, and plumbing permits go through the Clark County Building Department rather than a city office, and most rural parcels fall outside HOA jurisdiction, which simplifies some repairs but means code compliance rests more directly on the property owner and contractor.
 
-If you're dealing with standing water, smoke odor, or storm damage on a Moapa Valley property, call Desert Valley Contracting Inc at (702) 633-5033. We answer 24/7 and can talk through what you're seeing and get a crew scheduled out to the valley.
+If you're dealing with standing water, smoke odor, or storm damage on a Moapa Valley property, call Desert Valley Restoration at (702) 633-5033. We answer 24/7 and can talk through what you're seeing and get a crew scheduled out to the valley.

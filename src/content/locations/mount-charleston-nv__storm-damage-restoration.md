@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Storm Damage Restoration in Mount Charleston, NV | Desert Valley Contracting Inc "
+title: "Emergency Storm Damage Restoration in Mount Charleston, NV | Desert Valley Restoration "
 h1: "24/7 Emergency Storm Damage Restoration in Mount Charleston"
 meta_description: "24/7 emergency storm damage restoration in Mount Charleston, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033."
 primary_keyword: "storm damage restoration mount charleston"
@@ -38,4 +38,4 @@ Our crews run out of North Las Vegas and travel up Kyle Canyon Road (SR-157) or 
 
 One thing that catches a lot of homeowners off guard: a tree that falls across a Mount Charleston roofline often causes more hidden damage underneath the visible hole than the hole itself suggests, because the impact can crack rafters or shift roof sheathing several feet away from the point of contact. We check a wider radius than the obvious damage before we close out a tarp job, since a missed cracked rafter under snow load later in the season is a much bigger repair than the original storm.
 
-If a storm has left your Mount Charleston cabin or home with a damaged roof, downed trees, or water finding its way in, don't wait on a second storm to make it worse. Desert Valley Contracting Inc is licensed (#0072652-B & B6) and available around the clock to stabilize the property, document the loss, and get the repair process moving. Call (702) 633-5033 for storm damage restoration in Mount Charleston.
+If a storm has left your Mount Charleston cabin or home with a damaged roof, downed trees, or water finding its way in, don't wait on a second storm to make it worse. Desert Valley Restoration is licensed (#0072652-B & B6) and available around the clock to stabilize the property, document the loss, and get the repair process moving. Call (702) 633-5033 for storm damage restoration in Mount Charleston.

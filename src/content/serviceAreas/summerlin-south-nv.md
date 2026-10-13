@@ -1,6 +1,6 @@
 ---
 archetype: "service-area"
-title: "Restoration Services in Summerlin South, NV | Desert Valley Contracting Inc "
+title: "Restoration Services in Summerlin South, NV | Desert Valley Restoration "
 h1: "Restoration Services in Summerlin South"
 meta_description: "Serving Summerlin South, NV with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (702) 633-5033."
 primary_keyword: "restoration services summerlin south"
@@ -19,7 +19,7 @@ state: "NV"
 primary: false
 rendered: true
 ---
-Desert Valley Contracting Inc handles water damage, fire and smoke damage, mold remediation, storm damage, and reconstruction work for homeowners and property managers throughout Summerlin South. Our crews travel out from North Las Vegas along the 215 Beltway, and because we run 24/7, a call placed in the middle of the night gets a scheduled response, not a voicemail. We document everything for insurance as we go, so the paperwork side moves alongside the drying and repair work instead of holding it up.
+Desert Valley Restoration handles water damage, fire and smoke damage, mold remediation, storm damage, and reconstruction work for homeowners and property managers throughout Summerlin South. Our crews travel out from North Las Vegas along the 215 Beltway, and because we run 24/7, a call placed in the middle of the night gets a scheduled response, not a voicemail. We document everything for insurance as we go, so the paperwork side moves alongside the drying and repair work instead of holding it up.
 
 ## Restoration emergencies common in Summerlin South
 
@@ -45,4 +45,4 @@ Summerlin South was built out largely through the 1990s and 2000s as part of the
 
 The valley's soil is caked with caliche, a hard, calcium-rich layer that drains poorly and can trap water against a foundation once it gets past the grading. The water table itself sits deep here, so flooding is driven by surface drainage and storm intensity rather than groundwater. Permits for structural repair or rebuild work in Summerlin South run through either the City of Las Vegas or Clark County building department depending on the parcel, and most HOAs in the area also require exterior work, including stucco and roofing repairs, to go through an architectural review before the permit stage.
 
-If water, fire, smoke, or mold has reached a point where you need an actual assessment rather than another guess, call Desert Valley Contracting Inc at (702) 633-5033. We're reachable 24/7, and the sooner we see the damage in person, the fewer surprises show up once repairs are underway.
+If water, fire, smoke, or mold has reached a point where you need an actual assessment rather than another guess, call Desert Valley Restoration at (702) 633-5033. We're reachable 24/7, and the sooner we see the damage in person, the fewer surprises show up once repairs are underway.

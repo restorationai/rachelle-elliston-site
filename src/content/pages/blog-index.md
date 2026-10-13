@@ -1,8 +1,8 @@
 ---
 archetype: "blog-index"
-title: "Restoration Blog | Desert Valley Contracting Inc "
+title: "Restoration Blog | Desert Valley Restoration "
 h1: "Restoration Resources and Insights"
-meta_description: "Guides, checklists, and explainers from Desert Valley Contracting Inc  on water, fire, mold, and storm damage restoration."
+meta_description: "Guides, checklists, and explainers from Desert Valley Restoration on water, fire, mold, and storm damage restoration."
 primary_keyword: "restoration blog north las vegas"
 secondary_keywords: ["restoration guides", "damage restoration tips", "restoration insights"]
 search_intent: "informational_browse"

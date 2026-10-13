@@ -1,6 +1,6 @@
 ---
 archetype: "service-area"
-title: "Restoration Services in Paradise, NV | Desert Valley Contracting Inc "
+title: "Restoration Services in Paradise, NV | Desert Valley Restoration "
 h1: "Restoration Services in Paradise"
 meta_description: "Serving Paradise, NV with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (702) 633-5033."
 primary_keyword: "restoration services paradise"
@@ -19,7 +19,7 @@ state: "NV"
 primary: false
 rendered: true
 ---
-Desert Valley Contracting Inc responds to water damage, fire damage, mold, and biohazard losses for homeowners and property managers throughout Paradise, NV. Operating around the clock from our North Las Vegas base, we cover the full range of residential and commercial restoration work that Paradise properties demand, from the high-rise corridors along the Strip to the quieter residential streets further east. Call us at (702) 633-5033 any time.
+Desert Valley Restoration responds to water damage, fire damage, mold, and biohazard losses for homeowners and property managers throughout Paradise, NV. Operating around the clock from our North Las Vegas base, we cover the full range of residential and commercial restoration work that Paradise properties demand, from the high-rise corridors along the Strip to the quieter residential streets further east. Call us at (702) 633-5033 any time.
 
 ## Restoration emergencies common in Paradise
 
@@ -57,4 +57,4 @@ Paradise is an unincorporated community in Clark County, which means building pe
 
 The soil beneath much of the Las Vegas Valley, including Paradise, is predominantly caliche and compacted desert alluvium. It drains poorly when saturated and can shift under a slab when moisture levels change repeatedly, which is relevant context for any water loss that soaks the ground adjacent to a foundation. The area sits in a low seismic zone but a high wind-event zone, and the Clark County Building Department enforces Nevada's adopted building codes for any permitted reconstruction work.
 
-Desert Valley Contracting Inc has been working in this valley since 2000. If you are dealing with water, fire, mold, or a biohazard situation in Paradise, call (702) 633-5033. We answer every hour of every day, and we can walk you through next steps before we even arrive on site.
+Desert Valley Restoration has been working in this valley since 2000. If you are dealing with water, fire, mold, or a biohazard situation in Paradise, call (702) 633-5033. We answer every hour of every day, and we can walk you through next steps before we even arrive on site.

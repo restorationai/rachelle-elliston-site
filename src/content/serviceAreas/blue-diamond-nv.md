@@ -1,6 +1,6 @@
 ---
 archetype: "service-area"
-title: "Restoration Services in Blue Diamond, NV | Desert Valley Contracting Inc "
+title: "Restoration Services in Blue Diamond, NV | Desert Valley Restoration "
 h1: "Restoration Services in Blue Diamond"
 meta_description: "Serving Blue Diamond, NV with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (702) 633-5033."
 primary_keyword: "restoration services blue diamond"
@@ -19,7 +19,7 @@ state: "NV"
 primary: false
 rendered: true
 ---
-Desert Valley Contracting Inc handles water damage, fire and smoke damage, mold remediation, and biohazard cleanup for homeowners in Blue Diamond, the small unincorporated community tucked against Red Rock Canyon west of Las Vegas. Because Blue Diamond sits well outside the valley's dense suburban grid, property owners here often deal with longer waits for emergency contractors willing to make the drive. We staff for that gap and answer calls 24/7 so a pipe break or house fire doesn't sit unaddressed overnight.
+Desert Valley Restoration handles water damage, fire and smoke damage, mold remediation, and biohazard cleanup for homeowners in Blue Diamond, the small unincorporated community tucked against Red Rock Canyon west of Las Vegas. Because Blue Diamond sits well outside the valley's dense suburban grid, property owners here often deal with longer waits for emergency contractors willing to make the drive. We staff for that gap and answer calls 24/7 so a pipe break or house fire doesn't sit unaddressed overnight.
 
 ## Restoration emergencies common in Blue Diamond
 
@@ -43,4 +43,4 @@ Our crews run out of North Las Vegas, and the route to Blue Diamond typically me
 
 Much of Blue Diamond's housing traces back to mid-20th-century construction tied to the area's gypsum mining history, meaning a mix of block and wood-frame homes with slab or raised foundations rather than basements. Supply plumbing in older homes may still include galvanized steel, and older paint and some flooring materials in that era-vintage housing stock can warrant asbestos or lead caution before demolition or tear-out begins. The ground here is rocky and fast-draining in most spots, which limits standing surface water but does little to protect crawlspaces once a leak gets underneath a structure. Blue Diamond is unincorporated, so structural repair or rebuild permits run through Clark County rather than a city building department, and any work that touches framing, electrical, or plumbing beyond a straight repair typically needs to go through that county review before it's closed up.
 
-If you're dealing with water intrusion, fire damage, mold, or a biohazard situation on a Blue Diamond property, call Desert Valley Contracting Inc at (702) 633-5033. We answer 24/7 and can talk you through what to do before a crew arrives.
+If you're dealing with water intrusion, fire damage, mold, or a biohazard situation on a Blue Diamond property, call Desert Valley Restoration at (702) 633-5033. We answer 24/7 and can talk you through what to do before a crew arrives.

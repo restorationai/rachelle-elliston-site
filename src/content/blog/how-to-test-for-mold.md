@@ -48,7 +48,7 @@ Third, they collect air and surface samples in a controlled way, including an ou
 
 Finally, they produce a written report that identifies what was found, where, and at what concentration. That report is also what your insurance carrier and a remediation contractor will ask for before any work begins.
 
-Desert Valley Contracting Inc offers [mold inspection](/services/mold-inspection-testing/) and testing services, so if you're at the point where you need that documented assessment, you can reach the team at (702) 633-5033.
+Desert Valley Restoration offers [mold inspection](/services/mold-inspection-testing/) and testing services, so if you're at the point where you need that documented assessment, you can reach the team at (702) 633-5033.
 
 ## When a DIY Kit Is Reasonable and When It Is Not
 
@@ -84,8 +84,8 @@ A few common mistakes that make the situation worse:
 
 If your DIY lab results come back with mold present, the report will typically list genus names like Cladosporium, Penicillium, Aspergillus, or Stachybotrys. The genus matters for understanding risk level, but interpreting that risk correctly requires knowing the concentration, the location, and the occupants' health context. A lab report without an inspector's interpretation is difficult to act on.
 
-If a professional inspection confirms active mold growth, the next step is remediation. That process involves containing the affected area, removing and disposing of colonized materials according to established protocols, treating structural surfaces, and verifying clearance with post-remediation testing. Desert Valley Contracting Inc handles mold remediation for residential properties throughout North Las Vegas and the surrounding valley.
+If a professional inspection confirms active mold growth, the next step is remediation. That process involves containing the affected area, removing and disposing of colonized materials according to established protocols, treating structural surfaces, and verifying clearance with post-remediation testing. Desert Valley Restoration handles mold remediation for residential properties throughout North Las Vegas and the surrounding valley.
 
 ## A Practical Path Forward
 
-If you're looking at a stain, smelling something that wasn't there before a recent leak, or just want to know what's in your air, starting with a DIY kit is not wrong. Just go in knowing what it can and cannot tell you. If the results are positive, if the affected area is significant, or if you have any doubt about the scope of the problem, a professional inspection gives you the kind of documented, actionable answer that a petri dish in a hardware store bag simply cannot. Call Desert Valley Contracting Inc at (702) 633-5033 to schedule an inspection and get a clear picture of what you're actually dealing with.
+If you're looking at a stain, smelling something that wasn't there before a recent leak, or just want to know what's in your air, starting with a DIY kit is not wrong. Just go in knowing what it can and cannot tell you. If the results are positive, if the affected area is significant, or if you have any doubt about the scope of the problem, a professional inspection gives you the kind of documented, actionable answer that a petri dish in a hardware store bag simply cannot. Call Desert Valley Restoration at (702) 633-5033 to schedule an inspection and get a clear picture of what you're actually dealing with.

@@ -1,6 +1,6 @@
 ---
 archetype: "service-area"
-title: "Restoration Services in Nellis AFB, NV | Desert Valley Contracting Inc "
+title: "Restoration Services in Nellis AFB, NV | Desert Valley Restoration "
 h1: "Restoration Services in Nellis AFB"
 meta_description: "Serving Nellis AFB, NV with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (702) 633-5033."
 primary_keyword: "restoration services nellis afb"
@@ -12,14 +12,14 @@ generated_at: "2026-10-03T16:15:15.755507+00:00"
 manual_override: false
 internal_links: ["/service-areas/", "/contact/", "/service-areas/nellis-afb-nv/water-damage-restoration/", "/service-areas/north-las-vegas-nv/", "/service-areas/blue-diamond-nv/", "/service-areas/boulder-city-nv/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Nellis AFB"}]
-faq: [{"question": "How quickly can you reach a property near Nellis AFB?", "answer": "We're based in North Las Vegas, a short drive from Nellis AFB via Lake Mead Boulevard or Craig Road, and we answer calls 24/7. We don't promise a fixed number of minutes since drive time and crew availability vary, but our proximity keeps response fast for most calls in this part of the valley."}, {"question": "What restoration services does Desert Valley Contracting Inc offer around Nellis AFB?", "answer": "We handle water damage extraction and drying, fire and smoke damage cleanup, storm damage including tarping and board-up, mold remediation, and the reconstruction work needed to rebuild affected rooms afterward. We coordinate the full scope from initial mitigation through final rebuild."}, {"question": "Does the age of homes near Nellis AFB affect how you approach a restoration job?", "answer": "Yes. A lot of the surrounding housing stock dates to the 1960s through 1980s with slab-on-grade foundations, galvanized or early copper plumbing, and some older building materials that may need testing before demolition. We account for that era-specific construction when we scope drying, demo, and rebuild."}, {"question": "Can you work directly with property managers or insurance adjusters on a claim near Nellis AFB?", "answer": "Yes. We document the damage with photos and moisture readings, provide a clear scope of work, and communicate directly with property managers and most major insurance carriers so the claim moves without you having to relay every detail yourself."}]
+faq: [{"question": "How quickly can you reach a property near Nellis AFB?", "answer": "We're based in North Las Vegas, a short drive from Nellis AFB via Lake Mead Boulevard or Craig Road, and we answer calls 24/7. We don't promise a fixed number of minutes since drive time and crew availability vary, but our proximity keeps response fast for most calls in this part of the valley."}, {"question": "What restoration services does Desert Valley Restoration offer around Nellis AFB?", "answer": "We handle water damage extraction and drying, fire and smoke damage cleanup, storm damage including tarping and board-up, mold remediation, and the reconstruction work needed to rebuild affected rooms afterward. We coordinate the full scope from initial mitigation through final rebuild."}, {"question": "Does the age of homes near Nellis AFB affect how you approach a restoration job?", "answer": "Yes. A lot of the surrounding housing stock dates to the 1960s through 1980s with slab-on-grade foundations, galvanized or early copper plumbing, and some older building materials that may need testing before demolition. We account for that era-specific construction when we scope drying, demo, and rebuild."}, {"question": "Can you work directly with property managers or insurance adjusters on a claim near Nellis AFB?", "answer": "Yes. We document the damage with photos and moisture readings, provide a clear scope of work, and communicate directly with property managers and most major insurance carriers so the claim moves without you having to relay every detail yourself."}]
 area_slug: "nellis-afb-nv"
 city: "Nellis AFB"
 state: "NV"
 primary: false
 rendered: true
 ---
-Desert Valley Contracting Inc provides water damage, fire and smoke damage, storm damage, mold remediation, and reconstruction services to homes and commercial properties in the community surrounding Nellis AFB. We work with property owners, landlords, and property managers in the area to assess damage, stabilize the structure, and rebuild what the loss took, coordinating directly with insurance carriers along the way.
+Desert Valley Restoration provides water damage, fire and smoke damage, storm damage, mold remediation, and reconstruction services to homes and commercial properties in the community surrounding Nellis AFB. We work with property owners, landlords, and property managers in the area to assess damage, stabilize the structure, and rebuild what the loss took, coordinating directly with insurance carriers along the way.
 
 ## Restoration emergencies common in Nellis AFB
 
@@ -47,4 +47,4 @@ Much of the residential stock surrounding Nellis AFB dates to the postwar growth
 
 The valley floor here is mostly sand, caliche, and compacted desert soil with poor percolation, which is part of why flash-flood runoff moves fast across yards and under slabs rather than soaking in. Because Nellis AFB itself is federal property, any work inside the installation's boundary runs through base civil engineering rather than Clark County, while off-base properties in the surrounding community fall under standard Clark County and City of North Las Vegas permitting for structural repair and rebuild work.
 
-If water, fire, smoke, or storm damage has hit your property near Nellis AFB, call Desert Valley Contracting Inc at (702) 633-5033. We're available 24/7 to start the assessment and get your restoration moving.
+If water, fire, smoke, or storm damage has hit your property near Nellis AFB, call Desert Valley Restoration at (702) 633-5033. We're available 24/7 to start the assessment and get your restoration moving.

@@ -1,8 +1,8 @@
 ---
 archetype: "service-areas-hub"
-title: "Service Areas | Desert Valley Contracting Inc  Restoration"
+title: "Service Areas | Desert Valley Restoration Restoration"
 h1: "Areas We Serve"
-meta_description: "Desert Valley Contracting Inc  provides 24/7 restoration services across North Las Vegas and the surrounding region. Find your city."
+meta_description: "Desert Valley Restoration provides 24/7 restoration services across North Las Vegas and the surrounding region. Find your city."
 primary_keyword: "desert valley contracting inc  service areas"
 secondary_keywords: ["restoration service area", "cities we serve", "local restoration coverage"]
 search_intent: "navigational_local"
@@ -12,10 +12,10 @@ generated_at: "2026-09-20T05:14:50.702782+00:00"
 manual_override: false
 internal_links: ["/", "/service-areas/boulder-city-nv/", "/service-areas/enterprise-nv/", "/service-areas/henderson-nv/", "/service-areas/las-vegas-nv/", "/service-areas/paradise-nv/", "/service-areas/spring-valley-nv/", "/service-areas/summerlin-nv/", "/service-areas/sunrise-manor-nv/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas"}]
-faq: [{"question": "How far will Desert Valley Contracting travel for a job?", "answer": "The primary service area covers Clark County and the communities throughout the Las Vegas Valley. For larger losses, such as significant commercial water damage or a major fire, the team will travel beyond the standard footprint. Call (702) 633-5033 and describe the situation, and you will get a direct answer about whether your location is workable."}, {"question": "Does response time change for locations farther from North Las Vegas?", "answer": "Yes, and the team will tell you that plainly on the call. Locations close to North Las Vegas see the earliest arrivals. Properties at the outer edges of the valley, or in communities along the mountain corridors, will see longer travel times, especially during peak traffic hours on the I-215 and US-95. Dispatchers factor in current road conditions before giving you an arrival estimate."}, {"question": "Is there a mileage or travel fee for distant service areas?", "answer": "Any travel-related charges are discussed before the crew is dispatched, not added to the invoice afterward. When you call, the dispatcher will confirm your location and walk through what to expect on the estimate. There are no surprise fees."}]
+faq: [{"question": "How far will Desert Valley Restoration travel for a job?", "answer": "The primary service area covers Clark County and the communities throughout the Las Vegas Valley. For larger losses, such as significant commercial water damage or a major fire, the team will travel beyond the standard footprint. Call (702) 633-5033 and describe the situation, and you will get a direct answer about whether your location is workable."}, {"question": "Does response time change for locations farther from North Las Vegas?", "answer": "Yes, and the team will tell you that plainly on the call. Locations close to North Las Vegas see the earliest arrivals. Properties at the outer edges of the valley, or in communities along the mountain corridors, will see longer travel times, especially during peak traffic hours on the I-215 and US-95. Dispatchers factor in current road conditions before giving you an arrival estimate."}, {"question": "Is there a mileage or travel fee for distant service areas?", "answer": "Any travel-related charges are discussed before the crew is dispatched, not added to the invoice afterward. When you call, the dispatcher will confirm your location and walk through what to expect on the estimate. There are no surprise fees."}]
 rendered: true
 ---
-Desert Valley Contracting Inc. dispatches from North Las Vegas around the clock, seven days a week. Whether a pipe bursts at 2 a.m. or a weekend storm pushes water into a crawl space, the crew is reachable and ready to schedule. Call (702) 633-5033 and a real person will confirm your location, assess urgency, and get a team moving.
+Desert Valley Restoration. dispatches from North Las Vegas around the clock, seven days a week. Whether a pipe bursts at 2 a.m. or a weekend storm pushes water into a crawl space, the crew is reachable and ready to schedule. Call (702) 633-5033 and a real person will confirm your location, assess urgency, and get a team moving.
 
 ## Where we work
 

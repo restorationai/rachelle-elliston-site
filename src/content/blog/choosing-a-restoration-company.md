@@ -80,4 +80,4 @@ Knowing roughly what each type of restoration involves helps you recognize wheth
 
 ## Making the Call
 
-If you are dealing with water damage, smoke damage, or a mold problem in the North Las Vegas area, Desert Valley Contracting Inc. handles all three. Call (702) 633-5033 to describe what you are seeing. A straightforward conversation about your situation costs nothing, and it is a reasonable first step before you commit to anyone.
+If you are dealing with water damage, smoke damage, or a mold problem in the North Las Vegas area, Desert Valley Restoration. handles all three. Call (702) 633-5033 to describe what you are seeing. A straightforward conversation about your situation costs nothing, and it is a reasonable first step before you commit to anyone.

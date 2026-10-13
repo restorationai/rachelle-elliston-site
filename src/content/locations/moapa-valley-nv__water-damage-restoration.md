@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "24/7 Emergency Water Damage Restoration in Moapa Valley, NV | Desert Valley Contracting Inc "
+title: "24/7 Emergency Water Damage Restoration in Moapa Valley, NV | Desert Valley Restoration "
 h1: "24/7 Emergency Water Damage Restoration in Moapa Valley"
 meta_description: "24/7 emergency water damage restoration in Moapa Valley, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033."
 primary_keyword: "water damage restoration moapa valley"
@@ -23,7 +23,7 @@ rendered: true
 <!-- emergency-open -->
 **Water damage emergency in Moapa Valley? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
 
-Water damage in Moapa Valley rarely looks the same as it does in a Las Vegas subdivision. Out here, a failed well pressure tank, a cracked supply line under a manufactured home, or storm runoff backing up against a slab foundation can sit unnoticed for hours before anyone's home to catch it. Desert Valley Contracting handles water removal and structural drying across the valley, and we size up each job around the property type first, because rural Clark County homes dry differently than tract housing closer to town.
+Water damage in Moapa Valley rarely looks the same as it does in a Las Vegas subdivision. Out here, a failed well pressure tank, a cracked supply line under a manufactured home, or storm runoff backing up against a slab foundation can sit unnoticed for hours before anyone's home to catch it. Desert Valley Restoration handles water removal and structural drying across the valley, and we size up each job around the property type first, because rural Clark County homes dry differently than tract housing closer to town.
 
 ## Why Moapa Valley Properties See Water Damage Issues
 
@@ -45,4 +45,4 @@ Most of the water losses we see in the valley come through homeowner's policies 
 
 Wells and septic systems change the troubleshooting order on a water call. Before we start tearing into flooring, we check whether the source is a pressure tank, a supply line, or surface water from a wash, because in Moapa Valley it's just as often an irrigation line or stock-watering system feeding the leak as it is interior plumbing, and misreading the source means redoing the drying plan halfway through.
 
-If you're standing in a wet hallway or crawling under a manufactured home with a flashlight trying to find where the water's coming from, stop and call. Desert Valley Contracting answers 24/7, and getting extraction and structural drying started quickly is what keeps a Moapa Valley water event from turning into a mold problem a few weeks later.
+If you're standing in a wet hallway or crawling under a manufactured home with a flashlight trying to find where the water's coming from, stop and call. Desert Valley Restoration answers 24/7, and getting extraction and structural drying started quickly is what keeps a Moapa Valley water event from turning into a mold problem a few weeks later.

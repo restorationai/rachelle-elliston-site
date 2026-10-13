@@ -1,6 +1,6 @@
 ---
 archetype: "service-area"
-title: "Restoration Services in Nelson, NV | Desert Valley Contracting Inc "
+title: "Restoration Services in Nelson, NV | Desert Valley Restoration "
 h1: "Restoration Services in Nelson"
 meta_description: "Serving Nelson, NV with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (702) 633-5033."
 primary_keyword: "restoration services nelson"
@@ -19,7 +19,7 @@ state: "NV"
 primary: false
 rendered: true
 ---
-Nelson sits well off the beaten path in Eldorado Canyon, and that remoteness changes how a water, fire, or storm loss gets handled. Desert Valley Contracting Inc dispatches crews from North Las Vegas to cover the historic mining community and the scattered rural properties along NV-165, handling everything from flash-flood intrusion in a canyon-floor structure to mold that's taken hold in a building that's sat closed up for weeks. We answer calls 24/7 and build the scope around what Nelson's buildings and terrain actually demand, not a generic suburban playbook.
+Nelson sits well off the beaten path in Eldorado Canyon, and that remoteness changes how a water, fire, or storm loss gets handled. Desert Valley Restoration dispatches crews from North Las Vegas to cover the historic mining community and the scattered rural properties along NV-165, handling everything from flash-flood intrusion in a canyon-floor structure to mold that's taken hold in a building that's sat closed up for weeks. We answer calls 24/7 and build the scope around what Nelson's buildings and terrain actually demand, not a generic suburban playbook.
 
 ## Restoration emergencies common in Nelson
 
@@ -43,4 +43,4 @@ Getting to Nelson means a drive south out of North Las Vegas on US-95 and US-93 
 
 Nelson's building stock spans more than a century, from original mining-era wood and tin structures to newer rural homes built on slab or pier foundations. Older buildings often carry galvanized plumbing, knob-and-tube or early romex wiring, and materials like lead paint or asbestos siding that a restoration scope has to identify and work around before demolition or drying begins. The canyon floor is rocky and fast-draining in most spots but funnels water hard during monsoon runoff, so foundations and crawlspaces near washes see repeated wetting and drying cycles that stress framing over time. Because Nelson is unincorporated, Clark County issues permits for structural repair and rebuild work, and anything touching load-bearing framing, electrical, or septic typically triggers a permit review before work can close out.
 
-If water, fire, or storm damage has hit a property in Nelson, call Desert Valley Contracting Inc at (702) 633-5033. We answer 24/7 and can talk through what to do before a crew even arrives.
+If water, fire, or storm damage has hit a property in Nelson, call Desert Valley Restoration at (702) 633-5033. We answer 24/7 and can talk through what to do before a crew even arrives.

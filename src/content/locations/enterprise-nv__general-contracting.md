@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Renovations, Remodels and General Contracting in Enterprise, NV | Desert Valley Contracting Inc "
+title: "Renovations, Remodels and General Contracting in Enterprise, NV | Desert Valley Restoration "
 h1: "Renovations, Remodels and General Contracting in Enterprise"
 meta_description: "24/7 renovations, remodels and general contracting in Enterprise, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033."
 primary_keyword: "renovations, remodels and general contracting enterprise"
@@ -46,4 +46,4 @@ Many planned communities in the Enterprise area also carry HOA covenants that go
 
 Homes built in the Enterprise area during the early 2000s frequently used a single-layer stucco system over OSB sheathing rather than the older three-coat systems found in Las Vegas proper. That assembly is more vulnerable to bulk water intrusion at penetrations, and when a renovation opens an exterior wall, it is common to find discolored sheathing or compromised housewrap that was never visible from inside. Catching that during the rough phase, before insulation and drywall go back in, is far less expensive than discovering it after the wall is closed. We build a sheathing inspection into every exterior-adjacent scope as standard practice.
 
-If your home or investment property in Enterprise needs a kitchen remodel, bathroom update, room addition, or a full rebuild after a covered loss, call Desert Valley Contracting Inc at (702) 633-5033. We are licensed under Nevada contractor license #0072652-B and B6 and available around the clock to schedule your initial assessment.
+If your home or investment property in Enterprise needs a kitchen remodel, bathroom update, room addition, or a full rebuild after a covered loss, call Desert Valley Restoration at (702) 633-5033. We are licensed under Nevada contractor license #0072652-B and B6 and available around the clock to schedule your initial assessment.

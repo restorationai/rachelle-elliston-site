@@ -1,6 +1,6 @@
 ---
 archetype: "service-area"
-title: "Restoration Services in Sandy Valley, NV | Desert Valley Contracting Inc "
+title: "Restoration Services in Sandy Valley, NV | Desert Valley Restoration "
 h1: "Restoration Services in Sandy Valley"
 meta_description: "Serving Sandy Valley, NV with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (702) 633-5033."
 primary_keyword: "restoration services sandy valley"
@@ -19,7 +19,7 @@ state: "NV"
 primary: false
 rendered: true
 ---
-Desert Valley Contracting Inc provides water damage, fire and smoke damage, mold remediation, biohazard cleanup, and reconstruction services for homeowners and property managers in Sandy Valley, NV. Because the community sits well outside the Las Vegas valley's municipal utility grid, most of the properties we work on here run on private wells and septic systems, which changes how a water loss gets diagnosed and dried compared to a tract home in town. We scope the job, document it for insurance, and handle the structural rebuild when one is needed.
+Desert Valley Restoration provides water damage, fire and smoke damage, mold remediation, biohazard cleanup, and reconstruction services for homeowners and property managers in Sandy Valley, NV. Because the community sits well outside the Las Vegas valley's municipal utility grid, most of the properties we work on here run on private wells and septic systems, which changes how a water loss gets diagnosed and dried compared to a tract home in town. We scope the job, document it for insurance, and handle the structural rebuild when one is needed.
 
 ## Restoration emergencies common in Sandy Valley
 
@@ -45,4 +45,4 @@ Sandy Valley is roughly 50 miles southwest of our North Las Vegas headquarters, 
 
 Most homes in Sandy Valley were built from the 1980s forward, a mix of manufactured housing and site-built ranch homes on large rural parcels, typically slab-on-grade or raised crawlspace foundations rather than basements. Plumbing is a mix of copper and PEX depending on the build era, paired with private well systems and septic tanks instead of municipal water and sewer, which affects both how a leak gets traced and how a cleanup gets sequenced. Soil here is desert sand and caliche hardpan, which sheds monsoon rainfall quickly rather than absorbing it, putting pressure on grading and foundation drainage during late-summer storms. As an unincorporated community, building and structural repair permits in Sandy Valley go through Clark County's building department rather than a city office, and HOA oversight is minimal to nonexistent given the area's large-lot, low-density character.
 
-If water, fire, smoke, or mold has hit your Sandy Valley property, call Desert Valley Contracting Inc at (702) 633-5033. We're available 24/7 to start the conversation, document the damage for your insurance carrier, and get a crew on the road out NV-160 toward you.
+If water, fire, smoke, or mold has hit your Sandy Valley property, call Desert Valley Restoration at (702) 633-5033. We're available 24/7 to start the conversation, document the damage for your insurance carrier, and get a crew on the road out NV-160 toward you.

@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "24/7 Emergency Water Damage Restoration in Nelson, NV | Desert Valley Contracting Inc "
+title: "24/7 Emergency Water Damage Restoration in Nelson, NV | Desert Valley Restoration "
 h1: "24/7 Emergency Water Damage Restoration in Nelson"
 meta_description: "24/7 emergency water damage restoration in Nelson, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033."
 primary_keyword: "water damage restoration nelson"
@@ -20,7 +20,7 @@ state: "NV"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
-**Water damage emergency in Nelson?** Desert Valley Contracting answers 24/7 and we understand the problem looks different out here than it does closer to the Las Vegas valley floor. Nelson's homes and outbuildings sit in Eldorado Canyon's wash country, where a single flash-flood monsoon storm can push water under doors and slab foundations faster than a typical suburban downpour, and where many properties still run on well water and septic systems that complicate cleanup. Whether it's a burst supply line in a weekend cabin or runoff that found its way into a garage or shop building, we extract, dry, and document the loss so you're not left guessing what happens next.
+**Water damage emergency in Nelson?** Desert Valley Restoration answers 24/7 and we understand the problem looks different out here than it does closer to the Las Vegas valley floor. Nelson's homes and outbuildings sit in Eldorado Canyon's wash country, where a single flash-flood monsoon storm can push water under doors and slab foundations faster than a typical suburban downpour, and where many properties still run on well water and septic systems that complicate cleanup. Whether it's a burst supply line in a weekend cabin or runoff that found its way into a garage or shop building, we extract, dry, and document the loss so you're not left guessing what happens next.
 
 ## Why Nelson Properties See Water Damage Issues
 
@@ -38,4 +38,4 @@ Our crews run out of North Las Vegas and down toward Nelson via US-93/95 and NV-
 
 One thing that catches property owners off guard in Nelson: a desert wash running near a structure can look bone-dry for months and then carry a meaningful volume of water during a single monsoon event, enough to push moisture against a foundation that was never graded with that kind of flow in mind. We check grading and drainage patterns around the structure as part of our assessment, not just the room where the damage is visible, because the water that caused the loss may keep coming back with the next storm if the path isn't addressed.
 
-If water has gotten into your Nelson property, from a cracked supply line to canyon runoff finding its way indoors, call Desert Valley Contracting. We're licensed (Nevada contractor license B & B6) and available 24/7, and we'll walk the property, extract what needs extracting, and get a drying plan in place before the damage spreads any further.
+If water has gotten into your Nelson property, from a cracked supply line to canyon runoff finding its way indoors, call Desert Valley Restoration. We're licensed (Nevada contractor license B & B6) and available 24/7, and we'll walk the property, extract what needs extracting, and get a drying plan in place before the damage spreads any further.

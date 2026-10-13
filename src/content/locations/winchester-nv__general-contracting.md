@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Renovations, Remodels and General Contracting in Winchester, NV | Desert Valley Contracting Inc "
+title: "Renovations, Remodels and General Contracting in Winchester, NV | Desert Valley Restoration "
 h1: "Renovations, Remodels and General Contracting in Winchester"
 meta_description: "24/7 renovations, remodels and general contracting in Winchester, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033."
 primary_keyword: "renovations, remodels and general contracting winchester"
@@ -20,7 +20,7 @@ state: "NV"
 service_display: "Renovations, Remodels and General Contracting"
 rendered: true
 ---
-Winchester sits just east of the Strip in unincorporated Clark County, a mix of mid-century ranch homes, 1970s-80s infill, and newer builds squeezed between busy commercial corridors. That older housing stock, combined with a remodeling market that's picked up as owners update kitchens and bathrooms instead of relocating, means general contracting work here often starts with unknowns behind the walls: outdated wiring, settled slab foundations, or plumbing runs that were never pulled to current code. Desert Valley Contracting plans around those realities instead of guessing at them.
+Winchester sits just east of the Strip in unincorporated Clark County, a mix of mid-century ranch homes, 1970s-80s infill, and newer builds squeezed between busy commercial corridors. That older housing stock, combined with a remodeling market that's picked up as owners update kitchens and bathrooms instead of relocating, means general contracting work here often starts with unknowns behind the walls: outdated wiring, settled slab foundations, or plumbing runs that were never pulled to current code. Desert Valley Restoration plans around those realities instead of guessing at them.
 
 ## Why Winchester Properties Need Renovations, Remodels and General Contracting
 
@@ -38,4 +38,4 @@ A fair number of Winchester's newer townhome and condo clusters have HOAs with t
 
 A detail that catches a lot of out-of-town remodelers off guard: many Winchester homes built in the 1960s and 70s have copper supply lines that were sweated with lead-based solder, which is a separate issue from lead paint and requires its own handling when a bathroom remodel involves cutting into those lines. We test before we cut rather than assuming the plumbing matches the era of the paint.
 
-If you're planning a kitchen remodel, a full bathroom gut, or a rebuild after storm or fire damage in Winchester, Desert Valley Contracting can walk the property, scope the Clark County permit requirements, and give you a realistic schedule before a single wall comes down. Call (702) 633-5033 to set up that walkthrough.
+If you're planning a kitchen remodel, a full bathroom gut, or a rebuild after storm or fire damage in Winchester, Desert Valley Restoration can walk the property, scope the Clark County permit requirements, and give you a realistic schedule before a single wall comes down. Call (702) 633-5033 to set up that walkthrough.

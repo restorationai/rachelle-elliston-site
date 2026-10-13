@@ -80,10 +80,10 @@ An accurate number only comes from an in-person inspection, because no online ca
 
 If you're still deciding who should handle that first call, our guide on [who to call to rebuild after a house fire in North Las Vegas](/blog/who-to-call-to-rebuild-after-a-house-fire-in-north-las-vegas/) breaks down the order of calls, from the fire department's release of the scene to the adjuster to the contractor.
 
-If the damage goes beyond surface soot, get a documented scope before signing anything with the insurance company. [Call Desert Valley Contracting Inc at (702) 633-5033](tel:+17026335033) for an on-site assessment and a written scope the adjuster can work from directly.
+If the damage goes beyond surface soot, get a documented scope before signing anything with the insurance company. [Call Desert Valley Restoration at (702) 633-5033](tel:+17026335033) for an on-site assessment and a written scope the adjuster can work from directly.
 
 ---
 
-**About Desert Valley Contracting Inc**
+**About Desert Valley Restoration**
 
 This IICRC Certified Firm has served North Las Vegas and the surrounding valley since 2000, licensed by the Nevada State Contractors Board (license 0072652-B & B6). Its crews hold IICRC FSRT (fire and smoke), ASD (structural drying), and WRT (water) certifications and provide 24/7 emergency response for fire, smoke, water, mold, and reconstruction work. The company carries a 4.3-star average across 95 Google reviews from local jobs across the valley.

@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Fire Damage Restoration in Mount Charleston, NV | Desert Valley Contracting Inc "
+title: "Emergency Fire Damage Restoration in Mount Charleston, NV | Desert Valley Restoration "
 h1: "24/7 Emergency Fire Damage Restoration in Mount Charleston"
 meta_description: "24/7 emergency fire damage restoration in Mount Charleston, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033."
 primary_keyword: "fire damage restoration mount charleston"
@@ -38,4 +38,4 @@ Our crews come up from North Las Vegas via Kyle Canyon Road, and we plan around 
 
 One thing that catches homeowners off guard: dry mountain air at elevation actually slows down soot residue migration compared to the humid interiors we see in the valley, but it also means smoke odor clings longer to exposed wood because there's less ambient moisture to help break it down naturally. On an unsealed log or tongue-and-groove interior, we often need a second deodorization pass after the structure has had a few days to off-gas, rather than calling it finished on day one. Cabins that sit vacant for stretches between visits also tend to have smoke odor settle into insulation and crawlspace framing unnoticed, so we check those areas even when the visible damage looks contained to one room.
 
-Fire damage in a Mount Charleston cabin isn't the same job as fire damage in a North Las Vegas tract home, and treating it that way is how odor and hidden soot get left behind. Desert Valley Contracting is licensed (#0072652-B & B6) and carries IICRC certification in fire, smoke, and structural drying, and we're available around the clock to get a crew moving up the canyon when you need one.
+Fire damage in a Mount Charleston cabin isn't the same job as fire damage in a North Las Vegas tract home, and treating it that way is how odor and hidden soot get left behind. Desert Valley Restoration is licensed (#0072652-B & B6) and carries IICRC certification in fire, smoke, and structural drying, and we're available around the clock to get a crew moving up the canyon when you need one.

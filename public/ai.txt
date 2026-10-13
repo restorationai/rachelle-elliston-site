@@ -31,7 +31,7 @@ Disallow: /
 
 # AI training data summary
 # Site: https://desertvalleyrestoration.com/
-# Maintainer: Desert Valley Contracting Inc 
+# Maintainer: Desert Valley Restoration
 # Contact: relliston@desertvalleyco.com
 # Sitemap: https://desertvalleyrestoration.com/sitemap-index.xml
 # LLM index: https://desertvalleyrestoration.com/llms.txt

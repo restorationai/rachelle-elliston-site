@@ -74,7 +74,7 @@ A trained restoration crew follows a defined process. Here is what that typicall
 
 **Structural cleaning and preparation for repairs.** Once surfaces are clean and dry, the space is ready for any reconstruction work that may be needed. That phase, if required, is a separate scope from restoration.
 
-Desert Valley Contracting Inc handles both fire damage restoration and smoke damage restoration, so the cleaning and structural work are coordinated rather than handed off between unrelated contractors.
+Desert Valley Restoration handles both fire damage restoration and smoke damage restoration, so the cleaning and structural work are coordinated rather than handed off between unrelated contractors.
 
 ## The Longer Recovery: What Comes After Cleanup
 
@@ -90,4 +90,4 @@ Finally, document the completed restoration work the same way you documented the
 
 ## Ready to Start the Process?
 
-If you are dealing with fire or smoke damage in the North Las Vegas area and are trying to figure out your next step, Desert Valley Contracting Inc is available to assess the damage and walk you through what restoration will involve for your specific situation. You can reach the team at (702) 633-5033.
+If you are dealing with fire or smoke damage in the North Las Vegas area and are trying to figure out your next step, Desert Valley Restoration is available to assess the damage and walk you through what restoration will involve for your specific situation. You can reach the team at (702) 633-5033.
