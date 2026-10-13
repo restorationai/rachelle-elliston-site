@@ -1,6 +1,6 @@
 ---
 archetype: "service-area"
-title: "Restoration Services in Nelson, NV | Desert Valley Restoration "
+title: "Restoration Services in Nelson, NV | Desert Valley Restoration"
 h1: "Restoration Services in Nelson"
 meta_description: "Serving Nelson, NV with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (702) 633-5033."
 primary_keyword: "restoration services nelson"

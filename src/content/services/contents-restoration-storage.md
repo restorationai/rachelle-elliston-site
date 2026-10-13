@@ -1,6 +1,6 @@
 ---
 archetype: "service-landing"
-title: "Contents Restoration & Storage in North Las Vegas | Desert Valley Restoration "
+title: "Contents Restoration & Storage in North Las Vegas | Desert Valley Restoration"
 h1: "Contents Restoration & Storage in North Las Vegas"
 meta_description: "24/7 contents restoration & storage in North Las Vegas and surrounding areas. IICRC-certified, insurance billing accepted. Call (702) 633-5033."
 primary_keyword: "contents restoration & storage north las vegas"

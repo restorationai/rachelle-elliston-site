@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Sewage Cleanup and Sanitization in Paradise, NV | Desert Valley Restoration "
+title: "Emergency Sewage Cleanup and Sanitization in Paradise, NV | Desert Valley Restoration"
 h1: "24/7 Emergency Sewage Cleanup and Sanitization in Paradise"
 meta_description: "24/7 emergency sewage cleanup and sanitization in Paradise, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033."
 primary_keyword: "sewage cleanup and sanitization paradise"

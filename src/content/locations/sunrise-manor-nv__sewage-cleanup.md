@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Sewage Cleanup and Sanitization in Sunrise Manor | Desert Valley Restoration "
+title: "Emergency Sewage Cleanup and Sanitization in Sunrise Manor | Desert Valley Restoration"
 h1: "24/7 Emergency Sewage Cleanup and Sanitization in Sunrise Manor"
 meta_description: "24/7 emergency sewage cleanup and sanitization in Sunrise Manor, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033."
 primary_keyword: "sewage cleanup and sanitization sunrise manor"

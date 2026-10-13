@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Water Removal & Cleanup in Mount Charleston, NV | Desert Valley Restoration "
+title: "Emergency Water Removal & Cleanup in Mount Charleston, NV | Desert Valley Restoration"
 h1: "24/7 Emergency Water Removal & Cleanup in Mount Charleston"
 meta_description: "24/7 emergency water removal & cleanup in Mount Charleston, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033."
 primary_keyword: "emergency water removal & cleanup mount charleston"

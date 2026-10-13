@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Mold Remediation in Boulder City, NV | Desert Valley Restoration "
+title: "Mold Remediation in Boulder City, NV | Desert Valley Restoration"
 h1: "Mold Remediation in Boulder City"
 meta_description: "24/7 mold remediation in Boulder City, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033."
 primary_keyword: "mold remediation boulder city"

@@ -1,6 +1,6 @@
 ---
 archetype: "service-area"
-title: "Restoration Services in Mount Charleston, NV | Desert Valley Restoration "
+title: "Restoration Services in Mount Charleston, NV | Desert Valley Restoration"
 h1: "Restoration Services in Mount Charleston"
 meta_description: "Serving Mount Charleston, NV with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (702) 633-5033."
 primary_keyword: "restoration services mount charleston"

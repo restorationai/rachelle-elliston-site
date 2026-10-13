@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Contents Restoration & Storage in Summerlin, NV | Desert Valley Restoration "
+title: "Contents Restoration & Storage in Summerlin, NV | Desert Valley Restoration"
 h1: "Contents Restoration & Storage in Summerlin"
 meta_description: "24/7 contents restoration & storage in Summerlin, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033."
 primary_keyword: "contents restoration & storage summerlin"

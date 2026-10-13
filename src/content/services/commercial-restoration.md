@@ -1,6 +1,6 @@
 ---
 archetype: "service-landing"
-title: "Commercial Restoration in North Las Vegas | Desert Valley Restoration "
+title: "Commercial Restoration in North Las Vegas | Desert Valley Restoration"
 h1: "Commercial Restoration in North Las Vegas"
 meta_description: "24/7 commercial restoration in North Las Vegas and surrounding areas. IICRC-certified, insurance billing accepted. Call (702) 633-5033."
 primary_keyword: "commercial restoration north las vegas"

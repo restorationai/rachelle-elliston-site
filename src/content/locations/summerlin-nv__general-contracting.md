@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Renovations, Remodels and General Contracting in Summerlin, NV | Desert Valley Restoration "
+title: "Renovations, Remodels and General Contracting in Summerlin, NV | Desert Valley Restoration"
 h1: "Renovations, Remodels and General Contracting in Summerlin"
 meta_description: "24/7 renovations, remodels and general contracting in Summerlin, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033."
 primary_keyword: "renovations, remodels and general contracting summerlin"

@@ -1,6 +1,6 @@
 ---
 archetype: "service-landing"
-title: "Emergency Sewage Cleanup and Sanitization in North Las Vegas | Desert Valley Restoration "
+title: "Emergency Sewage Cleanup and Sanitization in North Las Vegas | Desert Valley Restoration"
 h1: "24/7 Emergency Sewage Cleanup and Sanitization in North Las Vegas"
 meta_description: "24/7 emergency sewage cleanup and sanitization in North Las Vegas and surrounding areas. IICRC-certified, insurance billing accepted. Call (702) 633-5033."
 primary_keyword: "sewage cleanup and sanitization north las vegas"

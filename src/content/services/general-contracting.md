@@ -1,6 +1,6 @@
 ---
 archetype: "service-landing"
-title: "Renovations, Remodels and General Contracting in North Las Vegas | Desert Valley Restoration "
+title: "Renovations, Remodels and General Contracting in North Las Vegas | Desert Valley Restoration"
 h1: "Renovations, Remodels and General Contracting in North Las Vegas"
 meta_description: "24/7 renovations, remodels and general contracting in North Las Vegas and surrounding areas. IICRC-certified, insurance billing accepted. Call (702) 633-5033."
 primary_keyword: "renovations, remodels and general contracting north las vegas"

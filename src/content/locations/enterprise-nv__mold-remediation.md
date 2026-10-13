@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Mold Remediation in Enterprise, NV | Desert Valley Restoration "
+title: "Mold Remediation in Enterprise, NV | Desert Valley Restoration"
 h1: "Mold Remediation in Enterprise"
 meta_description: "24/7 mold remediation in Enterprise, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033."
 primary_keyword: "mold remediation enterprise"

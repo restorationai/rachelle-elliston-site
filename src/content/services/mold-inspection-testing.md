@@ -1,6 +1,6 @@
 ---
 archetype: "service-landing"
-title: "Mold Inspection and Testing in North Las Vegas | Desert Valley Restoration "
+title: "Mold Inspection and Testing in North Las Vegas | Desert Valley Restoration"
 h1: "Mold Inspection and Testing in North Las Vegas"
 meta_description: "24/7 mold inspection and testing in North Las Vegas and surrounding areas. IICRC-certified, insurance billing accepted. Call (702) 633-5033."
 primary_keyword: "mold inspection and testing north las vegas"

@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Odor Removal and Deodorization in Las Vegas, NV | Desert Valley Restoration "
+title: "Odor Removal and Deodorization in Las Vegas, NV | Desert Valley Restoration"
 h1: "Odor Removal and Deodorization in Las Vegas"
 meta_description: "24/7 odor removal and deodorization in Las Vegas, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033."
 primary_keyword: "odor removal and deodorization las vegas"

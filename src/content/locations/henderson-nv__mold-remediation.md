@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Mold Remediation in Henderson, NV | Desert Valley Restoration "
+title: "Mold Remediation in Henderson, NV | Desert Valley Restoration"
 h1: "Mold Remediation in Henderson"
 meta_description: "24/7 mold remediation in Henderson, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033."
 primary_keyword: "mold remediation henderson"

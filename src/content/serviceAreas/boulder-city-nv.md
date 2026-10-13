@@ -1,6 +1,6 @@
 ---
 archetype: "service-area"
-title: "Restoration Services in Boulder City, NV | Desert Valley Restoration "
+title: "Restoration Services in Boulder City, NV | Desert Valley Restoration"
 h1: "Restoration Services in Boulder City"
 meta_description: "Serving Boulder City, NV with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (702) 633-5033."
 primary_keyword: "restoration services boulder city"

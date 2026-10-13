@@ -1,6 +1,6 @@
 ---
 archetype: "service-landing"
-title: "Reconstruction Services in North Las Vegas | Desert Valley Restoration "
+title: "Reconstruction Services in North Las Vegas | Desert Valley Restoration"
 h1: "Reconstruction Services in North Las Vegas"
 meta_description: "24/7 reconstruction services in North Las Vegas and surrounding areas. IICRC-certified, insurance billing accepted. Call (702) 633-5033."
 primary_keyword: "reconstruction services north las vegas"

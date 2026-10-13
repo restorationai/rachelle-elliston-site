@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Mold Remediation in Paradise, NV | Desert Valley Restoration "
+title: "Mold Remediation in Paradise, NV | Desert Valley Restoration"
 h1: "Mold Remediation in Paradise"
 meta_description: "24/7 mold remediation in Paradise, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033."
 primary_keyword: "mold remediation paradise"

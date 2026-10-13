@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "24/7 Emergency Biohazard Cleanup in Paradise, NV | Desert Valley Restoration "
+title: "24/7 Emergency Biohazard Cleanup in Paradise, NV | Desert Valley Restoration"
 h1: "24/7 Emergency Biohazard Cleanup in Paradise"
 meta_description: "24/7 emergency biohazard cleanup in Paradise, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033."
 primary_keyword: "biohazard cleanup paradise"

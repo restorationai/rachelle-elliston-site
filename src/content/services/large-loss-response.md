@@ -1,6 +1,6 @@
 ---
 archetype: "service-landing"
-title: "Large Loss and Catastrophic Response in North Las Vegas | Desert Valley Restoration "
+title: "Large Loss and Catastrophic Response in North Las Vegas | Desert Valley Restoration"
 h1: "Large Loss and Catastrophic Response in North Las Vegas"
 meta_description: "24/7 large loss and catastrophic response in North Las Vegas and surrounding areas. IICRC-certified, insurance billing accepted. Call (702) 633-5033."
 primary_keyword: "large loss and catastrophic response north las vegas"

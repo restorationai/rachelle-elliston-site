@@ -1,6 +1,6 @@
 ---
 archetype: "service-area"
-title: "Restoration Services in Paradise, NV | Desert Valley Restoration "
+title: "Restoration Services in Paradise, NV | Desert Valley Restoration"
 h1: "Restoration Services in Paradise"
 meta_description: "Serving Paradise, NV with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (702) 633-5033."
 primary_keyword: "restoration services paradise"

@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Renovations, Remodels and General Contracting in Enterprise, NV | Desert Valley Restoration "
+title: "Renovations, Remodels and General Contracting in Enterprise, NV | Desert Valley Restoration"
 h1: "Renovations, Remodels and General Contracting in Enterprise"
 meta_description: "24/7 renovations, remodels and general contracting in Enterprise, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033."
 primary_keyword: "renovations, remodels and general contracting enterprise"

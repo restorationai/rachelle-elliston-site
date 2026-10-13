@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Water Damage Restoration in Summerlin South, NV | Desert Valley Restoration "
+title: "Emergency Water Damage Restoration in Summerlin South, NV | Desert Valley Restoration"
 h1: "24/7 Emergency Water Damage Restoration in Summerlin South"
 meta_description: "24/7 emergency water damage restoration in Summerlin South, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033."
 primary_keyword: "water damage restoration summerlin south"

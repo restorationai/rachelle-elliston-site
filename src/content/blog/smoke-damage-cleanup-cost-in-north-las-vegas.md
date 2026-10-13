@@ -90,7 +90,7 @@ The [IICRC's S700 Standard for Professional Fire and Smoke Damage Restoration](h
 
 ## Who should you call for smoke damage cleanup in North Las Vegas?
 
-For smoke and soot cleanup without structural repair, call a restoration company with fire and smoke-specific IICRC certification rather than a general cleaning service, since soot removal and odor treatment require different chemistry and equipment than routine cleaning. Desert Valley Contracting Inc, which operates locally as Desert Valley Restoration, handles smoke and odor removal jobs across North Las Vegas, Las Vegas, Henderson, and the surrounding valley, including the HVAC and contents work that often gets missed by general cleaners.
+For smoke and soot cleanup without structural repair, call a restoration company with fire and smoke-specific IICRC certification rather than a general cleaning service, since soot removal and odor treatment require different chemistry and equipment than routine cleaning. Desert Valley Restoration, which operates locally as Desert Valley Restoration, handles smoke and odor removal jobs across North Las Vegas, Las Vegas, Henderson, and the surrounding valley, including the HVAC and contents work that often gets missed by general cleaners.
 
 If the fire also damaged structural elements, drywall, framing, or the roof, you'll need a [fire damage restoration](/services/fire-damage-restoration/) company that also handles reconstruction, not just cleanup. [Our guide to the fire damage restoration process](/blog/fire-damage-restoration-process/) walks through how those two tracks, cleanup and rebuild, typically run in parallel.
 
@@ -100,6 +100,6 @@ Get a written scope before work starts either way. It protects you with your ins
 
 **About Desert Valley Restoration**
 
-Desert Valley Contracting Inc, doing business as Desert Valley Restoration, is an IICRC Certified Firm serving North Las Vegas, NV since 2000, licensed under Nevada Contractors Board license 0072652-B & B6. The company's technicians hold IICRC FSRT (Fire & Smoke), WRT (Water), ASD (Structural Drying), and AMRT (Mold) certifications. Desert Valley Restoration handles smoke damage restoration, odor removal, fire damage restoration, water damage restoration, mold remediation, and related services across North Las Vegas, Las Vegas, Henderson, and the greater valley.
+Desert Valley Restoration, doing business as Desert Valley Restoration, is an IICRC Certified Firm serving North Las Vegas, NV since 2000, licensed under Nevada Contractors Board license 0072652-B & B6. The company's technicians hold IICRC FSRT (Fire & Smoke), WRT (Water), ASD (Structural Drying), and AMRT (Mold) certifications. Desert Valley Restoration handles smoke damage restoration, odor removal, fire damage restoration, water damage restoration, mold remediation, and related services across North Las Vegas, Las Vegas, Henderson, and the greater valley.
 
 **Need help now?** [Call Desert Valley Restoration at (702) 633-5033](tel:+17026335033).

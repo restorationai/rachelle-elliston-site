@@ -1,6 +1,6 @@
 ---
 archetype: "services-hub"
-title: "Restoration Services in North Las Vegas | Desert Valley Restoration "
+title: "Restoration Services in North Las Vegas | Desert Valley Restoration"
 h1: "Our Restoration Services"
 meta_description: "Full-service restoration in North Las Vegas: water, fire, mold, storm, biohazard, and commercial restoration. 24/7 response. Call (702) 633-5033."
 primary_keyword: "restoration services north las vegas"

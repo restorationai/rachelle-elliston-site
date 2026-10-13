@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "24/7 Emergency Water Damage Restoration in Pahrump, NV | Desert Valley Restoration "
+title: "24/7 Emergency Water Damage Restoration in Pahrump, NV | Desert Valley Restoration"
 h1: "24/7 Emergency Water Damage Restoration in Pahrump"
 meta_description: "24/7 emergency water damage restoration in Pahrump, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033."
 primary_keyword: "water damage restoration pahrump"

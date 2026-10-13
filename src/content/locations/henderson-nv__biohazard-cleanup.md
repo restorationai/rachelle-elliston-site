@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "24/7 Emergency Biohazard Cleanup in Henderson, NV | Desert Valley Restoration "
+title: "24/7 Emergency Biohazard Cleanup in Henderson, NV | Desert Valley Restoration"
 h1: "24/7 Emergency Biohazard Cleanup in Henderson"
 meta_description: "24/7 emergency biohazard cleanup in Henderson, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033."
 primary_keyword: "biohazard cleanup henderson"

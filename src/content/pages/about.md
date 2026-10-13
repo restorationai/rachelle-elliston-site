@@ -1,7 +1,7 @@
 ---
 archetype: "about"
 title: "About Desert Valley Restoration | North Las Vegas Restoration Company"
-h1: "About Desert Valley Restoration "
+h1: "About Desert Valley Restoration"
 meta_description: "Desert Valley Restoration has served North Las Vegas since 2000. Meet our IICRC-certified restoration team. Licensed, insured, locally owned."
 primary_keyword: "desert valley contracting inc  north las vegas"
 secondary_keywords: ["local restoration company", "iicrc certified restoration", "licensed restoration contractor"]

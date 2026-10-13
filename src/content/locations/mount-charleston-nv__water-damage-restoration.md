@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Water Damage Restoration in Mount Charleston, NV | Desert Valley Restoration "
+title: "Emergency Water Damage Restoration in Mount Charleston, NV | Desert Valley Restoration"
 h1: "24/7 Emergency Water Damage Restoration in Mount Charleston"
 meta_description: "24/7 emergency water damage restoration in Mount Charleston, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033."
 primary_keyword: "water damage restoration mount charleston"

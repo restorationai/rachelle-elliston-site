@@ -1,7 +1,7 @@
 ---
 archetype: "contact"
 title: "Contact Desert Valley Restoration | 24/7 Restoration in North Las Vegas"
-h1: "Contact Desert Valley Restoration "
+h1: "Contact Desert Valley Restoration"
 meta_description: "Call (702) 633-5033 for 24/7 emergency restoration in North Las Vegas and surrounding areas. Free estimates. Direct insurance billing."
 primary_keyword: "desert valley contracting inc  contact"
 secondary_keywords: ["restoration company contact", "24/7 restoration phone", "emergency restoration near me"]

@@ -1,6 +1,6 @@
 ---
 archetype: "service-area"
-title: "Serving All of North Las Vegas, NV | Desert Valley Restoration "
+title: "Serving All of North Las Vegas, NV | Desert Valley Restoration"
 h1: "Serving All of North Las Vegas"
 meta_description: "Desert Valley Restoration is based in North Las Vegas, NV. See the parts of North Las Vegas we cover and every service we offer here. Call (702) 633-5033."
 primary_keyword: "north las vegas service area"

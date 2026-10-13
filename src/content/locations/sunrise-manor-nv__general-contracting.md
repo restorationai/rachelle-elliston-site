@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Renovations, Remodels and General Contracting in Sunrise Manor, NV | Desert Valley Restoration "
+title: "Renovations, Remodels and General Contracting in Sunrise Manor, NV | Desert Valley Restoration"
 h1: "Renovations, Remodels and General Contracting in Sunrise Manor"
 meta_description: "24/7 renovations, remodels and general contracting in Sunrise Manor, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033."
 primary_keyword: "renovations, remodels and general contracting sunrise manor"

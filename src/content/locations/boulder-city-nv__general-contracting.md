@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Renovations, Remodels and General Contracting in Boulder City, NV | Desert Valley Restoration "
+title: "Renovations, Remodels and General Contracting in Boulder City, NV | Desert Valley Restoration"
 h1: "Renovations, Remodels and General Contracting in Boulder City"
 meta_description: "24/7 renovations, remodels and general contracting in Boulder City, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033."
 primary_keyword: "renovations, remodels and general contracting boulder city"
