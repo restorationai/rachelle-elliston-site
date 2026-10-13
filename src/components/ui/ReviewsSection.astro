@@ -1,79 +1,85 @@
 ---
-// ReviewsSection — full self-hosted reviews section ("What Our Customers Say").
-//
-// Replaces the old third-party localmarketingmanager.com iframe widget, which
-// depended on an external API that returned zero reviews and rendered a blank
-// section. This renders REAL synced Google reviews only:
+// ReviewsSection — "What Our Customers Say", REAL synced Google reviews only.
 //
 //   brand.gbpRatingValue / gbpReviewCount / gbpReviews — synced from the live
 //   Google Business Profile by scripts/sync_brand_reviews.py, never hand-edited.
 //
-// Relationship to ReviewsStrip (top of page): the strip is quick proof
-// (rating + 3 snippets), this section is depth (up to 6 full cards + link to
-// all reviews on Google). Keep both.
-//
-// Renders nothing when the synced rating fields are absent, so sites without
-// GBP data show no review claims at all.
+// 2026-10-12 redesign (Santino: "still feels low quality and very basic...
+// make this section less lengthy on mobile"): a Google rating summary beside
+// the headline, cards with the reviewer's initial, the Google mark and a
+// clamped quote, and on phones ONE swipeable row instead of six stacked
+// cards (the section went from ~6 screens to ~1.5). Desktop keeps a 3-column
+// grid. Renders nothing without synced rating data (no review claims at all).
 import { brand } from "~/lib/brand";
-import { Star } from "@lucide/astro";
+import { Star, ArrowRight } from "@lucide/astro";
 
 const rating = String(brand.gbpRatingValue || "");
 const count = String(brand.gbpReviewCount || "");
-const reviews = (brand.gbpReviews || []).slice(0, 6);
+const reviews = (brand.gbpReviews || []).filter((r) => r && r.text).slice(0, 6);
 const hasRating = rating !== "" && count !== "";
 const stars = hasRating ? Math.min(5, Math.round(parseFloat(rating))) : 0;
-const reviewsUrl = brand.placeId
-  ? `https://search.google.com/local/reviews?placeid=${brand.placeId}`
-  : brand.googleCid
-    ? `https://www.google.com/maps?cid=${brand.googleCid}`
+// cid FIRST (2026-09-19, ACS "this link is dead"): hidden-address SABs
+// often don't resolve through the placeid reviews viewer.
+const reviewsUrl = brand.googleCid
+  ? `https://www.google.com/maps?cid=${brand.googleCid}`
+  : brand.placeId
+    ? `https://search.google.com/local/reviews?placeid=${brand.placeId}`
     : "";
+const initial = (name: string) => (String(name || "?").trim()[0] || "?").toUpperCase();
 ---
 
 {hasRating && reviews.length > 0 && (
-  <section class="bg-dark-50 py-24 text-dark-900">
+  <section class="bg-dark-50 py-14 md:py-24 text-dark-900" aria-labelledby="reviews-heading">
     <div class="container-wide px-6 sm:px-10 lg:px-12">
-      <div class="text-center mb-12">
-        {/* Headline sized to stay on ONE line on desktop */}
-        <h2 class="text-3xl sm:text-4xl md:text-5xl font-black uppercase tracking-tighter text-dark-900 mb-4 md:whitespace-nowrap">
-          What Our Customers Say
-        </h2>
-        <div class="flex items-center justify-center gap-3">
-          <span class="flex items-center gap-1 text-amber-500" aria-hidden="true">
-            {Array.from({ length: stars }).map(() => (
-              <Star size={20} class="fill-current" />
-            ))}
-          </span>
-          <span class="text-lg font-bold text-dark-800">{rating} out of 5 · {count} Google reviews</span>
+      <div class="max-w-6xl mx-auto flex flex-col md:flex-row md:items-end md:justify-between gap-5 mb-8 md:mb-12">
+        <div>
+          <p class="text-xs font-bold uppercase tracking-[0.2em] text-primary-700 mb-2">Google reviews</p>
+          <h2 id="reviews-heading" class="text-3xl md:text-5xl font-black tracking-tight text-dark-900 m-0">
+            What Our Customers Say
+          </h2>
         </div>
+        <a href={reviewsUrl || undefined} target={reviewsUrl ? "_blank" : undefined} rel="noopener"
+          class="inline-flex items-center gap-4 self-start md:self-auto rounded-2xl bg-white border border-dark/10 shadow-sm px-5 py-3 no-underline text-dark-900 hover:shadow-md transition-shadow">
+          <svg width="28" height="28" viewBox="0 0 48 48" aria-hidden="true"><path fill="#FFC107" d="M43.6 20.5H42V20H24v8h11.3C33.7 32.7 29.2 36 24 36c-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34 6.1 29.3 4 24 4 12.9 4 4 12.9 4 24s8.9 20 20 20 20-8.9 20-20c0-1.3-.1-2.4-.4-3.5z"/><path fill="#FF3D00" d="M6.3 14.7l6.6 4.8C14.7 15.1 19 12 24 12c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34 6.1 29.3 4 24 4 16.3 4 9.7 8.3 6.3 14.7z"/><path fill="#4CAF50" d="M24 44c5.2 0 9.9-2 13.4-5.2l-6.2-5.2C29.2 35.1 26.7 36 24 36c-5.2 0-9.6-3.3-11.3-8l-6.5 5C9.5 39.6 16.2 44 24 44z"/><path fill="#1976D2" d="M43.6 20.5H42V20H24v8h11.3c-.8 2.2-2.2 4.2-4.1 5.6l6.2 5.2C37 39.2 44 34 44 24c0-1.3-.1-2.4-.4-3.5z"/></svg>
+          <span class="flex flex-col leading-tight">
+            <span class="flex items-center gap-2">
+              <span class="text-2xl font-black">{rating}</span>
+              <span class="flex text-amber-500" aria-label={`${rating} out of 5 stars`} role="img">
+                {Array.from({ length: stars }).map(() => <Star size={16} class="fill-current" />)}
+              </span>
+            </span>
+            <span class="text-xs font-semibold text-dark-600">{count} reviews on Google</span>
+          </span>
+        </a>
       </div>
 
-      <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto">
+      <div class="max-w-6xl mx-auto -mx-6 px-6 sm:mx-auto sm:px-0 flex md:grid md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 overflow-x-auto md:overflow-visible snap-x snap-mandatory pb-2 md:pb-0 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
         {reviews.map((r) => (
-          <figure class="m-0 p-6 rounded-lg border border-dark/10 bg-white shadow-sm flex flex-col gap-3">
-            <div class="flex gap-1 text-amber-500" role="img" aria-label={`${r.rating} out of 5 stars`}>
-              {Array.from({ length: Math.min(5, r.rating) }).map(() => (
-                <Star size={16} class="fill-current" />
-              ))}
+          <figure class="m-0 shrink-0 w-[85%] sm:w-[60%] md:w-auto snap-start rounded-2xl bg-white border border-dark/10 shadow-sm p-6 flex flex-col gap-4">
+            <div class="flex items-center gap-3">
+              <span class="w-10 h-10 rounded-full bg-primary-600/10 text-primary-700 font-black flex items-center justify-center shrink-0" aria-hidden="true">{initial(r.author)}</span>
+              <span class="min-w-0 flex flex-col leading-tight">
+                <span class="font-bold text-dark-900 truncate">{r.author}</span>
+                {r.when && <span class="text-xs text-dark-500">{r.when}</span>}
+              </span>
+              <svg class="ml-auto shrink-0" width="18" height="18" viewBox="0 0 48 48" aria-label="Google review" role="img"><path fill="#FFC107" d="M43.6 20.5H42V20H24v8h11.3C33.7 32.7 29.2 36 24 36c-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34 6.1 29.3 4 24 4 12.9 4 4 12.9 4 24s8.9 20 20 20 20-8.9 20-20c0-1.3-.1-2.4-.4-3.5z"/><path fill="#FF3D00" d="M6.3 14.7l6.6 4.8C14.7 15.1 19 12 24 12c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34 6.1 29.3 4 24 4 16.3 4 9.7 8.3 6.3 14.7z"/><path fill="#4CAF50" d="M24 44c5.2 0 9.9-2 13.4-5.2l-6.2-5.2C29.2 35.1 26.7 36 24 36c-5.2 0-9.6-3.3-11.3-8l-6.5 5C9.5 39.6 16.2 44 24 44z"/><path fill="#1976D2" d="M43.6 20.5H42V20H24v8h11.3c-.8 2.2-2.2 4.2-4.1 5.6l6.2 5.2C37 39.2 44 34 44 24c0-1.3-.1-2.4-.4-3.5z"/></svg>
             </div>
-            <blockquote class="m-0 p-0 border-0 text-dark-700 text-base leading-relaxed">
-              “{r.text}”
+            <div class="flex gap-0.5 text-amber-500" role="img" aria-label={`${r.rating} out of 5 stars`}>
+              {Array.from({ length: Math.min(5, r.rating) }).map(() => <Star size={15} class="fill-current" />)}
+            </div>
+            <blockquote class="m-0 p-0 border-0 text-dark-700 text-[15px] leading-relaxed line-clamp-5">
+              {r.text}
             </blockquote>
-            <figcaption class="text-dark-500 text-xs font-bold uppercase tracking-widest mt-auto">
-              — {r.author}{r.when ? ` · ${r.when}` : ""}
-            </figcaption>
           </figure>
         ))}
       </div>
+      <p class="md:hidden text-xs font-semibold text-dark-500 mt-3 flex items-center gap-1">Swipe for more <ArrowRight size={12} /></p>
 
       {reviewsUrl && (
-        <div class="text-center mt-12">
-          <a
-            href={reviewsUrl}
-            target="_blank"
-            rel="noopener"
-            class="inline-flex items-center justify-center font-bold px-8 py-3 rounded-md transition-all text-base border-2 border-dark/30 text-dark-900 hover:border-dark-900 hover:bg-dark-900 hover:text-white no-underline"
-          >
-            Read all {count} reviews on Google →
+        <div class="max-w-6xl mx-auto mt-8 md:mt-10">
+          <a href={reviewsUrl} target="_blank" rel="noopener"
+            class="inline-flex items-center gap-2 font-bold text-primary-700 hover:text-primary-800 no-underline">
+            Read all {count} reviews on Google <ArrowRight size={16} />
           </a>
         </div>
       )}

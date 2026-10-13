@@ -1,5 +1,6 @@
 ---
 import { brand } from "~/lib/brand";
+import { awards, awardBadge, shortBadge } from "~/lib/awards";
 import { MapPin, Users, Clock, Shield, BadgeCheck, Star, Award } from '@lucide/astro';
 
 // "Since {foundedYear}" is a hard fact (no rounding that could drift from body copy).
@@ -36,13 +37,20 @@ const defaultBadges: string[] = [
           ? ["Free Estimates"] : []),
         ...certBadges,
       ];
-// AWARDS LEAD (Santino 2026-09-27): a named award is the strongest trust +
-// AI-citation signal we can show; it always takes the first slot.
-const awardBadges: string[] = ((brand as { awards?: { name: string; year?: string | number }[] }).awards || [])
-  .slice(0, 1).map((a) => `${a.name}${a.year && !String(a.name).includes(String(a.year)) ? ` ${a.year}` : ""} Winner`);
-const badges: string[] = [...awardBadges, ...(brand.trustBadges || [])];
-for (const d of defaultBadges) {
+// AWARDS LEAD (Santino 2026-09-27): a named award is the strongest trust
+// signal we can show, so it takes the first slot, as a SHORT label
+// ("Voted Best of 2024"; 10-12). Every badge is a couple of words
+// (shortBadge) and the strip shows exactly four.
+// awardBadge is already short ("Voted Best of 2024": the year must survive
+// the three-word trim, which only applies to free-text badges).
+const badges: string[] = awards().slice(0, 1).map(awardBadge);
+for (const raw of brand.trustBadges || []) {
+  const b = shortBadge(raw);
+  if (b && !badges.some((x) => x.toLowerCase() === b.toLowerCase())) badges.push(b);
+}
+for (const raw of defaultBadges) {
   if (badges.length >= 4) break;
+  const d = shortBadge(raw);
   // containment dedupe: "Locally Owned" must not ride next to the
   // client's "Locally Owned & Operated" (Dry Bros first build)
   const dl = d.toLowerCase();
@@ -51,7 +59,7 @@ for (const d of defaultBadges) {
 
 function iconFor(label: string) {
   const t = label.toLowerCase();
-  if (t.includes("winner") || t.includes("best of")) return Award;
+  if (t.includes("voted") || t.includes("winner") || t.includes("best of")) return Award;
   if (t.includes("star") || t.includes("rated")) return Star;
   if (t.includes("guarantee") || t.includes("award") || t.includes("voted") || t.includes("#1")) return Award;
   if (t.includes("year") || t.includes("since") || t.includes("est.") || t.includes("24") || t.includes("emergency")) return Clock;
@@ -61,7 +69,7 @@ function iconFor(label: string) {
   return MapPin;
 }
 
-const items = badges.slice(0, 6).map((label) => ({ icon: iconFor(label), label }));
+const items = badges.slice(0, 4).map((label) => ({ icon: iconFor(label), label }));
 ---
 
 <section class="bg-dark py-10 md:py-8 text-white border-y border-white/10">
