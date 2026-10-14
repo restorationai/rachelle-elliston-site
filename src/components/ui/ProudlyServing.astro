@@ -13,6 +13,11 @@ const areas = all.sort((a, b) => {
   if (!a.data.primary && b.data.primary) return 1;
   return a.data.city.localeCompare(b.data.city);
 });
+// ONE link to every service in the home city (Santino 10-04/10-13): the
+// homepage "All our services in {city}" list read as keyword stuffing.
+const home = areas.find((a) => a.data.primary);
+const serviceCount = (await getCollection('services'))
+  .filter((s) => s.data.service_slug && (s.data as any).rendered !== false).length;
 ---
 
 {areas.length > 0 && (
@@ -34,6 +39,12 @@ const areas = all.sort((a, b) => {
           </a>
         ))}
       </div>
+      {home && serviceCount > 1 && (
+        <a href={`/service-areas/${home.data.area_slug}/`}
+           class="inline-block mt-6 text-sm font-bold text-primary-600 hover:text-primary-700">
+          See all {serviceCount} services in {home.data.city} &rarr;
+        </a>
+      )}
     </div>
   </section>
 )}
