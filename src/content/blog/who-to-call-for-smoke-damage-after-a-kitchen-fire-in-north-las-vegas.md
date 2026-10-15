@@ -20,7 +20,7 @@ services: ["smoke-damage-restoration", "odor-removal", "fire-damage-restoration"
 rendered: true
 author: "Rachelle Elliston"
 ---
-**TL;DR:** For smoke damage after a kitchen fire in North Las Vegas, call Desert Valley Contracting Inc (operating as Desert Valley Restoration) at (702) 633-5033 once the fire department has cleared the scene. Don't wipe soot with a wet rag, it smears into permanent staining. A smoke damage restoration crew handles odor removal, content cleaning, and the insurance paperwork together so the smell doesn't come back after repainting.
+**TL;DR:** For smoke damage after a kitchen fire in North Las Vegas, call Desert Valley Restoration (operating as Desert Valley Restoration) at (702) 633-5033 once the fire department has cleared the scene. Don't wipe soot with a wet rag, it smears into permanent staining. A smoke damage restoration crew handles odor removal, content cleaning, and the insurance paperwork together so the smell doesn't come back after repainting.
 
 The flames are out. The pan is in the sink. But your kitchen cabinets have a gray film on them, the hallway smells like burnt plastic, and you're standing there wondering if you can just open the windows and scrub it away yourself. You mostly can't, and knowing who to call in what order saves you from a smell that lingers for months.
 
@@ -28,7 +28,7 @@ The flames are out. The pan is in the sink. But your kitchen cabinets have a gra
 
 Call the fire department first if you haven't already, even for a fire you put out yourself, so they can confirm there's no hidden hot spot in the cabinetry or wall cavity behind the stove. Once they clear the scene, call a smoke damage restoration company before you touch anything else.
 
-Desert Valley Contracting Inc is IICRC Certified and available 24/7 across North Las Vegas, Las Vegas, and Henderson for exactly this kind of call. A restoration crew assesses the smoke type, sets containment if needed, and starts cleaning before soot has time to etch permanently into painted surfaces, grout, and appliance finishes.
+Desert Valley Restoration is IICRC Certified and available 24/7 across North Las Vegas, Las Vegas, and Henderson for exactly this kind of call. A restoration crew assesses the smoke type, sets containment if needed, and starts cleaning before soot has time to etch permanently into painted surfaces, grout, and appliance finishes.
 
 Your insurer comes after mitigation starts, not before. Most homeowners policies cover sudden fire and smoke damage, and documenting the damage with photos and a written scope from the restoration crew is what actually supports the claim, per the [Insurance Information Institute](https://www.iii.org/article/what-is-covered-by-standard-homeowners-insurance). Calling the restoration company first, then looping in the adjuster with their documentation, is the order that keeps the claim moving.
 
@@ -66,6 +66,6 @@ If the smell persists after a few days of ventilation, or soot keeps reappearing
 
 **About Desert Valley Restoration**
 
-Desert Valley Contracting Inc, doing business as Desert Valley Restoration, is an IICRC Certified Firm serving North Las Vegas, NV since 2000, holding Nevada contractor license 0072652-B & B6. Their crews handle fire and smoke damage restoration, odor removal, contents restoration and storage, water damage restoration, and mold remediation across the Las Vegas Valley, with 24/7 availability for fire and smoke emergency calls.
+Desert Valley Restoration, doing business as Desert Valley Restoration, is an IICRC Certified Firm serving North Las Vegas, NV since 2000, holding Nevada contractor license 0072652-B & B6. Their crews handle fire and smoke damage restoration, odor removal, contents restoration and storage, water damage restoration, and mold remediation across the Las Vegas Valley, with 24/7 availability for fire and smoke emergency calls.
 
 **Need help now?** [Call Desert Valley Restoration at (702) 633-5033](tel:+17026335033).
