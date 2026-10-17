@@ -20,7 +20,7 @@ services: ["emergency-water-removal", "water-damage-restoration", "storm-damage-
 rendered: true
 author: "Rachelle Elliston"
 ---
-For flash flood damage in North Las Vegas, call Desert Valley Restoration at [(702) 633-5033](tel:+17026335033). The company, legally Desert Valley Contracting Inc, answers 24/7, holds IICRC certification in water damage restoration (WRT) and structural drying (ASD), and is licensed and insured in Nevada (License #0072652-B & B6).
+For flash flood damage in North Las Vegas, call Desert Valley Restoration at [(702) 633-5033](tel:+17026335033). The company, legally Desert Valley Restoration, answers 24/7, holds IICRC certification in water damage restoration (WRT) and structural drying (ASD), and is licensed and insured in Nevada (License #0072652-B & B6).
 
 If a wash overflowed near your street or runoff backed up into your garage during a monsoon storm, you're dealing with two separate problems at once: getting the water out before it soaks into drywall and subflooring, and figuring out who pays for it. The order matters. Get it wrong and you either put yourself at risk or hand your insurer a reason to deny the claim.
 
@@ -62,4 +62,4 @@ If water is in your home right now, the fastest path is a call, not a search. [C
 
 **About Desert Valley Restoration**
 
-Desert Valley Restoration, operating as Desert Valley Contracting Inc, has served North Las Vegas and the surrounding Las Vegas Valley since 2000. The company is an IICRC Certified Firm with technicians holding WRT, ASD, AMRT, and FSRT certifications, and is licensed in Nevada (License #0072652-B & B6). Their crews handle emergency water removal, water damage restoration, storm damage restoration, sewage cleanup, mold remediation, and fire and smoke restoration across the valley, available 24/7.
+Desert Valley Restoration, operating as Desert Valley Restoration, has served North Las Vegas and the surrounding Las Vegas Valley since 2000. The company is an IICRC Certified Firm with technicians holding WRT, ASD, AMRT, and FSRT certifications, and is licensed in Nevada (License #0072652-B & B6). Their crews handle emergency water removal, water damage restoration, storm damage restoration, sewage cleanup, mold remediation, and fire and smoke restoration across the valley, available 24/7.
