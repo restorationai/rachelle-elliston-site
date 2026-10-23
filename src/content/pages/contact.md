@@ -27,6 +27,6 @@ If you are planning ahead, requesting a damage assessment, or have questions abo
 
 ## Where we're located
 
-The office is at **3808 N Octagon Rd, North Las Vegas, NV 89030**, positioned to reach properties across the Las Vegas Valley quickly. The team regularly serves North Las Vegas, Las Vegas, Henderson, Boulder City, Summerlin, and surrounding communities throughout Clark County. The desert climate here creates conditions that accelerate water damage and mold growth faster than many homeowners expect, so a fast response matters whether the loss is in a newer master-planned neighborhood or an older mid-century home near downtown Las Vegas. If you are unsure whether your location falls within the service area, call or email and the team can confirm.
+The office is at **3808 N Octagon Rd Ste 2, North Las Vegas, NV 89030**, positioned to reach properties across the Las Vegas Valley quickly. The team regularly serves North Las Vegas, Las Vegas, Henderson, Boulder City, Summerlin, and surrounding communities throughout Clark County. The desert climate here creates conditions that accelerate water damage and mold growth faster than many homeowners expect, so a fast response matters whether the loss is in a newer master-planned neighborhood or an older mid-century home near downtown Las Vegas. If you are unsure whether your location falls within the service area, call or email and the team can confirm.
 
 License numbers on file: **#0072652-B & B6**.

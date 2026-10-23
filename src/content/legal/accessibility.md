@@ -48,7 +48,7 @@ You can reach us by:
 
 - **Phone:** (702) 633-5033
 - **Email:** relliston@desertvalleyco.com
-- **Mail:** Desert Valley Contracting Inc, 3808 N Octagon Rd, North Las Vegas, NV 89030
+- **Mail:** Desert Valley Contracting Inc, 3808 N Octagon Rd Ste 2, North Las Vegas, NV 89030
 
 When you reach out, please describe the page or feature you were trying to use and the nature of the difficulty. That detail helps us reproduce the problem and address it accurately.
 

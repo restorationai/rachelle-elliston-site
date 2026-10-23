@@ -38,7 +38,7 @@ export const brand = {
   // Youngstown OH target) — only the address pair may go in a PostalAddress.
   addressCity: "North Las Vegas",
   addressState: "NV",
-  streetAddress: "3808 N Octagon Rd",
+  streetAddress: "3808 N Octagon Rd Ste 2",
   postalCode: "89030",
   lat: "36.2005191",
   lng: "-115.1214745",
