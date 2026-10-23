@@ -46,7 +46,7 @@ You may request access to the personal information we hold about you, ask us to 
 
 ## Contact Us About Privacy
 
-If you have questions about this policy or want to exercise any of the rights described above, you can reach us by email at relliston@desertvalleyco.com, by phone at (702) 633-5033, or by mail at 3808 N Octagon Rd, North Las Vegas, NV 89030. We will do our best to respond within a reasonable timeframe.
+If you have questions about this policy or want to exercise any of the rights described above, you can reach us by email at relliston@desertvalleyco.com, by phone at (702) 633-5033, or by mail at 3808 N Octagon Rd Ste 2, North Las Vegas, NV 89030. We will do our best to respond within a reasonable timeframe.
 
 ## Changes to This Policy
 
