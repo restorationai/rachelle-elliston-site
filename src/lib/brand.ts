@@ -65,8 +65,8 @@ export const brand = {
   awards: [{"name": "Quality Business Awards Best Home Renovations in North Las Vegas", "year": "2024", "organizer": "Quality Business Awards", "url": "https://qualitybusinessawards.com/2024/the-best-Home-Renovations-in-North-Las-Vegas/desert-valley-contracting-2/", "image": "/images/badges/quality-business-awards-2024.jpg"}, {"name": "BusinessRate Best of 2026", "year": 2026, "category": "Contractor, North Las Vegas", "organizer": "BusinessRate"}] as { name: string; year?: string | number; category?: string; organizer?: string; url?: string; image?: string }[],
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
-  gbpRatingValue: "4.3",
-  gbpReviewCount: "95",
+  gbpRatingValue: "4.4",
+  gbpReviewCount: "93",
   gbpReviews: [
     { author: "M", rating: 5, text: "Juan and his crew were exceptional in everything they did. Very professional, knowledgeable and hard working. Juan always answered all my questions in a very friendly and helpful manner.", when: "July 2026" },
     { author: "Deborah", rating: 5, text: "Very professional. THe crew is amazing", when: "June 2026" },
