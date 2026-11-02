@@ -25,7 +25,7 @@ When water soaks through your drywall, smoke odor settles into every surface, or
 
 **Mold remediation**, North Las Vegas homes that have experienced a slow leak or high indoor humidity are prime candidates for mold growth, often inside wall cavities where it goes unnoticed for weeks. Our IICRC AMRT-certified team contains the affected area, removes colonized materials safely, and addresses the moisture source so the problem does not return.
 
-**Reconstruction**, Once mitigation is complete, we handle the rebuild so you are not coordinating a second contractor. From replacing drywall and flooring to restoring a room to its pre-loss condition, reconstruction is part of the same project.
+**Reconstruction**, Once mitigation is complete, we handle the rebuild so you are not coordinating a second contractor. From replacing drywall and flooring to restoring a room to its pre-loss condition, reconstruction is part of the same project. If you are comparing [general contractors in Las Vegas](/service-areas/las-vegas-nv/general-contracting/) for the rebuild, our crew does that work across the valley too.
 
 ## Why homeowners and property managers call us
 
