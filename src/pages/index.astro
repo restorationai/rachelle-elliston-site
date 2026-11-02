@@ -3,11 +3,14 @@ import { getEntry, getCollection, type CollectionEntry } from "astro:content";
 import BaseLayout from "~/layouts/BaseLayout.astro";
 import CtaBanner from "~/components/CtaBanner.astro";
 import FAQSection from "~/components/FAQSection.astro";
+import HomeFaq from "~/components/HomeFaq.astro";
+import { homeFaq } from "~/lib/homeFaq";
 import InternalLinks from "~/components/InternalLinks.astro";
 import Hero from "~/components/ui/Hero.astro";
 import TrustStrip from "~/components/ui/TrustStrip.astro";
 import InsuranceBanner from "~/components/ui/InsuranceBanner.astro";
 import HomeProof from "~/components/ui/HomeProof.astro";
+import HomeAwards from "~/components/ui/HomeAwards.astro";
 import AboutSection from "~/components/ui/AboutSection.astro";
 import ServicesStrip from "~/components/ui/ServicesStrip.astro";
 import ProcessSection from "~/components/ui/ProcessSection.astro";
@@ -42,16 +45,19 @@ const services = pinnedServices.length
       .slice(0, 6);
 // Award-led meta description (Santino 2026-09-27, Restoration Masters pattern).
 const _aw = ((brand as { awards?: { name: string; year?: string | number }[] }).awards || [])[0];
-const awardMeta = _aw ? `${_aw.name}${_aw.year && !String(_aw.name).includes(String(_aw.year)) ? ` ${_aw.year}` : ""} Winner.` : "";
+const awardMeta = _aw ? `${(_aw as { text?: string }).text || `${_aw.name}${_aw.year && !String(_aw.name).includes(String(_aw.year)) ? ` ${_aw.year}` : ""}`}.` : "";
+// Homepage FAQ (Santino 2026-11-01): money-term questions answered with
+// facts on file; the same list is the page's FAQPage JSON-LD.
+const faqItems = homeFaq();
 ---
 
 <BaseLayout
   title={data.title}
   meta_description={awardMeta ? `${awardMeta} ${data.meta_description}` : data.meta_description}
   hero_image_url={heroImage}
-  schema_stubs={["organization", "website", "local-business"]}
+  schema_stubs={["organization", "website", "local-business", ...(faqItems.length ? ["faq"] : [])]}
   schema_ctx={{ archetype: "home" }}
-  faq={data.faq}
+  faq={faqItems}
 >
   {/* Homepage hero background. DEFAULT for new builds: a branded small-fleet
       scene (3-5 matched vehicles in the client's brand-color livery, region-
@@ -68,6 +74,9 @@ const awardMeta = _aw ? `${_aw.name}${_aw.year && !String(_aw.name).includes(Str
       {city}" with the real rating, licenses, certifications and reviews.
       Replaces ReviewsStrip on the homepage (same rating + snippets job). */}
   <HomeProof />
+
+  {/* Awards (Santino 11-01): its own section, strongest first, each linked. */}
+  <HomeAwards />
 
   <AboutSection imageSrc="/images/team.webp" imageAlt={`${brand.displayName} technician loading a branded service van`}>
     <p>
@@ -92,7 +101,7 @@ const awardMeta = _aw ? `${_aw.name}${_aw.year && !String(_aw.name).includes(Str
 
   <CtaBanner heading="24/7 Emergency Response" subheading="We answer the phone day and night. Insurance billing accepted." />
 
-  <FAQSection faq={data.faq} />
+  <HomeFaq extra={data.faq} />
 
   <section class="bg-white py-20 border-t border-dark/10">
     <div class="container-wide max-w-6xl mx-auto prose prose-xl prose-invert prose-headings:font-black prose-headings:uppercase prose-headings:tracking-tighter prose-a:text-primary-700 text-dark/70">

@@ -1,10 +1,18 @@
 // Awards + trust badges, short enough to read at a glance.
 //
-// Santino 2026-10-12 (Desert Valley): the strip under the hero showed
-// "Quality Business Awards Best Home Renovations in North Las Vegas 2024
-// Winner". Badges are a couple of words, never a sentence: the award becomes
-// "Voted Best of 2024" in the strip, and its full name lives in the hero
-// award line, the schema (award) and llms.txt, where AI search reads it.
+// WORDING BY KIND (Santino 2026-11-01): each award is worded to match its
+// source, because AI search checks the claim against the page that gave it.
+// A reader poll is "Voted ...", an editorial list is "Rated one of the best
+// ... by Expertise.com", a judged award is "2024 ... Award Winner". The
+// wording and the order (strongest first: poll, judged award, editorial
+// list, auto-generated) are made ONCE, in scripts/award_wording.py, and
+// written into brand.ts `awards` by scripts/ai_answers.py: each award
+// carries kind, text, badge, sealTitle and sealSub. This file only reads
+// them. An award without them (brand.ts not re-synced yet) gets its own
+// name and year, never a "Voted" it may not have earned.
+//
+// Badges stay a couple of words (Santino 2026-10-12, Desert Valley):
+// "Voted Best 2024", "Top Rated 2026", "2024 Winner".
 import { brand } from "~/lib/brand";
 
 export type Award = {
@@ -13,49 +21,60 @@ export type Award = {
   category?: string;
   organizer?: string;
   url?: string;
+  image?: string;
   short?: string; // hand-set strip label, wins over the generated one
+  kind?: "poll" | "judged" | "list" | "auto" | "other";
+  text?: string; // full kind-correct line (hero, meta, schema, FAQ)
+  badge?: string; // strip label
+  sealTitle?: string;
+  sealSub?: string;
+  cardTitle?: string; // awards-section card title (source + year shown on their own line)
 };
 
+export const yearOfAward = (a: Award) =>
+  String(a.year || "").match(/\d{4}/)?.[0] || String(a.name).match(/\b(19|20)\d{2}\b/)?.[0] || "";
+
+/** The homepage awards section's H2 + one-line intro (scripts/award_wording.py
+ * section_copy: from the award kinds, the strongest award's place, the
+ * named sources). Empty when brand.ts has none yet. */
+export function awardsSection(): { headline: string; intro: string } | null {
+  const s = (brand as { awardsSection?: { headline: string; intro: string } | null }).awardsSection;
+  return s && s.headline ? s : null;
+}
+
 const yearOf = (a: Award) =>
-  parseInt(String(a.year || "").match(/\d{4}/)?.[0] || String(a.name).match(/\b(19|20)\d{2}\b/)?.[0] || "0", 10);
+  String(a.year || "").match(/\d{4}/)?.[0] || String(a.name).match(/\b(19|20)\d{2}\b/)?.[0] || "";
 
-/** Newest first: the strip and the hero lead with the latest win. */
+const nameWithYear = (a: Award) => {
+  const y = yearOf(a);
+  const n = String(a.name).trim();
+  return y && !n.includes(y) ? `${n} ${y}` : n;
+};
+
+/** Strongest first, as brand.ts stores them (scripts/award_wording.py). */
 export function awards(): Award[] {
-  return ((brand as { awards?: Award[] }).awards || [])
-    .filter((a) => a && a.name)
-    .sort((x, y) => yearOf(y) - yearOf(x));
+  return ((brand as { awards?: Award[] }).awards || []).filter((a) => a && a.name);
 }
 
-/** Seal in the proof section: { title: "Best of 2026", sub: "BusinessRate · Contractor, North Las Vegas" }. */
+/** Seal in the proof section: { title, sub }. */
 export function awardSeal(a: Award): { title: string; sub: string } {
-  let title = String(a.name).trim();
-  if (a.organizer && title.toLowerCase().startsWith(a.organizer.toLowerCase())) {
-    title = title.slice(a.organizer.length).trim();
-  }
-  const year = yearOf(a);
-  if (year && !title.includes(String(year))) title = `${title} ${year}`;
-  const sub = [a.organizer, a.category].filter(Boolean).join(" · ");
-  return { title, sub };
+  if (a.sealTitle) return { title: a.sealTitle, sub: a.sealSub || "" };
+  return { title: nameWithYear(a), sub: [a.organizer, a.category].filter(Boolean).join(" · ") };
 }
 
-/** Strip label: "Voted Best of 2024". */
+/** Strip label: "Voted Best 2024" / "Top Rated 2026" / "2024 Winner". */
 export function awardBadge(a: Award): string {
   if (a.short) return shortBadge(a.short);
-  const year = String(a.year || "").match(/\d{4}/)?.[0]
-    || String(a.name).match(/\b(19|20)\d{2}\b/)?.[0] || "";
-  return year ? `Voted Best of ${year}` : "Award Winner";
+  if (a.badge) return a.badge;
+  const y = yearOf(a);
+  return y ? `${y} Award` : "Award";
 }
 
-/** Hero line: "Best Home Renovations in North Las Vegas · 2024 Winner". */
+/** Hero line and meta lead: the full kind-correct text. */
 export function awardLine(a: Award): string {
-  let title = String(a.name).trim();
-  if (a.organizer && title.toLowerCase().startsWith(a.organizer.toLowerCase())) {
-    title = title.slice(a.organizer.length).trim();
-  }
-  const year = String(a.year || "").match(/\d{4}/)?.[0] || "";
-  if (year && !title.includes(year)) title = `${title} · ${year} Winner`;
-  if (a.category && !title.toLowerCase().includes(String(a.category).toLowerCase())) title = `${title} · ${a.category}`;
-  return title;
+  if (a.text) return a.text;
+  const n = nameWithYear(a);
+  return a.organizer && !n.toLowerCase().includes(a.organizer.toLowerCase()) ? `${n} (${a.organizer})` : n;
 }
 
 // Known long labels -> their short form. Anything else keeps at most three

@@ -1,0 +1,26 @@
+---
+// Homepage FAQ (Santino 2026-11-01): the data-driven questions from
+// src/data/home-faq.json (see ~/lib/homeFaq), then the page's own FAQ
+// entries that ask something different, in ONE section, in the theme's
+// FAQSection styling. Only the data-driven ones are in the FAQPage JSON-LD
+// (index.astro passes homeFaq() to BaseLayout), with the same words as here.
+// No new assets: plain text in <details>, no script.
+import FAQSection from "~/components/FAQSection.astro";
+import { homeFaq, visibleFaq, type QA } from "~/lib/homeFaq";
+
+type Props = { extra?: QA[]; heading?: string };
+const { extra = [], heading } = Astro.props;
+
+// FAQSection renders answers as HTML (the page's own FAQ holds links);
+// ours are plain text, so they are escaped and read exactly as the JSON-LD.
+const esc = (s: string) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+const ours = new Set(homeFaq().map((q) => q.question));
+// The page's own FAQ entries ride in this section too, so the no-dash law
+// applies to them here: a dash between clauses becomes a comma.
+const undash = (s: string) => s.replace(/\s*[\u2014\u2013]\s*/g, ", ");
+const faq = visibleFaq(extra).map((q) => (ours.has(q.question)
+  ? { ...q, answer: esc(q.answer) }
+  : { question: undash(q.question), answer: undash(q.answer) }));
+---
+
+<FAQSection faq={faq} heading={heading} />

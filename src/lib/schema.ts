@@ -32,6 +32,26 @@ export type PageSchemaContext = {
 
 const safe = (v: unknown) => (v == null || v === "" ? undefined : v);
 
+// rankai:award-schema (Santino 2026-11-01). Every award as an `award` string
+// in its kind-correct wording (brand.ts awards[].text, written by
+// scripts/ai_answers.py, strongest first), and each award's own source page
+// as a `subjectOf` WebPage: a third-party page about this business. Award
+// pages are never sameAs (that is for the business's own profiles).
+type SchemaAward = { name: string; year?: string | number; category?: string; url?: string; text?: string };
+const SCHEMA_AWARDS = ((brand as { awards?: SchemaAward[] }).awards || []).filter((a) => a && a.name);
+function awardSchema(withPages: boolean) {
+  if (!SCHEMA_AWARDS.length) return {};
+  const pages = SCHEMA_AWARDS.filter((a, i, all) => a.url && all.findIndex((b) => b.url === a.url) === i);
+  return {
+    award: SCHEMA_AWARDS.map((a) => a.text
+      || [a.name, a.year && !String(a.name).includes(String(a.year)) ? a.year : "", a.category ? `(${a.category})` : ""].filter(Boolean).join(" ")),
+    ...(withPages && pages.length
+      ? { subjectOf: pages.map((a) => ({ "@type": "WebPage", url: a.url, name: a.text || a.name })) }
+      : {}),
+  };
+}
+// rankai:award-schema end
+
 // 24/7 gate — same brand.hours regex as the Header announcement bar. Only 24/7
 // restoration brands get the EmergencyService typing; scheduled-hours trades
 // (e.g. construction) stay plain LocalBusiness.
@@ -82,8 +102,7 @@ function localBusiness(ctx: PageSchemaContext) {
       closes: "23:59",
     },
     sameAs: brand.sameAsUrls,
-    award: ((brand as { awards?: { name: string; year?: string | number; category?: string }[] }).awards || [])
-      .map((a) => [a.name, a.year && !String(a.name).includes(String(a.year)) ? a.year : "", a.category ? `(${a.category})` : ""].filter(Boolean).join(" ")),
+    ...awardSchema(true),
     foundingDate: brand.foundedYear,
     // AggregateRating — values come straight from the live Google Business Profile,
     // synced into brand.ts by scripts/sync_brand_reviews.py (never hand-edited; we
@@ -129,8 +148,7 @@ function organization() {
     email: brand.email,
     foundingDate: brand.foundedYear,
     sameAs: brand.sameAsUrls,
-    award: ((brand as { awards?: { name: string; year?: string | number; category?: string }[] }).awards || [])
-      .map((a) => [a.name, a.year && !String(a.name).includes(String(a.year)) ? a.year : "", a.category ? `(${a.category})` : ""].filter(Boolean).join(" ")),
+    ...awardSchema(false),
   };
 }
 
