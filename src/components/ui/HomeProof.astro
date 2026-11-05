@@ -37,7 +37,10 @@ const TOP_RATED_MIN_REVIEWS = 20;
 const B = brand as unknown as Record<string, unknown>;
 const str = (v: unknown) => String(v ?? "").trim();
 
-const city = str((brand as { homeRegion?: string }).homeRegion) || str(brand.primaryCity);
+// Display area: homeRegion, else marketArea (the older name for the same
+// thing, Robert/DryCor 2026-10-09: "lead with Tampa Bay"), else primaryCity.
+const city = str((brand as { homeRegion?: string }).homeRegion)
+  || str((brand as { marketArea?: string }).marketArea) || str(brand.primaryCity);
 const name = str(brand.displayName);
 const trade = str(B.tradeNoun) || "restoration";
 
@@ -77,10 +80,14 @@ const reviews = ((B.gbpReviews as { author: string; rating: number; text: string
   .slice(0, 3)
   .map((r) => ({ author: r.author, rating: r.rating, when: r.when, quote: excerpt(r.text) }));
 
+// A client who asked us to hide the review count (brand.hideReviewCount,
+// Robert/DryCor 09-28: "hide the review count, keep the rating + stars")
+// gets the rating and stars only, never the number.
+const showCount = !B.hideReviewCount;
 const lead = topRated
-  ? `${name} is a top-rated ${trade} company in ${city}, with a ${rating}-star Google rating across ${count} reviews.`
+  ? `${name} is a top-rated ${trade} company in ${city}, with a ${rating}-star Google rating${showCount ? ` across ${count} reviews` : ""}.`
   : hasRating && ratingNum >= 4
-    ? `${city} homeowners rate ${name} ${rating} out of 5 stars across ${count} Google reviews.`
+    ? `${city} homeowners rate ${name} ${rating} out of 5 stars${showCount ? ` across ${count} Google reviews` : " on Google"}.`
     : `Here is what ${name} brings to every ${trade} job in ${city}.`;
 
 const show = Boolean(city && name) && (hasRating || reviews.length > 0);
