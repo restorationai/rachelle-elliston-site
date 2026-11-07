@@ -93,8 +93,17 @@ const SHORT: [RegExp, string][] = [
 ];
 const FILLER = new Set(["service", "services", "available", "firm", "company", "operated", "provider", "professionals", "team", "inc", "llc"]);
 
+// A client's own badge wording (Heartland 11-06: Kelsy asked for "BBB
+// Accredited, A Rating" and "Licensed, Bonded & Insured" by name; a hand edit
+// to SHORT here was wiped by the next awards rollout, which re-copies this
+// file). It lives in brand.ts `badgeLabels` {exact label: what to show},
+// which the syncs never rewrite, and wins over SHORT.
+const OWN: Record<string, string> = ((brand as { badgeLabels?: Record<string, string> }).badgeLabels) || {};
+
 export function shortBadge(label: string): string {
   const s = String(label || "").trim();
+  const own = OWN[s] ?? Object.entries(OWN).find(([k]) => k.toLowerCase() === s.toLowerCase())?.[1];
+  if (own) return own;
   for (const [re, out] of SHORT) if (re.test(s)) return out;
   const words = s.split(/\s+/).filter((w) => !FILLER.has(w.toLowerCase().replace(/[^a-z]/g, "")));
   return words.slice(0, 3).join(" ");
