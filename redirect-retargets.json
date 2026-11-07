@@ -1,0 +1,68 @@
+{
+ "/service-areas/blue-diamond-nv/water-cleanup": {
+  "planned": "/service-areas/blue-diamond-nv/emergency-water-removal/",
+  "now": "/service-areas/blue-diamond-nv/water-damage-restoration/",
+  "why": "dead-target heal (backfill)",
+  "at": "2026-10-03"
+ },
+ "/service-areas/indian-springs-nv/water-cleanup": {
+  "planned": "/service-areas/indian-springs-nv/emergency-water-removal/",
+  "now": "/service-areas/indian-springs-nv/water-damage-restoration/",
+  "why": "dead-target heal (backfill)",
+  "at": "2026-10-03"
+ },
+ "/service-areas/moapa-town-nv/water-cleanup": {
+  "planned": "/service-areas/moapa-town-nv/emergency-water-removal/",
+  "now": "/service-areas/moapa-town-nv/water-damage-restoration/",
+  "why": "dead-target heal (backfill)",
+  "at": "2026-10-03"
+ },
+ "/service-areas/moapa-valley-nv/water-cleanup": {
+  "planned": "/service-areas/moapa-valley-nv/emergency-water-removal/",
+  "now": "/service-areas/moapa-valley-nv/water-damage-restoration/",
+  "why": "dead-target heal (backfill)",
+  "at": "2026-10-03"
+ },
+ "/service-areas/nelson-nv/water-cleanup": {
+  "planned": "/service-areas/nelson-nv/emergency-water-removal/",
+  "now": "/service-areas/nelson-nv/water-damage-restoration/",
+  "why": "dead-target heal (backfill)",
+  "at": "2026-10-03"
+ },
+ "/service-areas/pahrump-nv/water-cleanup": {
+  "planned": "/service-areas/pahrump-nv/emergency-water-removal/",
+  "now": "/service-areas/pahrump-nv/water-damage-restoration/",
+  "why": "dead-target heal (backfill)",
+  "at": "2026-10-03"
+ },
+ "/service-areas/sandy-valley-nv/water-cleanup": {
+  "planned": "/service-areas/sandy-valley-nv/emergency-water-removal/",
+  "now": "/service-areas/sandy-valley-nv/water-damage-restoration/",
+  "why": "dead-target heal (backfill)",
+  "at": "2026-10-03"
+ },
+ "/service-areas/searchlight-nv/water-cleanup": {
+  "planned": "/service-areas/searchlight-nv/emergency-water-removal/",
+  "now": "/service-areas/searchlight-nv/water-damage-restoration/",
+  "why": "dead-target heal (backfill)",
+  "at": "2026-10-03"
+ },
+ "/service-areas/summerlin-south-nv/water-cleanup": {
+  "planned": "/service-areas/summerlin-south-nv/emergency-water-removal/",
+  "now": "/service-areas/summerlin-south-nv/water-damage-restoration/",
+  "why": "dead-target heal (backfill)",
+  "at": "2026-10-03"
+ },
+ "/service-areas/whitney-nv/water-cleanup": {
+  "planned": "/service-areas/whitney-nv/emergency-water-removal/",
+  "now": "/service-areas/whitney-nv/water-damage-restoration/",
+  "why": "dead-target heal (backfill)",
+  "at": "2026-10-03"
+ },
+ "/service-areas/winchester-nv/water-cleanup": {
+  "planned": "/service-areas/winchester-nv/emergency-water-removal/",
+  "now": "/service-areas/winchester-nv/water-damage-restoration/",
+  "why": "dead-target heal (backfill)",
+  "at": "2026-10-03"
+ }
+}
