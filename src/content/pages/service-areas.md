@@ -1,6 +1,6 @@
 ---
 archetype: "service-areas-hub"
-title: "Service Areas | Desert Valley Restoration Restoration"
+title: "Service Areas | Desert Valley Restoration"
 h1: "Areas We Serve"
 meta_description: "Desert Valley Restoration provides 24/7 restoration services across North Las Vegas and the surrounding region. Find your city."
 primary_keyword: "desert valley contracting inc  service areas"
