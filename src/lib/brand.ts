@@ -67,14 +67,14 @@ export const brand = {
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
   gbpRatingValue: "4.4",
-  gbpReviewCount: "93",
+  gbpReviewCount: "95",
   gbpReviews: [
+    { author: "Talib", rating: 5, text: "This company is the real deal. They came in to handle an insurance claim and did an excellent job. From start to finish they kept us well informed. I would definitely recommend using them not only for insurance claims but for other projects that you have planned..", when: "November 2026" },
+    { author: "Mark", rating: 5, text: "Desert valley was professional and courteous and on time. Workmanship was quick and professional. Thanks so much.", when: "November 2026" },
     { author: "M", rating: 5, text: "Juan and his crew were exceptional in everything they did. Very professional, knowledgeable and hard working. Juan always answered all my questions in a very friendly and helpful manner.", when: "July 2026" },
     { author: "Deborah", rating: 5, text: "Very professional. THe crew is amazing", when: "June 2026" },
     { author: "Jeff", rating: 5, text: "Ended up with a leak from the master shower upstairs. Contacted my insurance who recommended DVC. Luanna at DVC sent out Yesenia and Jesus to assess the damage. These two were outstanding! They assessed everything, made an exploratory cut in the ceiling, informed me of everything they were doing…", when: "May 2026" },
     { author: "June", rating: 5, text: "Our master bathroom needed a full upgrade, and this company handled everything from demolition to final fixtures. They installed a walk-in shower, new vanity, and updated tile flooring. The project took about ten days, which was faster than expected. What I appreciated most was their attention to…", when: "May 2026" },
-    { author: "Jacob", rating: 5, text: "About a week ago, I unfortunately had a flood in my two-story home while I was out of town. I was extremely stressed not having anyone available to check on my property. I reached out to Desert Valley Contracting through a close friend’s referral, and I’m so glad I did. They responded quickly…", when: "April 2026" },
-    { author: "Pamela", rating: 5, text: "My name is Pamela Chavez, and I hired this company to do my bathroom.... they did an amazing job, they made sure to let me know exactly what they are doing, and made sure it was closed off properly.... if you have any leaks, damage, or anything that needs ro be done, call these guys... they were…", when: "March 2026" },
   ] as { author: string; rating: number; text: string; when: string }[],
   tagline: "24/7 restoration services in North Las Vegas, NV.",
   ctaLabel: "24/7 Emergency Line",
