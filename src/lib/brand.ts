@@ -67,7 +67,7 @@ export const brand = {
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
   gbpRatingValue: "4.4",
-  gbpReviewCount: "95",
+  gbpReviewCount: "96",
   gbpReviews: [
     { author: "Talib", rating: 5, text: "This company is the real deal. They came in to handle an insurance claim and did an excellent job. From start to finish they kept us well informed. I would definitely recommend using them not only for insurance claims but for other projects that you have planned..", when: "November 2026" },
     { author: "Mark", rating: 5, text: "Desert valley was professional and courteous and on time. Workmanship was quick and professional. Thanks so much.", when: "November 2026" },
