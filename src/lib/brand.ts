@@ -67,14 +67,14 @@ export const brand = {
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
   gbpRatingValue: "4.5",
-  gbpReviewCount: "102",
+  gbpReviewCount: "103",
   gbpReviews: [
+    { author: "Wendy", rating: 5, text: "Had a good experience with each team.", when: "November 2026" },
     { author: "John", rating: 5, text: "Desert Valley did an outstanding job with our bathroom construction.", when: "November 2026" },
     { author: "Karen", rating: 5, text: "Fast, efficient, listen to our concerns and worked within our budget. All departments were very professional!", when: "November 2026" },
     { author: "Rafael", rating: 5, text: "Good work & customer service. Reasonably priced.", when: "November 2026" },
     { author: "Gabriel", rating: 5, text: "Always very thorough and clear in plans and execution of work at all stages.", when: "November 2026" },
     { author: "Audrey", rating: 5, text: "The project manager explained everything to be done clearly, the guys showed up as scheduled, and I could not tell where the extensive patching required was done. I would certainly use the company again.", when: "November 2026" },
-    { author: "Vivian", rating: 5, text: "Very thorough in my repair. Highly recommend Desert Valley Contracting.", when: "November 2026" },
   ] as { author: string; rating: number; text: string; when: string }[],
   tagline: "24/7 restoration services in North Las Vegas, NV.",
   ctaLabel: "24/7 Emergency Line",
