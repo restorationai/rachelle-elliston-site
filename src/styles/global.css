@@ -86,3 +86,33 @@ footer ul li a {
   padding-top: 0.375rem;
   padding-bottom: 0.375rem;
 }
+
+/* rankai:prose-tables (Santino 2026-11-17): comparison tables in blog posts get real
+   lines, a header row, padding and a sideways scroll on phones. Colors come
+   from the section's own text color, so light and dark themes both work. */
+.prose-body table {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  border-collapse: collapse;
+  margin: 1.75rem 0;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+.prose-body th,
+.prose-body td {
+  border: 1px solid color-mix(in srgb, currentColor 22%, transparent);
+  padding: 0.6rem 0.85rem;
+  text-align: left;
+  vertical-align: top;
+  min-width: 6.5rem;
+}
+.prose-body thead th {
+  font-weight: 700;
+  background: color-mix(in srgb, currentColor 8%, transparent);
+}
+.prose-body tbody tr:nth-child(even) td {
+  background: color-mix(in srgb, currentColor 3%, transparent);
+}

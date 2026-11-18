@@ -226,6 +226,12 @@ function blogPosting(ctx: PageSchemaContext) {
       telephone: brand.phoneRaw,
       logo: { "@type": "ImageObject", url: brand.logoUrl },
       image: brand.logoUrl,
+      // rankai:blog-rating (Santino 2026-11-17): the client's live Google rating on the
+      // post's LocalBusiness, the same values and gate as the site-wide node.
+      ...(safe(brand.gbpRatingValue) && safe(brand.gbpReviewCount)
+        ? { aggregateRating: { "@type": "AggregateRating", ratingValue: brand.gbpRatingValue,
+            reviewCount: brand.gbpReviewCount, bestRating: "5", worstRating: "1" } }
+        : {}),
       address: {
         "@type": "PostalAddress",
         streetAddress: brand.streetAddress,
