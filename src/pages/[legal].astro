@@ -1,4 +1,5 @@
 ---
+import { brand } from "~/lib/brand";
 import { getCollection } from "astro:content";
 import BaseLayout from "~/layouts/BaseLayout.astro";
 
@@ -23,6 +24,9 @@ const data = entry.data;
     <div class="container-wide max-w-3xl mx-auto">
       <div class="eyebrow">Legal</div>
       <h1 class="mb-12">{data.h1}</h1>
+      {(brand.dbaName || brand.legalName) && (
+        <p data-rankai="legal-entity" class="mb-8 font-semibold">This website is operated by {brand.legalName || brand.dbaName}{brand.dbaName && brand.legalName && brand.dbaName !== brand.legalName ? `, doing business as ${brand.dbaName}` : ""}.</p>
+      )}
       <div class="prose-body">
         <Content />
       </div>

@@ -4,6 +4,9 @@ const is247 = /24\s*[\/x-]?\s*7|24 ?hours/i.test(String(brand.hours || ""));
 ---
 
 <header class="bg-white text-dark-900 sticky top-0 z-50 border-b border-dark/10 shadow-md">
+  {brand.dbaName && (
+    <p data-rankai="name-line" class="container-wide pt-1.5 -mb-1 text-center text-[11px] sm:text-xs font-semibold leading-snug opacity-80">{brand.dbaName}</p>
+  )}
   <div class="container-wide flex items-center justify-between gap-3 sm:gap-6 h-20">
     <a href="/" class="flex items-center gap-3 no-underline text-dark-900 group min-w-0">
       {brand.logoUrl && (

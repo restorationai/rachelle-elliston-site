@@ -12,7 +12,7 @@ export const brand = {
   // the footer carries the "[legal] doing business as [DBA]" line and schema
   // declares it as the business name, so Google/BrightLocal find the new
   // name corroborated on the site before and during the GBP rename.
-  dbaName: "Desert Valley Restoration-24/7 Emergency Plumbing, Water and Fire Damage Restoration",
+  dbaName: "Desert Valley Restoration",
   domain: "desertvalleyrestoration.com",
   canonicalUrl: "https://desertvalleyrestoration.com",
   phone: "(702) 633-5033",
