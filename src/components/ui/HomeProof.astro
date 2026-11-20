@@ -39,7 +39,10 @@ const str = (v: unknown) => String(v ?? "").trim();
 
 // Display area: homeRegion, else marketArea (the older name for the same
 // thing, Robert/DryCor 2026-10-09: "lead with Tampa Bay"), else primaryCity.
+// SERVICE REGION (11-19) comes after homeRegion (the homepage-only
+// override) and before marketArea.
 const city = str((brand as { homeRegion?: string }).homeRegion)
+  || str((brand as { serviceRegion?: string }).serviceRegion)
   || str((brand as { marketArea?: string }).marketArea) || str(brand.primaryCity);
 const name = str(brand.displayName);
 const trade = str(B.tradeNoun) || "restoration";
