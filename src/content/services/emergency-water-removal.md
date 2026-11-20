@@ -49,16 +49,7 @@ Category classification also matters. Treating a sewage backup or long-standing 
 
 ## What does emergency water removal and cleanup cost?
 
-Typical costs for water removal and cleanup vary significantly based on water category, affected square footage, and how many building assemblies are involved. Most homeowners pay somewhere in the ranges below, based on industry data, these are not Desert Valley Restoration quotes, and every loss is different. Desert Valley Restoration provides a written scope before any work begins so there are no surprises.
-
-| Scenario | Typical industry range |
-|---|---|
-| Single room, clean water (Category 1) | $1,200, $3,500 |
-| Multi-room, clean water with subfloor involvement | $3,500, $8,000 |
-| Category 2 (gray water, appliance overflow) | $4,000, $10,000 |
-| Category 3 (sewage backup, floodwater) | $7,000, $20,000+ |
-| Crawl space or under-slab water intrusion | $2,500, $7,000 |
-| Full-floor extraction with hardwood evaluation | $3,000, $9,000 |
+Costs for water removal and cleanup vary significantly based on water category, affected square footage, and how many building assemblies are involved. Every loss is different. Desert Valley Restoration provides a written scope before any work begins so there are no surprises.
 
 Homeowners insurance typically covers sudden and accidental water losses, a burst pipe, a failed water heater, an appliance supply line failure, but generally excludes gradual leaks and flood events (which require separate NFIP or private flood coverage). Reviewing your declarations page before you call is worthwhile, but do not delay extraction waiting for adjuster approval: most carriers expect mitigation to begin promptly.
 

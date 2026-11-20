@@ -39,14 +39,7 @@ The biggest technical mistake in this field is treating the job as a surface cle
 
 ## What does trauma scene cleanup cost?
 
-Costs vary widely based on the size of the affected area, how many materials need removal versus treatment, and whether subfloor or structural decontamination is required. These figures reflect typical industry ranges, not a quote, every scene is different, and Desert Valley Restoration provides a written scope of work before any cleanup begins. Most homeowners insurance policies include some coverage for biohazard and trauma cleanup under property damage provisions, though coverage details vary by policy and carrier.
-
-| Scenario | Typical range |
-|---|---|
-| Single room, surface-level cleanup | $500 - $1,500 |
-| Single room with porous material removal | $1,500 - $4,000 |
-| Multi-room or subfloor-affected scene | $4,000 - $8,000 |
-| Full structural decontamination | $8,000 - $15,000+ |
+Costs vary widely based on the size of the affected area, how many materials need removal versus treatment, and whether subfloor or structural decontamination is required. Every scene is different, and Desert Valley Restoration provides a written scope of work before any cleanup begins. Most homeowners insurance policies include some coverage for biohazard and trauma cleanup under property damage provisions, though coverage details vary by policy and carrier.
 
 ## Seasonal & regional considerations
 

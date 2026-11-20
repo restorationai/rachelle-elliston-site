@@ -52,15 +52,7 @@ Experienced operators also check the HVAC system. If a sewer backup occurred nea
 
 ## What does sewage cleanup and sanitization cost?
 
-Typical costs for sewage backup cleanup depend heavily on the scope of contamination, the materials affected, and how long the sewage sat before remediation began. Most homeowners pay somewhere in the ranges below, based on industry figures from restoration cost databases and published adjuster guidelines. Every loss is different, and Desert Valley Restoration provides a written scope of work before any work begins so you know exactly what is included.
-
-| Scenario | Typical industry range |
-|---|---|
-| Single bathroom, contained floor drain backup | $1,500 – $3,500 |
-| Single room with saturated flooring and drywall removal | $3,500 – $7,000 |
-| Multi-room loss, sewer line backup affecting main floor | $7,000 – $15,000 |
-| Crawl space or basement with widespread effluent | $8,000 – $20,000+ |
-| Septic overflow affecting exterior and interior areas | $5,000 – $18,000 |
+Costs for sewage backup cleanup depend heavily on the scope of contamination, the materials affected, and how long the sewage sat before remediation began. Every loss is different, and Desert Valley Restoration provides a written scope of work before any work begins so you know exactly what is included.
 
 Homeowners insurance typically covers sudden and accidental sewer line backups when the policy includes a sewer backup rider or endorsement. Standard policies without that endorsement often exclude sewage losses, so reviewing your declarations page before assuming coverage is important.
 

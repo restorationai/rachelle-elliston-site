@@ -43,14 +43,6 @@ Adjusters reviewing these claims generally want documentation: moisture readings
 
 Costs depend heavily on how long the pipe was leaking before it was caught, what materials were affected, and whether the break is accessible or buried in a slab. Every loss is different, which is why Desert Valley Restoration provides a written scope of work before any repair or drying work begins. Homeowners insurance typically covers sudden and accidental pipe bursts, though coverage for the pipe repair itself versus the resulting water damage can be split differently depending on the policy.
 
-| Scenario | Typical range |
-|---|---|
-| Pipe repair only, no water damage | $350 - $1,200 |
-| Single fixture line burst, minor drywall affected | $1,200 - $2,500 |
-| Burst pipe behind wall, drywall and insulation replacement | $2,500 - $6,000 |
-| Slab leak requiring re-route | $4,000 - $10,000 |
-| Multi-room flooding from major line break | $8,000 - $20,000+ |
-
 ## Seasonal & regional considerations
 
 Much of the older housing stock around North Las Vegas still runs galvanized supply lines that corrode from the inside out over decades, narrowing and eventually failing without warning. Hard water in the valley accelerates that scaling. Summer monsoon pressure spikes and the occasional winter cold snap on exposed exterior or garage plumbing add two more common failure points we see locally. Slab leaks are also a regular occurrence given how much of the area's construction sits on slab-on-grade foundations.

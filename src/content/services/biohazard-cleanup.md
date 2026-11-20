@@ -54,15 +54,7 @@ Discreet response matters too. Desert Valley Restoration arrives in unmarked veh
 
 ## What does biohazard cleanup cost?
 
-Typical costs for biohazard remediation vary considerably based on the size of the affected area, the type and severity of contamination, and whether structural materials require removal. Most homeowners and property managers pay somewhere in the following ranges, based on industry-typical figures:
-
-| Scenario | Typical range |
-|---|---|
-| Single room, limited surface contamination | $1,500 - $4,000 |
-| Unattended death, one room, porous material removal | $3,000 - $8,000 |
-| Multi-room contamination or extended timeline | $5,000 - $15,000 |
-| Sharps and needle cleanup, contained area | $500 - $2,500 |
-| Sewage or infectious material, Category 3 | $2,500 - $10,000 |
+Typical costs for biohazard remediation vary considerably based on the size of the affected area, the type and severity of contamination, and whether structural materials require removal.
 
 Every loss is different, and Desert Valley Restoration provides a written scope of work before any remediation begins so there are no surprises. Homeowners insurance frequently covers biohazard cleanup when the event is sudden and accidental, though policy language varies. Desert Valley Restoration works with all major carriers and handles claim documentation directly.
 

@@ -37,15 +37,7 @@ The most common mistake is closing up walls before framing has fully dried or be
 
 ## What does reconstruction cost?
 
-Costs vary widely because every structural reconstruction project depends on square footage, the trades involved, and how much of the structure needs rebuilding versus finishing. The ranges below reflect typical industry figures, not a quote, every loss is different and Desert Valley Restoration provides a written scope of work before any reconstruction begins. Most homeowners insurance policies cover reconstruction tied to a covered peril like fire or a sudden water loss, though code-upgrade costs and some finish-level choices may fall outside the claim.
-
-| Scenario | Typical range |
-|---|---|
-| Single room drywall and paint after water mitigation | $2,500 - $6,000 |
-| Fire-damaged room rebuild, framing to finish | $8,000 - $25,000 |
-| Kitchen or bathroom rebuild after a major leak | $10,000 - $30,000 |
-| Garage or room addition structural rebuild | $15,000 - $50,000 |
-| Whole-floor structural reconstruction | $25,000 - $75,000+ |
+Costs vary widely because every structural reconstruction project depends on square footage, the trades involved, and how much of the structure needs rebuilding versus finishing. Every loss is different, and Desert Valley Restoration provides a written scope of work before any reconstruction begins. Most homeowners insurance policies cover reconstruction tied to a covered peril like fire or a sudden water loss, though code-upgrade costs and some finish-level choices may fall outside the claim.
 
 ## Seasonal & regional considerations
 

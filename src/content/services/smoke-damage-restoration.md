@@ -41,15 +41,7 @@ Insurance adjusters generally look for documentation that distinguishes fire dam
 
 ## What does smoke damage restoration cost?
 
-Costs vary widely based on how far smoke traveled, what materials absorbed residue, and whether contents need off-site cleaning. The ranges below reflect typical industry figures, not a quote, every loss is different, and Desert Valley Restoration provides a written scope of work before any cleaning begins. Homeowners insurance typically covers smoke damage restoration when it results from a covered fire event, though coverage for odor-only claims or wildfire smoke infiltration can vary by policy.
-
-| Scenario | Typical range |
-|---|---|
-| Single room, light surface soot | $500 - $1,800 |
-| Whole-room deep clean with odor treatment | $1,800 - $4,000 |
-| Multi-room smoke spread with HVAC contamination | $4,000 - $9,000 |
-| Whole-house smoke and odor remediation | $9,000 - $20,000+ |
-| Contents cleaning (furniture, textiles, electronics) | $500 - $3,000 per room |
+Costs vary widely based on how far smoke traveled, what materials absorbed residue, and whether contents need off-site cleaning. Every loss is different, and Desert Valley Restoration provides a written scope of work before any cleaning begins. Homeowners insurance typically covers smoke damage restoration when it results from a covered fire event, though coverage for odor-only claims or wildfire smoke infiltration can vary by policy.
 
 ## Seasonal & regional considerations
 

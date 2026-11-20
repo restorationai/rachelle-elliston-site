@@ -39,15 +39,6 @@ The most common mistake on a rushed emergency call is treating the symptom inste
 
 Costs vary widely depending on pipe material, accessibility, whether water has already damaged flooring or drywall, and whether the call comes in after hours. Every loss is different, and Desert Valley Restoration provides a written scope of work before any repair begins so there are no surprises.
 
-| Scenario | Typical range |
-|---|---|
-| Minor fixture or supply line leak | $150 - $350 |
-| Burst pipe repair, easily accessible | $250 - $750 |
-| Water heater line or fitting failure | $300 - $900 |
-| Slab leak detection and repair | $1,500 - $4,000 |
-| Sewer line clog or backup | $400 - $1,200 |
-| After-hours call with active water mitigation | $750 - $2,500 |
-
 Homeowners insurance typically covers the sudden, accidental water damage caused by a burst pipe (drywall, flooring, drying costs), but the plumbing repair itself, like replacing the pipe or fitting that failed, is often treated separately and may or may not be covered depending on the policy and the cause of failure.
 
 ## Seasonal & regional considerations

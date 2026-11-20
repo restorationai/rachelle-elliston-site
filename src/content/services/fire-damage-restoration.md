@@ -52,15 +52,7 @@ HVAC systems are frequently under-scoped. Smoke travels the path of least resist
 
 ## What does Fire Damage Restoration cost?
 
-Typical costs vary significantly based on fire size, soot type, structural damage, and whether contents pack-out is required. Most homeowners pay somewhere in the ranges below, based on industry-typical figures, these are not Desert Valley Restoration quotes, and every loss is different. Desert Valley Restoration provides a written scope of work before any work begins so you know exactly what is included.
-
-| Scenario | Typical industry range |
-|---|---|
-| Single room, limited soot, no structural damage | $3,000, $8,000 |
-| Kitchen fire with protein soot and cabinet damage | $5,000, $15,000 |
-| Multi-room fire with synthetic soot and HVAC contamination | $15,000, $40,000 |
-| Whole-structure fire with structural damage and pack-out | $40,000, $100,000+ |
-| Smoke and odor only (no visible char) | $2,000, $6,000 |
+Costs vary significantly based on fire size, soot type, structural damage, and whether contents pack-out is required. Every loss is different. Desert Valley Restoration provides a written scope of work before any work begins so you know exactly what is included.
 
 Homeowners insurance typically covers fire and smoke damage restoration, including contents pack-out and deodorization, when the loss is sudden and accidental. Desert Valley Restoration works with all major insurance carriers and provides the documentation your adjuster needs to process the claim.
 

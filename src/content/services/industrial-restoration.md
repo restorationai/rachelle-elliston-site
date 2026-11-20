@@ -39,15 +39,7 @@ The most common mistake on large losses is treating a warehouse like an oversize
 
 ## What does industrial restoration cost?
 
-Industrial restoration costs vary more than residential work because square footage, affected systems, and inventory loss all move the number. Typical industry figures below are a starting reference, not a quote. Every loss is different, and Desert Valley Restoration provides a written scope of work before any work begins. Most commercial property policies cover sudden water and fire losses, including mitigation and structural drying, though business interruption and inventory loss often fall under separate policy provisions worth reviewing with your carrier.
-
-| Scenario | Typical range |
-|---|---|
-| Localized roof leak, small storage area | $3,000 - $9,000 |
-| Sprinkler discharge, single warehouse zone | $8,000 - $25,000 |
-| Large-footprint water extraction and drying (10,000+ sq ft) | $20,000 - $75,000 |
-| Fire and smoke mitigation, single production line | $15,000 - $50,000 |
-| Full facility smoke remediation with HVAC cleaning | $40,000 - $150,000+ |
+Industrial restoration costs vary more than residential work because square footage, affected systems, and inventory loss all move the number. Every loss is different, and Desert Valley Restoration provides a written scope of work before any work begins. Most commercial property policies cover sudden water and fire losses, including mitigation and structural drying, though business interruption and inventory loss often fall under separate policy provisions worth reviewing with your carrier.
 
 ## Seasonal & regional considerations
 

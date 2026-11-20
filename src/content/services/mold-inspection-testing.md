@@ -37,15 +37,7 @@ The most common shortcut is skipping moisture mapping and going straight to air 
 
 ## What does mold inspection and testing cost?
 
-Costs vary with the size of the property, how many rooms are affected, and how many samples are needed to get a clear picture. These are typical industry ranges, not a quote: Desert Valley Restoration provides a written scope before any sampling or inspection work begins, so you know exactly what's covered. Homeowners insurance typically covers mold testing only when it's tied to a covered water loss (like a burst pipe), not gradual leaks or long-term humidity issues, so check your policy's mold exclusions or sub-limits before assuming coverage.
-
-| Scenario | Typical range |
-|---|---|
-| Visual inspection only, no lab sampling | $200 - $400 |
-| Inspection with 1-2 air samples | $350 - $600 |
-| Full assessment, multiple rooms, air and surface samples | $600 - $1,200 |
-| Large property or multi-unit investigation | $1,200 - $2,500 |
-| Post-remediation clearance testing | $300 - $600 |
+Costs vary with the size of the property, how many rooms are affected, and how many samples are needed to get a clear picture. Every property is different, and Desert Valley Restoration provides a written scope before any sampling or inspection work begins, so you know exactly what's covered. Homeowners insurance typically covers mold testing only when it's tied to a covered water loss (like a burst pipe), not gradual leaks or long-term humidity issues, so check your policy's mold exclusions or sub-limits before assuming coverage.
 
 ## Seasonal & regional considerations
 

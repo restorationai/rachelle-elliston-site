@@ -44,15 +44,7 @@ The second is skipping the inventory. When soft goods are cleaned in bulk withou
 
 ## What does textile and fabric restoration cost?
 
-Textile restoration is usually priced by volume or by item rather than as a single flat fee, and it is generally weighed against the cost of replacing the same goods new. The ranges below are typical industry figures, not Desert Valley Restoration quotes.
-
-| Scenario | Typical range |
-|---|---|
-| Standard washable garments (per load or volume) | Priced by volume |
-| Smoke or soot recovery, per item | $5 - $30+ per item |
-| Area rugs (specialty cleaning) | $3 - $8 per sq ft |
-| Upholstered pieces and drapery | Priced per piece |
-| Deodorization for persistent smoke odor | Added to item pricing |
+Textile restoration is usually priced by volume or by item rather than as a single flat fee, and it is generally weighed against the cost of replacing the same goods new.
 
 Every loss and every wardrobe is different. Desert Valley Restoration provides a documented inventory and a written scope before cleaning begins, so you know what is being treated and what is being recovered. When the textiles are part of a covered fire or water loss, contents coverage typically pays for the restoration subject to your deductible.
 

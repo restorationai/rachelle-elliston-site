@@ -51,16 +51,7 @@ Good adjusters look for: moisture logs with GPS-stamped readings, photographic d
 
 ## What does water damage restoration cost?
 
-Typical costs vary significantly based on the size of the affected area, the category of water involved, and how far moisture has migrated into structural materials. Most homeowners pay somewhere in the ranges below, these are industry-typical figures, not Desert Valley Restoration quotes.
-
-| Scenario | Typical range |
-|---|---|
-| Single room, clean water (Category 1) | $1,200 - $3,500 |
-| Multi-room, clean water with flooring removal | $3,500 - $7,000 |
-| Category 2 loss (appliance overflow, roof intrusion) | $4,000 - $10,000 |
-| Category 3 loss (sewage backup, floodwater) | $7,000 - $20,000+ |
-| Crawl space or subfloor saturation | $2,500 - $8,000 |
-| Finished basement with wall and floor involvement | $5,000 - $15,000 |
+Costs vary significantly based on the size of the affected area, the category of water involved, and how far moisture has migrated into structural materials.
 
 Every loss is different, and Desert Valley Restoration provides a written scope before any work begins. Standard homeowners insurance policies typically cover sudden and accidental water damage, a burst pipe, appliance failure, or roof leak from a storm, but generally exclude gradual leaks and flood events, which require separate flood coverage.
 

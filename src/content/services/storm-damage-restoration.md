@@ -54,15 +54,7 @@ Finally, in the Las Vegas area, stucco exteriors can mask water intrusion for we
 
 ## What does Storm Damage Restoration cost?
 
-Typical costs for storm damage restoration vary widely depending on the size of the breach, how far water traveled, and whether structural elements need to be replaced. Most homeowners pay somewhere in the range below, based on industry figures, and every loss is different. Desert Valley Restoration provides a written scope of work before any billable work begins so there are no surprises.
-
-| Scenario | Typical industry range |
-|---|---|
-| Minor roof breach, limited attic wetting | $1,500 – $4,000 |
-| Moderate water intrusion, one to two rooms affected | $4,000 – $9,000 |
-| Tree impact with structural damage, no load-bearing compromise | $8,000 – $20,000 |
-| Multiple entry points, significant insulation removal and drying | $10,000 – $25,000 |
-| Structural compromise requiring engineering review | $20,000 and up |
+Costs for storm damage restoration vary widely depending on the size of the breach, how far water traveled, and whether structural elements need to be replaced. Every loss is different, and Desert Valley Restoration provides a written scope of work before any billable work begins so there are no surprises.
 
 Homeowners insurance typically covers sudden and accidental storm damage, including wind, hail, and falling objects, when the policy includes dwelling coverage. Flood damage from ground-level water intrusion is generally covered only under a separate flood policy.
 

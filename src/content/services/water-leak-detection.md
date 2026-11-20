@@ -39,15 +39,7 @@ The second mistake is stopping at "leak found" without checking how long it's be
 
 ## What does water leak detection cost?
 
-Costs vary based on how accessible the suspected area is and what kind of equipment the inspection requires. These are typical industry ranges, not a quote: every property is different, and Desert Valley Restoration provides a written scope of work before any detection or repair work begins.
-
-| Scenario | Typical range |
-|---|---|
-| Single fixture leak, easily accessible | $150 - $400 |
-| Wall leak detection (drywall or stucco) | $250 - $500 |
-| Slab leak detection (concrete foundation) | $300 - $600 |
-| Pool or irrigation line leak detection | $350 - $700 |
-| Whole-house inspection with video line scope | $500 - $900 |
+Costs vary based on how accessible the suspected area is and what kind of equipment the inspection requires. Every property is different, and Desert Valley Restoration provides a written scope of work before any detection or repair work begins.
 
 Homeowners insurance typically covers the water damage that results from a sudden, accidental leak, but the detection and diagnostic work itself is sometimes treated separately from the repair claim, so it's worth checking your policy language before assuming full coverage.
 

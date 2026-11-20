@@ -51,15 +51,7 @@ Insurance adjusters and industrial hygienists look for a documented chain of cus
 
 ## What does Mold Remediation cost?
 
-Typical costs run from a few hundred dollars for a very small, surface-level bathroom issue up to tens of thousands for whole-structure colonization involving structural framing. Most homeowners pay somewhere in the middle, depending on affected square footage, material type, and whether the moisture source requires concurrent repair work.
-
-| Scenario | Typical industry range |
-|---|---|
-| Single bathroom, surface mold, no drywall removal | $500 - $1,500 |
-| Single room, drywall and insulation removal required | $1,500 - $4,000 |
-| Crawl space or attic, moderate colonization | $3,500 - $8,000 |
-| Multiple rooms or wall cavities, extensive removal | $6,000 - $15,000 |
-| Whole-structure remediation with structural involvement | $15,000 - $30,000+ |
+Costs depend on the affected square footage, the material type, and whether the moisture source requires concurrent repair work.
 
 Every loss is different, and Desert Valley Restoration provides a written scope of work before any remediation begins so you know exactly what is included. Homeowners insurance typically covers mold remediation when the growth results from a covered sudden and accidental water loss, such as a burst pipe or appliance failure; it generally does not cover mold that developed from long-term neglect or a slow leak that went unaddressed.
 

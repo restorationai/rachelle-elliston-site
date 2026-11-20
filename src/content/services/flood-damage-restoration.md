@@ -39,14 +39,6 @@ The most common mistake is treating a flood like a clean water leak: drying carp
 
 Costs vary with how much water entered, how long it sat before extraction started, and how many materials were contaminated versus simply wet. Every loss is different, and Desert Valley Restoration provides a written scope of work before any restoration begins so there are no surprises. Homeowners insurance typically covers sudden flood damage from storm runoff or plumbing failure when it's a named peril on the policy, though standalone flood insurance through the NFIP is often required for rising-water events; a claims adjuster will confirm what applies to your policy.
 
-| Scenario | Typical range |
-|---|---|
-| Single room, shallow water, quick extraction | $1,500 - $4,000 |
-| Multiple rooms, carpet and pad removal | $4,000 - $9,000 |
-| Whole-floor flood with drywall and baseboard removal | $8,000 - $18,000 |
-| Flood reaching electrical or HVAC components | $10,000 - $25,000+ |
-| Contents cleaning and pack-out after flooding | $1,000 - $5,000 |
-
 ## Seasonal & regional considerations
 
 North Las Vegas sees its highest flood risk during monsoon season, roughly July through September, when short, intense storms overwhelm washes and street drainage faster than the desert soil can absorb it. Homes near natural washes or with grading that slopes toward the foundation are especially exposed. Outside monsoon season, flood calls more often trace back to irrigation line breaks or retention basin overflow after an unusually wet winter storm system.

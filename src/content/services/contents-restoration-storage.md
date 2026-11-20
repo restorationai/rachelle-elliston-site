@@ -51,16 +51,7 @@ IICRC-certified technicians are trained to recognize these distinctions. The IIC
 
 ## What does Contents Restoration & Storage cost?
 
-Typical costs run across a wide range depending on the volume of contents, the type of loss, and the cleaning methods required. Most homeowners pay somewhere in the ranges below, though every loss is different and Desert Valley Restoration provides a written scope before any work begins. Homeowners insurance typically covers contents restoration when the loss is a covered peril, including the cost of pack-out, cleaning, storage, and pack-back.
-
-| Scenario | Typical industry range |
-|---|---|
-| Single-room pack-out, clean water loss | $1,200 – $3,500 |
-| Whole-home pack-out, water or fire | $6,000 – $18,000 |
-| Electronics cleaning and testing (per unit) | $150 – $600 |
-| Document stabilization and freeze-drying | $500 – $4,000 |
-| Climate-controlled storage (per month) | $300 – $900 |
-| Ultrasonic cleaning, hard goods (per load) | $200 – $800 |
+Costs depend on the volume of contents, the type of loss, and the cleaning methods required. Every loss is different, and Desert Valley Restoration provides a written scope before any work begins. Homeowners insurance typically covers contents restoration when the loss is a covered peril, including the cost of pack-out, cleaning, storage, and pack-back.
 
 ## Seasonal and regional considerations
 

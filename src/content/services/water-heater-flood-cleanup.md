@@ -39,14 +39,6 @@ The most common mistake is treating a water heater flood like a simple mop-and-f
 
 Costs vary with how long the leak went undetected, what flooring and wall materials were affected, and whether the unit was on a slab, in an attic platform, or over a finished room below. Every loss is different, and Desert Valley Restoration provides a written scope of work before any cleanup begins so there are no surprises. Most homeowners insurance policies cover sudden water heater failures as part of water damage coverage, though slow leaks caused by long-term neglect are sometimes excluded, it's worth checking your policy language or asking your adjuster directly.
 
-| Scenario | Typical range |
-|---|---|
-| Garage closet, caught within hours, no material removal | $800 - $2,200 |
-| Interior utility closet, drywall and baseboard removal | $1,800 - $4,000 |
-| Slow leak, flooring and subfloor affected | $3,000 - $6,500 |
-| Second-floor failure with ceiling damage below | $4,500 - $9,000 |
-| Extended undetected leak with mold growth | $6,000 - $12,000+ |
-
 ## Seasonal & Regional Considerations
 
 North Las Vegas homes built from the 1990s through 2000s commonly have water heaters in garages or interior closets rather than basements, since the region has very few basements to begin with. High summer temperatures put extra strain on aging tanks and pressure relief valves, which is part of why failures tend to cluster in the hottest stretches of the year. Hard water throughout the valley also accelerates internal tank corrosion, shortening the typical service life of a heater and increasing the odds of a sudden rupture rather than a slow, easily caught leak.

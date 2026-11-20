@@ -45,14 +45,6 @@ Duct contamination is also frequently skipped. If smoke or odor has been circula
 
 Costs vary with the size of the affected area, how far the odor has traveled into building materials, and which treatment method the job requires. Every loss is different, which is why Desert Valley Restoration provides a written scope of work before any treatment begins. Homeowners insurance typically covers odor removal when it's a direct result of a covered event, such as fire or a qualifying water loss, but it generally does not cover odor from gradual issues like long-term pet damage or neglected moisture.
 
-| Scenario | Typical range |
-|---|---|
-| Single room, mild odor (pet or minor smoke) | $300 - $900 |
-| Whole-house hydroxyl treatment, occupied home | $1,200 - $3,000 |
-| Fire-related smoke odor with duct treatment | $2,500 - $6,500 |
-| Ozone treatment, unoccupied multi-room space | $800 - $2,200 |
-| Severe or long-term odor requiring material removal | $3,000 - $9,000+ |
-
 ## Seasonal & regional considerations
 
 North Las Vegas summers push HVAC systems hard, and any odor sitting in ductwork gets redistributed every time the system cycles, which is why duct-aware treatment matters more here than in milder climates. The dry desert air also means porous materials dry out and seal odors in rather than letting them off-gas naturally, so smells that might fade on their own in a humid climate tend to persist longer here without treatment.

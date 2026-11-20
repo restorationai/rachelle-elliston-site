@@ -43,14 +43,6 @@ Adjusters looking at a ceiling claim pay close attention to moisture readings do
 
 Costs depend heavily on how long the leak ran before it was caught and how much of the ceiling, insulation, and framing it reached. A fresh stain caught early costs far less to fix than a ceiling that's been slowly leaking for weeks. Every loss is different, which is why Desert Valley Restoration provides a written scope of work before any repair begins, and most homeowners insurance policies cover sudden, accidental water damage to ceilings while excluding damage from long-term neglected leaks, so the cause matters for your claim.
 
-| Scenario | Typical range |
-|---|---|
-| Small water stain, no structural damage | $300 - $800 |
-| Localized drywall patch and repaint | $600 - $1,500 |
-| Full ceiling section replacement (approx. 10x10 ft) | $1,500 - $4,000 |
-| Multiple rooms or recurring leak points | $3,500 - $9,000 |
-| Sagging or collapsed ceiling with structural drying | $5,000 - $15,000+ |
-
 ## Seasonal & regional considerations
 
 North Las Vegas summer monsoon storms are one of the more common triggers for ceiling leaks here, since heavy, fast rainfall on flat or low-slope roofs common in Valley construction can overwhelm roof drains and find weak points around vents and parapet walls. The other frequent culprit in this climate is HVAC condensate lines, attic-mounted air handlers that run hard all summer produce condensation, and a clogged or disconnected drain line can leak onto a ceiling for days before it's noticed. Either way, the source has to be addressed alongside the ceiling repair or the damage comes right back.

@@ -39,15 +39,6 @@ The biggest mistake on commercial losses is treating the whole building like one
 
 Commercial restoration costs vary more than residential work because they depend on square footage, occupancy type, and whether the business needs partial access maintained during the job. Every loss gets a written scope before work begins, since a one-room office suite and a 10,000 square foot warehouse aren't priced the same way. Commercial property insurance typically covers the restoration and drying portion of a covered water or fire loss, and often business interruption coverage if the policy includes it, though contents and inventory loss may fall under a separate line.
 
-| Scenario | Typical range |
-|---|---|
-| Small office suite, clean water, single room | $2,000 - $5,500 |
-| Retail storefront, water extraction and drying | $4,500 - $15,000 |
-| Office suite, smoke and soot cleaning | $6,000 - $20,000 |
-| Warehouse, large-area water extraction | $10,000 - $35,000+ |
-| Multi-tenant building, phased drying with partial occupancy | $15,000 - $50,000+ |
-| Commercial kitchen fire, protein soot cleanup | $8,000 - $25,000 |
-
 ## Seasonal & regional considerations
 
 North Las Vegas summers push commercial HVAC systems hard, and a rooftop unit failure or condensate line backup during peak heat can soak ceiling tile and insulation in a commercial space within hours. Flat and low-slope commercial roofs common in the valley's industrial and retail buildings are also more vulnerable to ponding during the region's short, intense monsoon storms, which shows up as water intrusion around rooftop units and parapet walls rather than obvious roof damage from the ground.

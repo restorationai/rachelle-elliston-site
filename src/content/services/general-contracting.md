@@ -47,16 +47,7 @@ On the permitting side, unpermitted work in Clark County creates problems at res
 
 ## What does Renovations, Remodels and General Contracting cost?
 
-Typical renovation costs vary significantly based on scope, materials, and existing conditions. The ranges below reflect industry-typical figures for the Las Vegas Valley market and are not quotes from Desert Valley Restoration. Every project is different, and a written scope of work is provided before any work begins.
-
-| Scenario | Typical range |
-|---|---|
-| Single bathroom remodel (cosmetic) | $6,000 - $15,000 |
-| Full bathroom remodel (layout changes, new plumbing) | $15,000 - $35,000 |
-| Kitchen remodel (cabinets, countertops, tile, no layout change) | $20,000 - $50,000 |
-| Kitchen remodel (full gut, layout change, new appliances) | $50,000 - $100,000+ |
-| Post-damage rebuild (single room, water or fire) | $8,000 - $30,000 |
-| Whole-home renovation (multi-room, staged) | $60,000 - $200,000+ |
+Renovation costs vary significantly based on scope, materials, and existing conditions. Every project is different, and a written scope of work is provided before any work begins.
 
 Homeowners insurance typically covers post-damage rebuild work when the underlying loss, such as a burst pipe or covered fire, is a covered peril under the policy. Cosmetic renovations and upgrades are not covered, but if a covered loss creates the opportunity to update finishes during the rebuild, the scope can often be structured to separate covered work from elective improvements clearly.
 

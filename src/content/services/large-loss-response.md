@@ -37,15 +37,7 @@ The most common failure on a catastrophic job is under-resourcing it like a resi
 
 ## What does large loss and catastrophic restoration cost?
 
-Costs on catastrophic losses scale with the number of units or floors affected, the category of water or extent of fire damage, and how much reconstruction follows mitigation. These are typical industry ranges for reference, not a quote; every loss gets a written scope from Desert Valley Restoration before work begins. Commercial property insurance typically covers mitigation and reconstruction tied to a covered peril, though large losses usually involve a dedicated adjuster and a more detailed proof-of-loss process.
-
-| Scenario | Typical range |
-|---|---|
-| Mid-size commercial building, water loss | $75,000 - $250,000 |
-| Multi-unit residential property, fire loss | $200,000 - $750,000 |
-| Large retail or industrial facility, storm damage | $150,000 - $500,000 |
-| Hotel or multifamily property, combined fire and water damage | $500,000+ |
-| Warehouse with structural and contents loss | $300,000 - $1,000,000+ |
+Costs on catastrophic losses scale with the number of units or floors affected, the category of water or extent of fire damage, and how much reconstruction follows mitigation. Every loss gets a written scope from Desert Valley Restoration before work begins. Commercial property insurance typically covers mitigation and reconstruction tied to a covered peril, though large losses usually involve a dedicated adjuster and a more detailed proof-of-loss process.
 
 ## Seasonal & regional considerations
 

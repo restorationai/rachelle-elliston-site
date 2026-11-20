@@ -41,14 +41,6 @@ Adjusters reviewing a basement flooding claim generally want to see the water ca
 
 Costs vary with the size of the space, the water category, and how much demolition is needed before drying can start. Every loss is different, which is why Desert Valley Restoration provides a written scope before any work begins. Most homeowners insurance policies cover sudden and accidental water damage, such as a failed water heater or burst pipe, but typically exclude gradual seepage or groundwater flooding unless a separate flood policy is in place, so it's worth checking your declarations page before assuming coverage.
 
-| Scenario | Typical range |
-|---|---|
-| Small basement, clean water, no demo | $1,000 - $2,500 |
-| Partial basement, drywall and baseboard removal | $2,500 - $6,000 |
-| Full basement flood, carpet and pad replacement | $5,000 - $12,000 |
-| Category 3 (sewage backup) basement flood | $7,000 - $18,000 |
-| Flooding with existing mold growth | $6,000 - $20,000+ |
-
 ## Seasonal & regional considerations
 
 North Las Vegas basements are less common than in wetter climates, since much of the valley sits on caliche, a hard, cement-like soil layer that makes excavation expensive, but the basements that do exist here face their own pattern. Summer monsoon storms (typically July through September) can dump a lot of rain in a short window, overwhelming window wells and surface drainage around a home faster than the soil can absorb it. Outside of storm season, the more common basement flooding cause is a plumbing or water heater failure in a below-grade mechanical room, where leaks can run for hours before anyone notices standing water.
