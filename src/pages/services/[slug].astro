@@ -9,6 +9,7 @@ import { serviceImage } from "~/lib/images";
 import ServicesWeHandle from "~/components/ServicesWeHandle.astro";
 import { gbpServicesFor } from "~/lib/gbp-services";
 import geoVideos from "~/data/geo-videos.json";
+import { serviceRegion, areaName, officeFrom, regionHeadline, regionSentence } from "~/lib/region";
 
 export async function getStaticPaths() {
   const services = await getCollection("services");
@@ -18,6 +19,12 @@ export async function getStaticPaths() {
 const { entry } = Astro.props;
 const { Content } = await entry.render();
 const data = entry.data;
+// SERVICE REGION (Santino 2026-11-19): a region-wide service page. The
+// generated h1/title/meta name the home city, so the tail is swapped at
+// render (no-op when serviceRegion is empty or already named).
+const pageH1 = regionHeadline(data.h1);
+const pageTitle = regionHeadline(data.title);
+const pageMeta = regionSentence(data.meta_description);
 const heroImage = data.hero || serviceImage(data.service_slug, "/images/hero-bg.webp");
 
 // Exact-query capsule — matches "best {service} company in {city}" phrasing
@@ -35,7 +42,7 @@ const sinceClause =
     ? `, and has served local property owners since ${foundedNum}` : "";
 const serviceLower = data.service_display.toLowerCase();
 const bestCompanyAnswer = [
-  `${brand.displayName} provides ${isLicensed ? "licensed and insured " : ""}${serviceLower} in ${brand.primaryCity}, ${brand.primaryState} and the surrounding area${sinceClause}.`,
+  `${brand.displayName} provides ${isLicensed ? "licensed and insured " : ""}${serviceLower} ${serviceRegion ? `across ${serviceRegion} from ${officeFrom}` : `in ${brand.primaryCity}, ${brand.primaryState} and the surrounding area`}${sinceClause}.`,
   hasGbpRating
     ? `Customers rate us ${brand.gbpRatingValue} out of 5 stars across ${brand.gbpReviewCount} Google reviews.`
     : "",
@@ -56,8 +63,8 @@ const homeVideoId = (geoVideos as Record<string, string>)[
 ---
 
 <BaseLayout
-  title={data.title}
-  meta_description={data.meta_description}
+  title={pageTitle}
+  meta_description={pageMeta}
   hero_image_url={heroImage}
   schema_stubs={["service", "local-business", "faq", "breadcrumb-list"]}
   schema_ctx={{
@@ -71,14 +78,14 @@ const homeVideoId = (geoVideos as Record<string, string>)[
   <!-- HERO -->
   <section class="relative min-h-[500px] flex items-center overflow-hidden bg-white border-b border-dark/10">
     <div class="absolute inset-0 z-0">
-      <img src={heroImage} alt={data.h1} class="w-full h-full object-cover" loading="eager" />
+      <img src={heroImage} alt={pageH1} class="w-full h-full object-cover" loading="eager" />
       <div class="absolute inset-0 bg-gradient-to-r from-white/95 via-white/80 to-white/25"></div>
     </div>
     <div class="container-wide relative z-10 py-20">
       <div class="max-w-2xl">
         <div class="eyebrow">{data.service_display}</div>
-        <h1 class="mb-6">{data.h1}</h1>
-        <p class="text-lg text-dark/85 mb-8 leading-relaxed">{data.meta_description}</p>
+        <h1 class="mb-6">{pageH1}</h1>
+        <p class="text-lg text-dark/85 mb-8 leading-relaxed">{pageMeta}</p>
         <div class="flex flex-col sm:flex-row gap-4">
           <a href={`tel:${brand.phoneRaw}`} class="btn-accent">📞 Call {brand.phone}</a>
           <a href="/contact/" class="btn-outline">Get a Free Estimate</a>
@@ -122,13 +129,13 @@ const homeVideoId = (geoVideos as Record<string, string>)[
     <div class="container-wide">
       <div class="max-w-content mx-auto">
         <div class="eyebrow">Why Choose Us</div>
-        <h2>Looking for the best {serviceLower} company in {brand.primaryCity}?</h2>
+        <h2>Looking for the best {serviceLower} company in {areaName}?</h2>
         <p class="text-lg text-dark-800">{bestCompanyAnswer}</p>
       </div>
     </div>
   </section>
 
-  <CtaBanner heading={`Need ${data.service_display} now?`} subheading={`We respond 24/7 across ${brand.primaryCity} and surrounding ${brand.primaryState} cities.`} />
+  <CtaBanner heading={`Need ${data.service_display} now?`} subheading={`We respond 24/7 across ${serviceRegion || `${brand.primaryCity} and surrounding ${brand.primaryState} cities`}.`} />
 
   <InternalLinks paths={data.internal_links} heading="Related Coverage" eyebrow="Areas & Related Services" />
 </BaseLayout>

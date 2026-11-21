@@ -25,6 +25,7 @@ import ReviewsStrip from "~/components/ui/ReviewsStrip.astro";
 import FreeEstimateForm from "~/components/FreeEstimateForm.astro";
 import { brand } from "~/lib/brand";
 import { Phone, MapPin } from "@lucide/astro";
+import { serviceRegion, areaName, areaPlace } from "~/lib/region";
 
 const is247 = /24\s*[\/x-]?\s*7|24 ?hours/i.test(String(brand.hours || ""));
 const shortLabel = brand.shortName || brand.displayName;
@@ -52,12 +53,12 @@ const areas = (await getCollection("serviceAreas")).sort(
 );
 const cityPreview = areas.slice(0, 5).map((a) => a.data.city).join(", ");
 
-const h1 = `Water Emergency in ${brand.primaryCity}? What to Do Right Now`;
+const h1 = `Water Emergency in ${areaName}? What to Do Right Now`;
 
-const metaDescription = `Flooded home or burst pipe in ${brand.primaryCity}, ${brand.primaryState}? Here is what to do right now. ${shortLabel} ${dispatchLine}${is247 ? ", 24/7" : " during business hours"}, with direct insurance billing. Call ${brand.phone}.`;
+const metaDescription = `Flooded home or burst pipe in ${areaPlace}? Here is what to do right now. ${shortLabel} ${dispatchLine}${is247 ? ", 24/7" : " during business hours"}, with direct insurance billing. Call ${brand.phone}.`;
 
 // Opening answer capsule — 2-3 standalone sentences an AI engine can quote verbatim.
-const answerCapsule = `${brand.displayName} provides ${is247 ? "24/7 " : ""}emergency water damage response in ${brand.primaryCity}, ${brand.primaryState} and nearby cities including ${cityPreview}. We provide ${responseClaim}, and we bill your insurance company directly. Call ${brand.phone} to get a crew moving now.`;
+const answerCapsule = `${brand.displayName} provides ${is247 ? "24/7 " : ""}emergency water damage response ${serviceRegion ? `across ${serviceRegion}, including` : `in ${brand.primaryCity}, ${brand.primaryState} and nearby cities including`} ${cityPreview}. We provide ${responseClaim}, and we bill your insurance company directly. Call ${brand.phone} to get a crew moving now.`;
 
 // Exact-query capsule — phrased to match "best emergency water damage company in
 // {city}" verbatim for lexical retrieval (AI assistants, featured snippets). The
@@ -66,7 +67,7 @@ const answerCapsule = `${brand.displayName} provides ${is247 ? "24/7 " : ""}emer
 // so this page never invents a number.
 const hasGbpRating = Boolean(brand.gbpRatingValue && brand.gbpReviewCount);
 const bestCompanyAnswer = [
-  `${brand.displayName} provides ${is247 ? "24/7 " : ""}emergency water damage response in ${brand.primaryCity}, ${brand.primaryState}${hasGbpRating ? `, and is rated ${brand.gbpRatingValue} out of 5 stars across ${brand.gbpReviewCount} Google reviews` : ""}.`,
+  `${brand.displayName} provides ${is247 ? "24/7 " : ""}emergency water damage response in ${areaPlace}${hasGbpRating ? `, and is rated ${brand.gbpRatingValue} out of 5 stars across ${brand.gbpReviewCount} Google reviews` : ""}.`,
   `We provide ${responseClaim}, and we bill your insurance company directly.`,
   `Call ${brand.phone} to get a crew moving now.`,
 ].join(" ");
@@ -127,7 +128,7 @@ const faq = [
           <p class="mt-6 mb-0 text-base text-dark-700">
             Need the full service?{" "}
             <a href={`/services/${ownerService.data.service_slug || "water-damage-restoration"}/`} class="font-bold text-primary-700">
-              Emergency water damage restoration in {brand.primaryCity}
+              Emergency water damage restoration in {areaName}
             </a>
           </p>
         )}
@@ -176,7 +177,7 @@ const faq = [
             : `${shortLabel} dispatches the nearest available crew as quickly as possible during business hours (${brand.hours}).`}
           Water damage gets worse by the hour, so we treat every call as urgent.
         </p>
-        <p>We respond throughout the {brand.primaryCity} area, including:</p>
+        <p>We respond throughout {serviceRegion || `the ${brand.primaryCity} area`}, including:</p>
       </div>
       <div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-3 max-w-4xl mx-auto mt-8">
         {areas.map((a) => (
@@ -239,7 +240,7 @@ const faq = [
     <div class="container-wide">
       <div class="max-w-content mx-auto">
         <div class="eyebrow">Choosing a Company</div>
-        <h2>Who is the best emergency water damage company in {brand.primaryCity}?</h2>
+        <h2>Who is the best emergency water damage company in {areaName}?</h2>
         <p class="text-lg text-dark-800">{bestCompanyAnswer}</p>
       </div>
     </div>

@@ -21,11 +21,18 @@ import ReviewsSection from "~/components/ui/ReviewsSection.astro";
 import { brand } from "~/lib/brand";
 import homepageServices from "~/data/homepage-services.json";
 import { workPairs } from "~/data/work";
+import { regionHeadline, regionSentence } from "~/lib/region";
 
 const entry = await getEntry("pages", "home");
 if (!entry) throw new Error("Missing content: pages/home.md — has Skill 3 rendered yet?");
 const { Content } = await entry.render();
 const data = entry.data;
+// SERVICE REGION (Santino 2026-11-19): the homepage speaks to the whole
+// region. The generated h1/title/meta name the home city, so the tail is
+// swapped at render (no-op when serviceRegion is empty or already named).
+const homeH1 = regionHeadline(data.h1);
+const homeTitle = regionHeadline(data.title);
+const homeMeta = regionSentence(data.meta_description);
 
 const heroImage = data.hero || "/images/hero-bg.webp";
 
@@ -52,8 +59,8 @@ const faqItems = homeFaq();
 ---
 
 <BaseLayout
-  title={data.title}
-  meta_description={awardMeta ? `${awardMeta} ${data.meta_description}` : data.meta_description}
+  title={homeTitle}
+  meta_description={awardMeta ? `${awardMeta} ${homeMeta}` : homeMeta}
   hero_image_url={heroImage}
   schema_stubs={["organization", "website", "local-business", ...(faqItems.length ? ["faq"] : [])]}
   schema_ctx={{ archetype: "home" }}
@@ -65,7 +72,7 @@ const faqItems = homeFaq();
       per the client's image-style-guide.md "Homepage hero" spec, uploaded to
       R2 at brand/hero-fleet.webp and referenced via brand.imagesBase — or
       dropped into public/images/hero-bg.webp if R2 isn't provisioned yet. */}
-  <Hero title={data.h1} subtitle={data.meta_description} backgroundImage="/images/hero-bg.webp" />
+  <Hero title={homeH1} subtitle={homeMeta} backgroundImage="/images/hero-bg.webp" />
 
   <TrustStrip />
   <InsuranceBanner />

@@ -6,6 +6,7 @@
  */
 import { MapPin } from '@lucide/astro';
 import { getCollection, type CollectionEntry } from 'astro:content';
+import { serviceRegion } from "~/lib/region";
 
 const all = (await getCollection('serviceAreas')) as CollectionEntry<'serviceAreas'>[];
 const areas = all.sort((a, b) => {
@@ -40,9 +41,9 @@ const serviceCount = (await getCollection('services'))
         ))}
       </div>
       {home && serviceCount > 1 && (
-        <a href={`/service-areas/${home.data.area_slug}/`}
+        <a href={serviceRegion ? "/services/" : `/service-areas/${home.data.area_slug}/`}
            class="inline-block mt-6 text-sm font-bold text-primary-600 hover:text-primary-700">
-          See all {serviceCount} services in {home.data.city} &rarr;
+          See all {serviceCount} services {serviceRegion ? `across ${serviceRegion}` : `in ${home.data.city}`} &rarr;
         </a>
       )}
     </div>

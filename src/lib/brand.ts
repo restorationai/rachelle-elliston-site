@@ -44,6 +44,11 @@ export const brand = {
   foundedYear: "2000",
   primaryCity: "North Las Vegas",
   primaryState: "NV",
+  // SERVICE REGION (Santino 2026-11-19): multi-metro clients name the region
+  // on every region-wide surface (see src/lib/region.ts); city pages and the
+  // address/NAP keep the city. Empty = one-metro client, city wording.
+  serviceRegion: "North Las Vegas, NV & the Las Vegas Valley",
+  serviceRegionDetail: "Henderson, Spring Valley, Summerlin, Boulder City, Pahrump and nearby communities",
   // primaryCity/primaryState = the #1 MARKETING city (headlines, coverage
   // copy). addressCity/addressState = where the business PHYSICALLY is.
   // They are usually the same and often diverge (DISS: Farrell PA office,

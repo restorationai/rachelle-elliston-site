@@ -13,6 +13,7 @@
 // above the form on both variants.
 import { brand } from "~/lib/brand";
 import { Phone } from "@lucide/astro";
+import { serviceRegion, serviceRegionDetail } from "~/lib/region";
 
 type Props = {
   /** Compact variant for /emergency/ — tighter spacing, shorter copy. */
@@ -135,7 +136,8 @@ const {
             <span class="w-10 h-10 rounded-xl bg-primary-600/20 text-primary-400 flex items-center justify-center shrink-0 font-black">⌖</span>
             <div>
               <p class="text-white/60 text-xs font-bold uppercase tracking-wider mb-0.5">Service Area</p>
-              <p class="font-bold text-white mb-0">{brand.primaryCity}, {brand.primaryState} and surrounding communities</p>
+              <p class="font-bold text-white mb-0">{serviceRegion ? `All of ${serviceRegion}` : `${brand.primaryCity}, ${brand.primaryState} and surrounding communities`}</p>
+              {serviceRegionDetail && <p class="text-white/60 text-xs mt-0.5 mb-0">{serviceRegionDetail}</p>}
             </div>
           </div>
         </div>
