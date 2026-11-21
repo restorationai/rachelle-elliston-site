@@ -1,20 +1,40 @@
 ---
 import { brand } from "~/lib/brand";
 const is247 = /24\s*[\/x-]?\s*7|24 ?hours/i.test(String(brand.hours || ""));
+// BRAND NAME BESIDE THE LOGO (standard header, Santino 2026-11-20): the
+// business name is real text in the header on every screen size, so people
+// (and Google's crawl) read it where the logo alone is too small. A DBA's
+// brand part is the public name; its " - 24/7 ..." tail is the sub-line.
+// Full registered name: footer, legal pages, schema, llms.txt.
+const _dn = String(brand.displayName || "").replace(/\s+/g, " ").trim();
+const _dba = String((brand as { dbaName?: string }).dbaName || "").replace(/\s+/g, " ").trim();
+const [_dbaHead, ..._dbaTail] = _dba.split(/\s+[-\u2013\u2014]\s+|[-\u2013\u2014](?=\s*24\s*\/\s*7)/);
+const headerName = _dbaHead
+  ? _dbaHead.trim()
+  : _dn.replace(/[\s,]+(?:inc|llc|l\.l\.c|corp|corporation|co|ltd|pllc)\.?$/i, "").trim() || _dn;
+const descriptor = _dbaTail.join(" - ").trim();
+// shorter forms for a phone, used only when the full name cannot fit two lines
+const _sn = String((brand as { shortName?: string }).shortName || "").replace(/\s+/g, " ").trim();
+const nameShorter = [headerName.split(/\s+(?:&|and|of)\s+|,\s*/i)[0].trim(),
+  headerName.replace(/\.(?:com|net|us|co)$/i, "").replace(/\s+(?:services?|solutions|company|group|enterprises|specialists)$/i, "").trim(), _sn]
+  .filter((v, i, a) => v.replace(/^the\s+/i, "").split(" ").length >= 2 && v.length < headerName.length
+    && headerName.toLowerCase().startsWith(v.toLowerCase()) && a.indexOf(v) === i)
+  .join("|");
 ---
 
 <header class="bg-white text-dark-900 sticky top-0 z-50 border-b border-dark/10 shadow-md">
-  {brand.dbaName && (
-    <p data-rankai="name-line" class="container-wide pt-1.5 -mb-1 text-center text-[11px] sm:text-xs font-semibold leading-snug opacity-80">{brand.dbaName}</p>
-  )}
-  <div class="container-wide flex items-center justify-between gap-3 sm:gap-6 h-20">
-    <a href="/" class="flex items-center gap-3 no-underline text-dark-900 group min-w-0">
+  <div class="container-wide flex items-center justify-between gap-2 sm:gap-6 lg:gap-4 xl:gap-6 h-20 max-sm:px-4">
+    <a href="/" class="flex items-center gap-2 sm:gap-3 no-underline text-dark-900 group min-w-0">
       {brand.logoUrl && (
-        <img src={brand.logoUrl} alt={`${brand.displayName} logo`} class="h-14 md:h-16 max-h-full w-auto max-w-[55vw] sm:max-w-none object-contain object-left group-hover:scale-105 transition-transform" width="64" height="64" loading="eager" />
+        <img src={brand.logoUrl} alt={`${brand.displayName} logo`} class="h-10 sm:h-14 md:h-16 max-h-full w-auto max-w-[22vw] sm:max-w-none object-contain object-left group-hover:scale-105 transition-transform flex-shrink-0" width="64" height="64" loading="eager" />
       )}
+      <span class="flex flex-col min-w-0 leading-tight">
+        <span data-rankai="brand-name" data-short={nameShorter || undefined} class="font-black normal-case sm:uppercase tracking-normal sm:tracking-wide text-[13px] sm:text-lg lg:text-base 2xl:text-xl">{headerName}</span>
+        {descriptor && <span data-rankai="name-descriptor" class="hidden md:block lg:hidden 2xl:block text-[11px] font-semibold normal-case opacity-70 max-w-[22rem] leading-snug">{descriptor}</span>}
+      </span>
     </a>
 
-    <nav class="hidden lg:flex items-center gap-6 text-[11px] font-black uppercase tracking-widest h-full">
+    <nav class="hidden lg:flex items-center gap-4 2xl:gap-6 text-[11px] font-black uppercase tracking-wider 2xl:tracking-widest h-full whitespace-nowrap flex-shrink-0">
       <a href="/emergency/" class="text-dark-900 underline decoration-[3px] underline-offset-8 hover:text-primary-500 transition-colors py-8">Emergency</a>
       <a href="/services/" class="hover:text-primary-400 no-underline transition-colors py-8">Services</a>
       <a href="/service-areas/" class="hover:text-primary-400 no-underline transition-colors py-8">Areas</a>
@@ -25,9 +45,9 @@ const is247 = /24\s*[\/x-]?\s*7|24 ?hours/i.test(String(brand.hours || ""));
     </nav>
 
     <div class="flex items-center gap-2 flex-shrink-0">
-      <a href={`tel:${brand.phoneRaw}`} class={`${(brand as {hideMobileHeaderCall?: boolean}).hideMobileHeaderCall ? "hidden sm:block " : ""}btn-primary text-sm md:text-base px-4 sm:px-6 py-3 md:py-4 shadow-primary-900/40 text-center leading-tight font-black`}>
-        <span class="hidden sm:block tracking-wide whitespace-nowrap">Call Us Now <span aria-hidden="true">•</span> {brand.phone}</span>
-        <span class="sm:hidden flex flex-col items-center gap-0.5">
+      <a href={`tel:${brand.phoneRaw}`} class={`${(brand as {hideMobileHeaderCall?: boolean}).hideMobileHeaderCall ? "hidden sm:block " : ""}btn-primary text-sm md:text-base px-4 sm:px-6 py-3 md:py-4 lg:py-2 xl:py-4 shadow-primary-900/40 text-center leading-tight font-black`}>
+        <span class="hidden sm:block lg:hidden xl:block tracking-wide whitespace-nowrap">Call Us Now <span aria-hidden="true">•</span> {brand.phone}</span>
+        <span class="sm:hidden lg:flex xl:hidden flex flex-col items-center gap-0.5">
           <span class="text-[11px] font-black tracking-[0.15em] opacity-90 uppercase">Call Us Now</span>
           <span class="font-black tracking-wide whitespace-nowrap">{brand.phone}</span>
         </span>
@@ -59,6 +79,89 @@ const is247 = /24\s*[\/x-]?\s*7|24 ?hours/i.test(String(brand.hours || ""));
         var open = nav.classList.toggle("hidden") === false;
         btn.setAttribute("aria-expanded", String(open));
       });
+    })();
+  </script>
+  <script is:inline>
+    (function () {
+      // NAME FITS (standard header): at most two lines, never clipped
+      // mid-word, never under the nav; the name steps down, then the logo,
+      // never the call button. A name that cannot fit two lines shows its
+      // shorter form (data-short: the part before "&"/"and"/"of", then
+      // brand.shortName); the page source always carries the full name. A
+      // desktop nav too crowded to sit beside the name folds into the menu
+      // button for that width.
+      var nm = document.querySelector('[data-rankai="brand-name"]');
+      if (!nm) return;
+      var link = nm.closest("a"), img = link && link.querySelector("img"), lastW = -1;
+      var row = link && link.parentElement, hdr = nm.closest("header");
+      var dnav = hdr && hdr.querySelector("nav:not(#mobile-nav)");
+      var tog = document.getElementById("mobile-nav-toggle"), mnav = document.getElementById("mobile-nav");
+      var names = [nm.textContent].concat((nm.getAttribute("data-short") || "").split("|").filter(Boolean));
+      // a long run-together word may break at its own seam on a phone
+      // ("RestorationXpress" -> "Restoration" / "Xpress"), never mid-word
+      names = names.concat(names.map(function (s) {
+        return s.replace(/\S{12,}/g, function (w) { return w.replace(/([a-z])([A-Z])/g, "$1\u200b$2"); });
+      }).filter(function (s, i) { return s !== names[i]; }));
+      function lines() {
+        var cs = getComputedStyle(nm), lh = parseFloat(cs.lineHeight) || parseFloat(cs.fontSize) * 1.25;
+        return Math.round(nm.offsetHeight / lh);
+      }
+      function navOver() {
+        if (!dnav || !dnav.offsetWidth) return false;
+        var r = nm.getBoundingClientRect().right, k = dnav.children;
+        for (var i = 0; i < k.length; i++) if (k[i].offsetWidth && k[i].getBoundingClientRect().left < r - 1) return true;
+        return false;
+      }
+      function rowOver() {
+        if (!row || !row.lastElementChild) return false;
+        var edge = row.getBoundingClientRect().right - parseFloat(getComputedStyle(row).paddingRight);
+        return row.lastElementChild.getBoundingClientRect().right > edge + 1;
+      }
+      var maxLines = 2;
+      function bad() {
+        return nm.scrollWidth > nm.clientWidth + 1 || lines() > maxLines
+          || rowOver() || navOver();
+      }
+      function shrink(minFs, minW) {
+        var fs = parseFloat(getComputedStyle(nm).fontSize), w = img ? img.offsetWidth : 0;
+        while (bad() && fs > Math.max(minFs, 12)) { fs -= 0.5; nm.style.fontSize = fs + "px"; }
+        while (bad() && img && w > Math.max(minW, 40)) { w -= 4; img.style.maxWidth = w + "px"; }
+        while (bad() && fs > minFs) { fs -= 0.5; nm.style.fontSize = fs + "px"; }
+        while (bad() && img && w > minW) { w -= 4; img.style.maxWidth = w + "px"; }
+        return !bad();
+      }
+      function fold(on) {
+        if (!dnav || !tog || !mnav) return false;
+        dnav.style.display = on ? "none" : "";
+        tog.classList.toggle("lg:hidden", !on);
+        mnav.classList.toggle("lg:hidden", !on);
+        if (!on) { mnav.classList.add("hidden"); tog.setAttribute("aria-expanded", "false"); }
+        return true;
+      }
+      function tryNames() {
+        for (var i = 0; i < names.length; i++) {
+          nm.textContent = names[i]; nm.style.fontSize = ""; if (img) img.style.maxWidth = "";
+          if (shrink(11, 40)) return true;
+        }
+        return false;
+      }
+      function fit() {
+        if (window.innerWidth === lastW) return;
+        lastW = window.innerWidth;
+        maxLines = 2;
+        fold(false);
+        if (tryNames()) return;
+        if (dnav && dnav.offsetWidth && fold(true) && tryNames()) return;
+        // a long name with no fair short form: a third line at a readable
+        // size beats a tiny one (the brand is never cut to fit)
+        maxLines = 3;
+        if (tryNames()) return;
+        shrink(10, 28);
+      }
+      fit();
+      addEventListener("resize", fit);
+      addEventListener("load", function () { lastW = -1; fit(); });
+      if (document.fonts && document.fonts.ready) document.fonts.ready.then(function () { lastW = -1; fit(); });
     })();
   </script>
 </header>
