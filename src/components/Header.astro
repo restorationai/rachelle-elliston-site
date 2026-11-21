@@ -1,11 +1,12 @@
 ---
 import { brand } from "~/lib/brand";
 const is247 = /24\s*[\/x-]?\s*7|24 ?hours/i.test(String(brand.hours || ""));
-// BRAND NAME BESIDE THE LOGO (standard header, Santino 2026-11-20): the
-// business name is real text in the header on every screen size, so people
-// (and Google's crawl) read it where the logo alone is too small. A DBA's
-// brand part is the public name; its " - 24/7 ..." tail is the sub-line.
-// Full registered name: footer, legal pages, schema, llms.txt.
+// BRAND NAME BESIDE THE LOGO, RENAMES ONLY (Santino 2026-11-21): shown only
+// when brand.headerName is true, which the rename flow sets from the
+// Citations Building stage on (scripts/header_name_rollout.py). Off = logo
+// only, exactly the header from before. A DBA's brand part is the public
+// name; its " - 24/7 ..." tail is the sub-line. Full registered name:
+// footer, legal pages, schema, llms.txt.
 const _dn = String(brand.displayName || "").replace(/\s+/g, " ").trim();
 const _dba = String((brand as { dbaName?: string }).dbaName || "").replace(/\s+/g, " ").trim();
 const [_dbaHead, ..._dbaTail] = _dba.split(/\s+[-\u2013\u2014]\s+|[-\u2013\u2014](?=\s*24\s*\/\s*7)/);
@@ -20,6 +21,7 @@ const nameShorter = [headerName.split(/\s+(?:&|and|of)\s+|,\s*/i)[0].trim(),
   .filter((v, i, a) => v.replace(/^the\s+/i, "").split(" ").length >= 2 && v.length < headerName.length
     && headerName.toLowerCase().startsWith(v.toLowerCase()) && a.indexOf(v) === i)
   .join("|");
+const showHeaderName = Boolean((brand as { headerName?: boolean }).headerName) && Boolean(headerName);
 ---
 
 <header class="bg-white text-dark-900 sticky top-0 z-50 border-b border-dark/10 shadow-md">
@@ -28,10 +30,12 @@ const nameShorter = [headerName.split(/\s+(?:&|and|of)\s+|,\s*/i)[0].trim(),
       {brand.logoUrl && (
         <img src={brand.logoUrl} alt={`${brand.displayName} logo`} class="h-10 sm:h-14 md:h-16 max-h-full w-auto max-w-[22vw] sm:max-w-none object-contain object-left group-hover:scale-105 transition-transform flex-shrink-0" width="64" height="64" loading="eager" />
       )}
-      <span class="flex flex-col min-w-0 leading-tight">
-        <span data-rankai="brand-name" data-short={nameShorter || undefined} class="font-black normal-case sm:uppercase tracking-normal sm:tracking-wide text-[13px] sm:text-lg lg:text-base 2xl:text-xl">{headerName}</span>
-        {descriptor && <span data-rankai="name-descriptor" class="hidden md:block lg:hidden 2xl:block text-[11px] font-semibold normal-case opacity-70 max-w-[22rem] leading-snug">{descriptor}</span>}
-      </span>
+      {showHeaderName && (
+        <span class="flex flex-col min-w-0 leading-tight">
+          <span data-rankai="brand-name" data-short={nameShorter || undefined} class="font-black normal-case sm:uppercase tracking-normal sm:tracking-wide text-[13px] sm:text-lg lg:text-base 2xl:text-xl">{headerName}</span>
+          {descriptor && <span data-rankai="name-descriptor" class="hidden md:block lg:hidden 2xl:block text-[11px] font-semibold normal-case opacity-70 max-w-[22rem] leading-snug">{descriptor}</span>}
+        </span>
+      )}
     </a>
 
     <nav class="hidden lg:flex items-center gap-4 2xl:gap-6 text-[11px] font-black uppercase tracking-wider 2xl:tracking-widest h-full whitespace-nowrap flex-shrink-0">
