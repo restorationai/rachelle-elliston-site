@@ -57,6 +57,22 @@ function awardSchema(withPages: boolean) {
 // (e.g. construction) stay plain LocalBusiness.
 const IS_247 = /24\s*[\/x-]?\s*7|24 ?hours/i.test(String(brand.hours || ""));
 
+// rankai:schema-hours (Santino 2026-11-21): the hours Google
+// reads. AVAILABILITY 24/7 is the default for every trade (the AI receptionist
+// answers day and night, scripts/availability.py); brand.openingHoursSpec is
+// written by scripts/schema_hours.py: 24/7 when brand.available247, else the
+// client's real Google hours, else none. A brand.ts without the field: 24/7
+// unless brand.available247 is false. EmergencyService typing (IS_247 above)
+// stays on the emergency-service rule, not on availability.
+type HoursSpec = { days: string[]; opens: string; closes: string };
+const _b = brand as { openingHoursSpec?: HoursSpec[]; available247?: boolean };
+const HOURS_SPEC: HoursSpec[] = Array.isArray(_b.openingHoursSpec)
+  ? _b.openingHoursSpec
+  : _b.available247 === false
+    ? []
+    : [{ days: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+         opens: "00:00", closes: "23:59" }];
+
 function localBusiness(ctx: PageSchemaContext) {
   // City×service pages get the teardown upgrades: EmergencyService typing
   // (24/7 brands only), the page city as areaServed, the quotable dispatch
@@ -95,12 +111,16 @@ function localBusiness(ctx: PageSchemaContext) {
       latitude: brand.lat,
       longitude: brand.lng,
     },
-    openingHoursSpecification: {
-      "@type": "OpeningHoursSpecification",
-      dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-      opens: "00:00",
-      closes: "23:59",
-    },
+    ...(HOURS_SPEC.length
+      ? {
+          openingHoursSpecification: HOURS_SPEC.map((h) => ({
+            "@type": "OpeningHoursSpecification",
+            dayOfWeek: h.days,
+            opens: h.opens,
+            closes: h.closes,
+          })),
+        }
+      : {}),
     sameAs: brand.sameAsUrls,
     ...awardSchema(true),
     foundingDate: brand.foundedYear,

@@ -1,6 +1,7 @@
 ---
 import "~/styles/global.css";
 import { brand } from "~/lib/brand";
+import { callNowLabel } from "~/lib/availability";
 import Analytics from "~/components/Analytics.astro";
 import Header from "~/components/Header.astro";
 import Footer from "~/components/Footer.astro";
@@ -174,7 +175,7 @@ const ctx: PageSchemaContext = {
     <Footer />
     <a href={`tel:${brand.phoneRaw}`} class="fixed bottom-0 inset-x-0 z-40 md:hidden flex items-center justify-center gap-3 bg-primary-600 text-white font-black py-4 text-base shadow-[0_-4px_24px_theme(colors.primary.600/35%)] border-t border-primary-700">
       <Phone size={18} strokeWidth={3} />
-      Call Now: {brand.phone}
+      {callNowLabel}: {brand.phone}
     </a>
     <DniSwap />
   </body>

@@ -33,6 +33,14 @@ export const brand = {
   trackingPhoneRaw: "+17255000975",
   email: "relliston@desertvalleyco.com",
   hours: "24/7",
+  // AVAILABILITY 24/7 (Santino 2026-11-21, scripts/availability.py): calls are
+  // answered 24/7 (the AI receptionist), every trade, default true; false only
+  // when the client said not to. Separate from the emergency-SERVICE rule
+  // (emergency_policy.py, the `hours` gate above). openingHoursSpec = the
+  // schema hours (scripts/schema_hours.py): 24/7 when available, else the
+  // real Google hours, else none.
+  available247: true,
+  openingHoursSpec: [{"days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"], "opens": "00:00", "closes": "23:59"}] as { days: string[]; opens: string; closes: string }[],
   foundedYear: "2000",
   primaryCity: "North Las Vegas",
   primaryState: "NV",
