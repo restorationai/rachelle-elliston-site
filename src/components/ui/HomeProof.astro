@@ -45,7 +45,8 @@ const city = str((brand as { homeRegion?: string }).homeRegion)
   || str((brand as { serviceRegion?: string }).serviceRegion)
   || str((brand as { marketArea?: string }).marketArea) || str(brand.primaryCity);
 const name = str(brand.displayName);
-const trade = str(B.tradeNoun) || "restoration";
+// No restoration default for other trades (Santino 2026-11-21).
+const trade = str(B.tradeNoun) || ((str(B.vertical) || "restoration") === "restoration" ? "restoration" : "service");
 
 const rating = str(brand.gbpRatingValue);
 const count = str(brand.gbpReviewCount);
