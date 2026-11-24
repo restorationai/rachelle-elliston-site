@@ -83,15 +83,15 @@ export const brand = {
   awardsSection: {"headline": "Award-Winning Restoration Company in North Las Vegas", "intro": "Recognition from the Quality Business Awards and BusinessRate."} as { headline: string; intro: string },
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
-  gbpRatingValue: "4.5",
-  gbpReviewCount: "106",
+  gbpRatingValue: "4.4",
+  gbpReviewCount: "109",
   gbpReviews: [
+    { author: "Carolyn", rating: 5, text: "They were very professional and the work was finished in a timely manner. They were always willing to answer your questions and they were easy to contact.", when: "November 2026" },
+    { author: "Kathleen", rating: 4, text: "They showed up on time and they were very professional.", when: "November 2026" },
     { author: "Kevin", rating: 5, text: "I retained Desert Valley Contracting to repair and remodel our newly purchased property in LV. We live out of state and the project manager, Rudy, kept me updated all along. He also shared photos of the work in progress and addressed anything that we needed. It was great working with them on this…", when: "November 2026" },
     { author: "Barbara", rating: 4, text: "We had major interior water damage and they did a good job boxing everything up, removing damaged drywall and cabinets, cleanup, etc. We are going to have them continue with the restoration of the interior.", when: "November 2026" },
     { author: "Wendy", rating: 5, text: "Had a good experience with each team.", when: "November 2026" },
     { author: "John", rating: 5, text: "Desert Valley did an outstanding job with our bathroom construction.", when: "November 2026" },
-    { author: "Karen", rating: 5, text: "Fast, efficient, listen to our concerns and worked within our budget. All departments were very professional!", when: "November 2026" },
-    { author: "Rafael", rating: 5, text: "Good work & customer service. Reasonably priced.", when: "November 2026" },
   ] as { author: string; rating: number; text: string; when: string }[],
   tagline: "24/7 restoration services in North Las Vegas, NV.",
   ctaLabel: "24/7 Emergency Line",
