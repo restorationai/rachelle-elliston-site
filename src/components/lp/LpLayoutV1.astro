@@ -53,13 +53,13 @@ const locationLabel = city && state ? `${city}, ${state}` : (city ?? "");
 const steps: ProcessStep[] = customSteps ?? [
   { title: "Emergency Call Received", body: "We're available 24/7 and respond immediately to your emergency." },
   { title: "On-Site Inspection", body: "Our team arrives quickly to assess the damage and develop a custom restoration plan." },
-  { title: "Damage Mitigation", body: "We take immediate steps to prevent further damage — water extraction, board-up, tarp, or containment as needed." },
+  { title: "Damage Mitigation", body: "We take immediate steps to prevent further damage: water extraction, board-up, tarp, or containment as needed." },
   { title: "Cleanup & Drying", body: "We remove debris, dry affected areas, and clean surfaces using advanced equipment and techniques." },
   { title: "Mold & Odor Treatment", body: "If necessary, we treat for mold growth and eliminate lingering smoke, mildew, or water odors." },
   { title: "Insurance Coordination", body: "We work directly with your insurance company to handle paperwork, photos, and claim details." },
-  { title: "Repair & Restoration", body: "Our crew performs all needed repairs — drywall, flooring, painting, and more — to fully restore your home." },
+  { title: "Repair & Restoration", body: "Our crew performs all needed repairs (drywall, flooring, painting, and more) to fully restore your home." },
   { title: "Final Walkthrough", body: "We ensure everything meets our standards and yours before closing out the project." },
-  { title: "Peace of Mind Delivered", body: "You're left with a clean, safe, fully restored home — back to pre-loss condition or better." },
+  { title: "Peace of Mind Delivered", body: "You're left with a clean, safe, fully restored home: back to pre-loss condition or better." },
 ];
 
 const heroIcons = [
@@ -286,7 +286,7 @@ const displayPhoneRaw = (brand as any).adsTrackingPhoneRaw ?? brand.phoneRaw;
             How Our Service Works:
           </h2>
           <p class="text-gray-600 mt-4 mb-8 max-w-3xl leading-relaxed">
-            When unexpected damage happens, you need a team that responds fast and gets the job done right. We follow a clear, step-by-step process to assess, clean, repair, and restore your property — so you're never left guessing what comes next.
+            When unexpected damage happens, you need a team that responds fast and gets the job done right. We follow a clear, step-by-step process to assess, clean, repair, and restore your property, so you're never left guessing what comes next.
           </p>
           <ol class="space-y-5 max-w-3xl list-none pl-0 mb-8">
             {steps.map((step, i) => (

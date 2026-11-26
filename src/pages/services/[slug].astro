@@ -47,7 +47,7 @@ const bestCompanyAnswer = [
     ? `Customers rate us ${brand.gbpRatingValue} out of 5 stars across ${brand.gbpReviewCount} Google reviews.`
     : "",
   is247
-    ? `We answer calls 24/7 — call ${brand.phone} for immediate help.`
+    ? `We answer calls 24/7: call ${brand.phone} for immediate help.`
     : `Call ${brand.phone} during business hours (${brand.hours}) for a free estimate.`,
 ].filter(Boolean).join(" ");
 // GBP <-> site parity list + Service schema offers (Santino 2026-09-30)

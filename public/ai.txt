@@ -1,4 +1,4 @@
-# AI crawler policy — companion to robots.txt for AI-specific user agents.
+# AI crawler policy: companion to robots.txt for AI-specific user agents.
 # Format: each bot section declares Allow / Disallow paths.
 # Skill 3 substitutes the brand URL token at scaffold time.
 

@@ -24,7 +24,7 @@ import { workPairs } from "~/data/work";
 import { regionHeadline, regionSentence } from "~/lib/region";
 
 const entry = await getEntry("pages", "home");
-if (!entry) throw new Error("Missing content: pages/home.md — has Skill 3 rendered yet?");
+if (!entry) throw new Error("Missing content: pages/home.md, has Skill 3 rendered yet?");
 const { Content } = await entry.render();
 const data = entry.data;
 // SERVICE REGION (Santino 2026-11-19): the homepage speaks to the whole

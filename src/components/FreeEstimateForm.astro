@@ -36,7 +36,7 @@ const {
         </h2>
         {!compact && (
           <p class="text-white/75 text-lg mb-0">
-            Tell us what happened and we'll get back to you fast — usually within one business hour.
+            Tell us what happened and we'll get back to you fast, usually within one business hour.
           </p>
         )}
         <p class="mt-4 mb-0">
@@ -89,7 +89,7 @@ const {
           <textarea
             name="description" rows={compact ? 3 : 4} maxlength="2000"
             class="rounded-md border border-white/15 bg-white/5 px-4 py-3 text-base font-normal normal-case tracking-normal text-white placeholder-white/40 focus:border-white/50 focus:outline-none resize-y"
-            placeholder="Briefly describe the damage — e.g. burst pipe in the kitchen, standing water in the basement…"
+            placeholder="Briefly describe the damage, e.g. burst pipe in the kitchen, standing water in the basement…"
           ></textarea>
         </label>
 
@@ -193,15 +193,15 @@ const {
           .then(function (r) { return r.json().catch(function () { return {}; }).then(function (j) { return { ok: r.ok && j.ok !== false, j: j }; }); })
           .then(function (res) {
             if (res.ok) {
-              show("Thanks — your request is in. We'll call you back shortly. For emergencies, call us now.", true);
+              show("Thanks, your request is in. We'll call you back shortly. For emergencies, call us now.", true);
               form.reset();
               if (ts) ts.value = String(Date.now());
             } else {
-              show("Something went wrong sending your request. Please call us instead — it's faster anyway.", false);
+              show("Something went wrong sending your request. Please call us instead: it's faster anyway.", false);
             }
           })
           .catch(function () {
-            show("Something went wrong sending your request. Please call us instead — it's faster anyway.", false);
+            show("Something went wrong sending your request. Please call us instead: it's faster anyway.", false);
           })
           .finally(function () {
             if (btn) { btn.disabled = false; btn.textContent = "Get My Free Estimate"; }

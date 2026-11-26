@@ -94,7 +94,7 @@ const faq = [
   },
   {
     question: "Should I start removing the water myself?",
-    answer: `Only if it is a small amount of clean water and you can stay away from electrical outlets and appliances. Never step into standing water in a room with live electricity, and never handle sewage or floodwater yourself — it can carry bacteria and contaminants. Shut off the water source if you can, then call ${brand.phone}.`,
+    answer: `Only if it is a small amount of clean water and you can stay away from electrical outlets and appliances. Never step into standing water in a room with live electricity, and never handle sewage or floodwater yourself: it can carry bacteria and contaminants. Shut off the water source if you can, then call ${brand.phone}.`,
   },
   {
     question: "How long does drying take?",
@@ -154,9 +154,9 @@ const faq = [
           <a href={`tel:${brand.phoneRaw}`} class="font-bold whitespace-nowrap">{brand.phone}</a>.
         </p>
         <ol class="space-y-4 mt-8">
-          <li><strong>Shut off the water.</strong> Close the main shut-off valve — usually where the water line enters the house, or at the fixture that failed.</li>
+          <li><strong>Shut off the water.</strong> Close the main shut-off valve, usually where the water line enters the house, or at the fixture that failed.</li>
           <li><strong>Cut power to affected rooms.</strong> Only if you can reach the breaker panel without stepping in water. If not, stay out and wait for help.</li>
-          <li><strong>Stay out of contaminated water.</strong> Sewage backups and outdoor floodwater carry bacteria — do not wade through or touch it.</li>
+          <li><strong>Stay out of contaminated water.</strong> Sewage backups and outdoor floodwater carry bacteria: do not wade through or touch it.</li>
           <li><strong>Document the damage.</strong> Take photos and video of every affected room before anything is moved. Your insurance adjuster will need them.</li>
           <li><strong>Move what you can.</strong> Lift furniture, rugs, and electronics out of the water if it is safe to do so.</li>
           <li><strong>Call <a href={`tel:${brand.phoneRaw}`} class="whitespace-nowrap">{brand.phone}</a>.</strong> We will walk you through the rest and get a crew moving.</li>
@@ -200,13 +200,13 @@ const faq = [
         <div class="eyebrow">Insurance Claims</div>
         <h2>Will insurance cover this?</h2>
         <p class="text-lg text-dark-800">
-          Sudden, accidental water damage — a burst pipe, appliance failure, or water heater leak — is
+          Sudden, accidental water damage (a burst pipe, appliance failure, or water heater leak) is
           typically covered by homeowners insurance. {brand.displayName} works with all major carriers and
           bills your insurance company directly, so you are not stuck coordinating the claim alone.
         </p>
         <p>
           Our crew documents the entire loss for you: photos, video, itemized damage notes, and daily
-          moisture readings your adjuster can verify. You pay attention to your family and your home —
+          moisture readings your adjuster can verify. You pay attention to your family and your home:
           we handle the paperwork with the carrier.
         </p>
       </div>
@@ -224,10 +224,10 @@ const faq = [
           water, and get professional drying equipment running the same visit.
         </p>
         <ol class="space-y-4 mt-8">
-          <li><strong>Damage assessment.</strong> We map how far the water has traveled using moisture meters — including inside walls and under floors.</li>
+          <li><strong>Damage assessment.</strong> We map how far the water has traveled using moisture meters, including inside walls and under floors.</li>
           <li><strong>Water extraction.</strong> Truck-mounted and portable extractors remove standing water immediately.</li>
           <li><strong>Removal of unsalvageable materials.</strong> Soaked carpet pad, drywall, and insulation that cannot be dried are removed and documented for your claim.</li>
-          <li><strong>Structural drying.</strong> Commercial air movers and dehumidifiers run continuously, monitored with daily moisture readings — typically three to five days.</li>
+          <li><strong>Structural drying.</strong> Commercial air movers and dehumidifiers run continuously, monitored with daily moisture readings: typically three to five days.</li>
           <li><strong>Verification and restoration.</strong> Once materials test dry, we verify with final readings and move into repairs to bring your home back to pre-loss condition.</li>
         </ol>
       </div>
@@ -250,6 +250,6 @@ const faq = [
 
   <CtaBanner
     heading={is247 ? "Water emergency? We're awake." : "Water emergency? Call us first."}
-    subheading={`One call gets a crew moving — ${brand.phone}.`}
+    subheading={`One call gets a crew moving: ${brand.phone}.`}
   />
 </BaseLayout>

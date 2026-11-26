@@ -78,7 +78,7 @@ const {
 const locationLabel = city && state ? `${city}, ${state}` : (city ?? "");
 
 const steps: ProcessStep[] = customSteps ?? [
-  { title: "Call Our Team Anytime", body: "Our dedicated team is available around the clock — call us anytime, 24/7, for support whenever you need it." },
+  { title: "Call Our Team Anytime", body: "Our dedicated team is available around the clock: call us anytime, 24/7, for support whenever you need it." },
   { title: "On-Site Home Assessment & Estimate", body: "Get connected with a local professional to schedule an assessment and discuss your options." },
   { title: "Damage Mitigation & Restoration", body: "Expert team responds immediately to assess the situation, prevent further damage, and begin the restoration process without delay." },
   { title: "Get Updates Until the Job is Done", body: "From the initial assessment to the final walkthrough, you'll receive regular updates on progress, timelines, and next steps." },
@@ -257,7 +257,7 @@ const displayPhoneRaw = (brand as any).adsTrackingPhoneRaw ?? brand.phoneRaw;
             <div class="text-xs font-black uppercase tracking-widest mb-2" style={`color:${PINK}`}>Why Choose Us</div>
             <h2 class="text-gray-900 text-2xl md:text-3xl font-black mb-4 mt-0">Support You Can Rely On</h2>
             <p class="text-gray-600 mb-6 leading-relaxed">
-              Disasters don't wait for convenient timing — and neither do we. We connect you with trusted, licensed professionals who respond to water, fire, mold, and storm emergencies with speed and expertise. From your first call, you'll speak with a knowledgeable team member who provides clear guidance.
+              Disasters don't wait for convenient timing, and neither do we. We connect you with trusted, licensed professionals who respond to water, fire, mold, and storm emergencies with speed and expertise. From your first call, you'll speak with a knowledgeable team member who provides clear guidance.
             </p>
             <div class="rounded-lg overflow-hidden bg-gray-200 aspect-[4/3]">
               {supportImageUrl
@@ -276,7 +276,7 @@ const displayPhoneRaw = (brand as any).adsTrackingPhoneRaw ?? brand.phoneRaw;
               ))}
             </ul>
             <p class="text-gray-600 mb-6 leading-relaxed text-sm">
-              When disaster strikes, every moment matters. We help homeowners get connected quickly with trusted restoration professionals who can act fast to protect your home and prevent further damage — from water leaks to fire and storm recovery.
+              When disaster strikes, every moment matters. We help homeowners get connected quickly with trusted restoration professionals who can act fast to protect your home and prevent further damage: from water leaks to fire and storm recovery.
             </p>
             <a href={`tel:${displayPhoneRaw}`} class="inline-flex items-center gap-2 text-white font-bold px-6 py-3 rounded-md text-sm no-underline transition-colors" style={`background:${PINK}`}>
               <Phone size={15} stroke-width={2.5} /> Call {displayPhone}
@@ -324,7 +324,7 @@ const displayPhoneRaw = (brand as any).adsTrackingPhoneRaw ?? brand.phoneRaw;
         <div class="container-wide">
           <div class="bg-gray-900 rounded-lg px-8 py-10 flex flex-col md:flex-row items-center justify-between gap-6">
             <div>
-              <div class="text-xs font-black uppercase tracking-widest mb-2" style={`color:${PINK}`}>Don't Wait — Get Help Now</div>
+              <div class="text-xs font-black uppercase tracking-widest mb-2" style={`color:${PINK}`}>Don't Wait, Get Help Now</div>
               <p class="text-white font-semibold text-lg mb-0 max-w-xl">
                 Speak with a restoration specialist who can assess your situation and connect you with emergency services right away.
               </p>
@@ -349,9 +349,9 @@ const displayPhoneRaw = (brand as any).adsTrackingPhoneRaw ?? brand.phoneRaw;
         }
         <div class="relative z-10 container-wide py-16 md:py-24 grid md:grid-cols-2 gap-8 items-center">
           <div class="bg-white rounded-lg p-8 shadow-xl">
-            <h2 class="text-gray-900 text-xl md:text-2xl font-black mb-3 mt-0">Your Property Won't Wait — Why Should You?</h2>
+            <h2 class="text-gray-900 text-xl md:text-2xl font-black mb-3 mt-0">Your Property Won't Wait: Why Should You?</h2>
             <p class="text-gray-600 text-sm leading-relaxed mb-0">
-              {bodyContent.callout ?? "When your home is hit by water, fire, or storm damage, acting quickly can make all the difference. Don't wait — protect your home and start restoring peace of mind today."}
+              {bodyContent.callout ?? "When your home is hit by water, fire, or storm damage, acting quickly can make all the difference. Don't wait, protect your home and start restoring peace of mind today."}
             </p>
           </div>
           <div class="text-white">

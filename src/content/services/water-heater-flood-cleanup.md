@@ -25,11 +25,11 @@ A failed water heater is usually clean water at the moment of rupture (Category 
 
 ## Our Process
 
-1. **Source confirmation and shutoff** – we verify the water supply is off and identify whether the failure was a tank rupture, a fitting leak, or a pressure relief valve discharge, each points to a different moisture path.
-2. **Extraction and moisture mapping** – standing water is removed first, then we use moisture meters and thermal imaging to map how far water traveled behind walls, under flooring, and into adjacent rooms.
-3. **Material removal where needed** – saturated drywall, insulation, and flooring that won't dry in place are removed to prevent secondary damage and mold growth.
-4. **Structured drying and daily monitoring** – air movers, dehumidifiers, and sometimes injection drying systems run on a schedule, with moisture readings logged daily until materials reach dry standard, consistent with IICRC S500 guidelines.
-5. **Pre-repair documentation** – once the space is dry, we document everything for the insurance claim and hand off repair scope so reconstruction can begin.
+1. **Source confirmation and shutoff**: we verify the water supply is off and identify whether the failure was a tank rupture, a fitting leak, or a pressure relief valve discharge, each points to a different moisture path.
+2. **Extraction and moisture mapping**: standing water is removed first, then we use moisture meters and thermal imaging to map how far water traveled behind walls, under flooring, and into adjacent rooms.
+3. **Material removal where needed**: saturated drywall, insulation, and flooring that won't dry in place are removed to prevent secondary damage and mold growth.
+4. **Structured drying and daily monitoring**: air movers, dehumidifiers, and sometimes injection drying systems run on a schedule, with moisture readings logged daily until materials reach dry standard, consistent with IICRC S500 guidelines.
+5. **Pre-repair documentation**: once the space is dry, we document everything for the insurance claim and hand off repair scope so reconstruction can begin.
 
 ## What Separates a Good Water Heater Flood Cleanup Response From a Bad One
 

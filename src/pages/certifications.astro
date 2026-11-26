@@ -34,7 +34,7 @@ const meta = `The licenses, certifications, and standards ${brand.displayName} w
       <h1>Licenses &amp; Certifications</h1>
       <p class="text-lg opacity-80 mt-4 mb-10">
         Credentials only mean something if you can check them. Everything on
-        this page is verifiable — where a public lookup exists, the link goes
+        this page is verifiable: where a public lookup exists, the link goes
         straight to the issuing authority.
       </p>
 
@@ -79,12 +79,12 @@ const meta = `The licenses, certifications, and standards ${brand.displayName} w
 
       {licenses.length === 0 && certs.length === 0 && !attested && (
         <p class="opacity-80">
-          Licensing and insurance documentation is available on request — call
+          Licensing and insurance documentation is available on request: call
           {" "}{brand.phone} and we will provide it directly.
         </p>
       )}
     </div>
   </section>
   <TrustStrip />
-  <CtaBanner heading="Questions about our credentials?" subheading="We'll walk you through any of it — documentation available on request." />
+  <CtaBanner heading="Questions about our credentials?" subheading="We'll walk you through any of it: documentation available on request." />
 </BaseLayout>
