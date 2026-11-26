@@ -1,5 +1,6 @@
 ---
 import { brand } from "~/lib/brand";
+import CredentialsLine from "~/components/ui/CredentialsLine.astro";
 import { srcsetFor } from "~/lib/images";
 
 interface Props {
@@ -28,6 +29,7 @@ const img = srcsetFor(isLogo ? "" : imageSrc);
         <div class="prose-body text-xl opacity-90 leading-relaxed mb-10 font-medium">
           <slot />
         </div>
+        <CredentialsLine award class="-mt-6 mb-10" />
       </div>
 
       <div class="relative flex justify-center items-center">

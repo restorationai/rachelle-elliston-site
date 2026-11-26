@@ -52,6 +52,31 @@ function awardSchema(withPages: boolean) {
 }
 // rankai:award-schema end
 
+// rankai:credential-schema (Santino 2026-11-26). Every verified credential
+// (brand.ts credentials, written by scripts/credentials_rollout.py from the one
+// store) as hasCredential: credentialCategory license | certification |
+// accreditation, recognizedBy the issuer, identifier = the number on file.
+// IICRC courses held by the technicians (holder "technicians") are not the
+// company's credential and stay out. The BBB profile itself stays in sameAs.
+type SchemaCredential = { name: string; kind?: string; number?: string; authority?: string; url?: string; state?: string; holder?: string };
+const SCHEMA_CREDENTIALS = ((brand as { credentials?: SchemaCredential[] }).credentials || [])
+  .filter((c) => c && c.name && c.holder !== "technicians");
+function credentialSchema() {
+  if (!SCHEMA_CREDENTIALS.length) return {};
+  return {
+    hasCredential: SCHEMA_CREDENTIALS.map((c) => ({
+      "@type": "EducationalOccupationalCredential",
+      name: c.kind === "license" && c.state && !c.name.includes(c.state) ? `${c.state} ${c.name}` : c.name,
+      credentialCategory: c.kind || "certification",
+      ...(c.number ? { identifier: c.number } : {}),
+      ...(c.authority ? { recognizedBy: { "@type": "Organization", name: c.authority } } : {}),
+      ...(c.kind === "license" && c.state ? { validIn: { "@type": "AdministrativeArea", name: c.state } } : {}),
+      ...(c.url ? { url: c.url } : {}),
+    })),
+  };
+}
+// rankai:credential-schema end
+
 // 24/7 gate — same brand.hours regex as the Header announcement bar. Only 24/7
 // restoration brands get the EmergencyService typing; scheduled-hours trades
 // (e.g. construction) stay plain LocalBusiness.
@@ -122,6 +147,7 @@ function localBusiness(ctx: PageSchemaContext) {
         }
       : {}),
     sameAs: brand.sameAsUrls,
+    ...credentialSchema(),
     ...awardSchema(true),
     foundingDate: brand.foundedYear,
     // AggregateRating — values come straight from the live Google Business Profile,
@@ -168,6 +194,7 @@ function organization() {
     email: brand.email,
     foundingDate: brand.foundedYear,
     sameAs: brand.sameAsUrls,
+    ...credentialSchema(),
     ...awardSchema(false),
   };
 }

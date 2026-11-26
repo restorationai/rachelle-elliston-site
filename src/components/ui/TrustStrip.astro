@@ -59,6 +59,7 @@ for (const raw of defaultBadges) {
 
 function iconFor(label: string) {
   const t = label.toLowerCase();
+  if (t.includes("accredit") || /\bbbb\b/.test(t)) return BadgeCheck;
   if (t.includes("voted") || t.includes("winner") || t.includes("best of")) return Award;
   if (t.includes("star") || t.includes("rated")) return Star;
   if (t.includes("guarantee") || t.includes("award") || t.includes("voted") || t.includes("#1")) return Award;
@@ -67,6 +68,16 @@ function iconFor(label: string) {
   if (t.includes("financ") || t.includes("estimate") || t.includes("billing")) return BadgeCheck;
   if (t.includes("local") || t.includes("family") || t.includes("owned") || t.includes("veteran") || t.includes("woman")) return Users;
   return MapPin;
+}
+
+// rankai:credential-badge (Santino 2026-11-26): a VERIFIED accreditation
+// (brand.ts credentials, scripts/credentials_rollout.py) takes the slot right
+// after the award. The client's own BBB badge wording, when picked, wins.
+const _credBadges: string[] = ((brand as { credentials?: { kind?: string; name?: string }[] }).credentials || [])
+  .filter((c) => c && c.kind === "accreditation" && /\bbbb\b/i.test(String(c.name || ""))).slice(0, 1).map(() => "BBB Accredited");
+if (_credBadges.length && !badges.some((b) => /\bbbb\b/i.test(b))) {
+  const _at = Math.min(((brand as { awards?: unknown[] }).awards || []).length ? 1 : 0, badges.length);
+  badges.splice(_at, 0, ..._credBadges);
 }
 
 const items = badges.slice(0, 4).map((label) => ({ icon: iconFor(label), label }));

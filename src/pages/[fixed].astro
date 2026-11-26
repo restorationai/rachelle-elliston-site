@@ -8,6 +8,7 @@ import InternalLinks from "~/components/InternalLinks.astro";
 import ServicesHubGrid from "~/components/ui/ServicesHubGrid.astro";
 import ServiceAreasHubGrid from "~/components/ui/ServiceAreasHubGrid.astro";
 import { brand } from "~/lib/brand";
+import CredentialsLine from "~/components/ui/CredentialsLine.astro";
 
 export async function getStaticPaths() {
   // Slugs handled by dedicated route files, not by this catch-all.
@@ -73,6 +74,7 @@ const proseHeading =
   <section class="section-first bg-white">
     <div class="container-wide">
       <div class="prose-body">
+        {archetype === "about" && <CredentialsLine award class="mb-8" />}
         {proseHeading && <h2 class="text-2xl md:text-3xl font-black uppercase tracking-tighter">{proseHeading}</h2>}
         <Content />
       </div>
