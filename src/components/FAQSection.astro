@@ -5,6 +5,9 @@ type Props = { faq?: { question: string; answer: string }[]; heading?: string; e
 const { faq = [], heading = "Frequently Asked Questions", eyebrow = "Questions" } = Astro.props;
 ---
 
+{/* rankai:faq-h3 (AI Search 2026-11-27): each question is its own <h3>, so AI readers
+    chunk every answer on its own; the inline style keeps the look. */}
+
 {faq.length > 0 && (
   <section class="bg-white py-24 text-dark-900 overflow-hidden border-t border-dark/10">
     <div class="container-wide px-6 sm:px-10 lg:px-12">
@@ -15,12 +18,12 @@ const { faq = [], heading = "Frequently Asked Questions", eyebrow = "Questions" 
           {faq.map((q) => (
             <details class="group border-b border-dark/10 last:border-0">
               <summary class="w-full flex items-center justify-between py-8 text-left cursor-pointer list-none [&::-webkit-details-marker]:hidden">
-                <span class="text-xl md:text-2xl font-black uppercase tracking-wide group-hover:text-primary-500 transition-colors pr-10 flex gap-6 w-full">
+                <div class="text-xl md:text-2xl font-black uppercase tracking-wide group-hover:text-primary-500 transition-colors pr-10 flex gap-6 w-full">
                   <span class="text-primary-500 mt-1 flex-shrink-0 transition-transform duration-300 group-open:rotate-180">
                     <ChevronDown size={28} />
                   </span>
-                  <span class="flex-grow">{q.question}</span>
-                </span>
+                  <h3 class="flex-grow" style="font:inherit;letter-spacing:inherit;color:inherit;margin:0">{q.question}</h3>
+                </div>
               </summary>
               <div class="pb-10 text-xl opacity-80 leading-relaxed max-w-4xl pl-14 animate-fadeIn" set:html={q.answer} />
             </details>

@@ -49,11 +49,15 @@ const showHeaderName = Boolean((brand as { headerName?: boolean }).headerName) &
     </nav>
 
     <div class="flex items-center gap-2 flex-shrink-0">
+      {/* rankai:call-once (AI Search 2026-11-27): the stacked small-screen copy of the call
+          button prints its words from data-label / data-phone via CSS, so the button's text is
+          in the HTML once (AI readers saw "Call Us Now (number)" twice). DNI swaps data-phone
+          too (DniSwap). Same boxes, same type: the look is unchanged. */}
       <a href={`tel:${brand.phoneRaw}`} class={`${(brand as {hideMobileHeaderCall?: boolean}).hideMobileHeaderCall ? "hidden sm:block " : ""}btn-primary text-sm md:text-base px-4 sm:px-6 py-3 md:py-4 lg:py-2 xl:py-4 shadow-primary-900/40 text-center leading-tight font-black`}>
         <span class="hidden sm:block lg:hidden xl:block tracking-wide whitespace-nowrap">Call Us Now <span aria-hidden="true">•</span> {brand.phone}</span>
         <span class="sm:hidden lg:flex xl:hidden flex flex-col items-center gap-0.5">
-          <span class="text-[11px] font-black tracking-[0.15em] opacity-90 uppercase">Call Us Now</span>
-          <span class="font-black tracking-wide whitespace-nowrap">{brand.phone}</span>
+          <span class="text-[11px] font-black tracking-[0.15em] opacity-90 uppercase before:content-[attr(data-label)]" data-label="Call Us Now"></span>
+          <span class="font-black tracking-wide whitespace-nowrap before:content-[attr(data-phone)]" data-phone={brand.phone}></span>
         </span>
       </a>
       <button id="mobile-nav-toggle" type="button" class="lg:hidden inline-flex flex-col items-center justify-center w-11 h-11 gap-[5px] rounded-md border border-dark/20 text-dark-900 flex-shrink-0" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-nav">

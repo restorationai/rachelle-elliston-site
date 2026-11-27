@@ -1,0 +1,20 @@
+---
+// rankai:updated-line (AI Search 2026-11-27, experiment visible-date-2026-12). The month
+// this page's content last really changed: the SAME date as its schema dateModified and
+// sitemap lastmod (~/lib/pageDates). Shown from the date in src/data/updated-line.json
+// (decided at build time so crawlers read it; scripts/page_freshness.py writes it).
+// scripts/page_dates.py ignores this component, so showing it never moves the date.
+import { pageDates } from "~/lib/pageDates";
+
+type Props = { class?: string };
+const cfgs = import.meta.glob("../../data/updated-line.json", { eager: true, import: "default" }) as Record<string, { from?: string }>;
+const cfg = Object.values(cfgs)[0] || {};
+const d = pageDates(Astro.url.pathname);
+const today = new Date().toISOString().slice(0, 10);
+const show = !!(d && d.modified && cfg.from && today >= cfg.from);
+const label = show
+  ? new Date(`${d!.modified}T12:00:00Z`).toLocaleDateString("en-US", { month: "long", year: "numeric", timeZone: "UTC" })
+  : "";
+---
+
+{show && <p class={Astro.props.class}>Updated <time datetime={d!.modified}>{label}</time></p>}

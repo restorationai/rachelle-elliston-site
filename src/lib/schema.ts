@@ -4,6 +4,7 @@
 // the runtime view that Astro renders.
 
 import { brand, entityId } from "./brand";
+import { pageDates, pagePath } from "./pageDates";
 
 export type PageSchemaContext = {
   archetype: string;
@@ -171,7 +172,7 @@ function localBusiness(ctx: PageSchemaContext) {
           // data-gated, never invented). Deliberately not meta_description:
           // plan-generated meta copy can carry claims the brand data doesn't back.
           description: safe(ctx.dispatch_sentence) ?? safe(ctx.meta_description),
-          dateModified: String(ctx.date_modified || new Date().toISOString()).slice(0, 10),
+          ...(ctx.date_modified ? { dateModified: String(ctx.date_modified).slice(0, 10) } : {}),
         }
       : {}),
   };
@@ -352,8 +353,32 @@ const RESOLVERS: Record<string, (ctx: PageSchemaContext) => unknown | undefined>
   // "aggregate-rating" is embedded inside local-business, not emitted standalone
 };
 
-export function renderSchema(stubs: string[], ctx: PageSchemaContext): unknown[] {
-  return stubs
-    .map((s) => RESOLVERS[s]?.(ctx))
-    .filter((x) => x !== undefined && x !== null);
+// rankai:page-dates (AI Search 2026-11-27). Every page's real content dates
+// (~/lib/pageDates, from git history; the sitemap lastmod reads the same file):
+// a WebPage node with datePublished + dateModified, the BlogPosting's
+// dateModified and the city x service LocalBusiness dateModified.
+function webPage(ctx: PageSchemaContext, d: { modified: string; published: string }) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": `${brand.canonicalUrl}${pagePath(ctx.url)}#webpage`,
+    url: `${brand.canonicalUrl}${pagePath(ctx.url)}`,
+    name: ctx.title,
+    datePublished: d.published,
+    dateModified: d.modified,
+    isPartOf: { "@id": `${brand.canonicalUrl}/#website` },
+    about: { "@id": entityId },
+    inLanguage: "en-US",
+  };
 }
+
+export function renderSchema(stubs: string[], ctx: PageSchemaContext): unknown[] {
+  const d = pageDates(ctx.url);
+  const c: PageSchemaContext = d ? { ...ctx, date_modified: d.modified, post_updated_at: d.modified } : ctx;
+  const blocks = stubs
+    .map((s) => RESOLVERS[s]?.(c))
+    .filter((x) => x !== undefined && x !== null);
+  if (d && !stubs.includes("blog-posting")) blocks.push(webPage(c, d));
+  return blocks;
+}
+// rankai:page-dates end

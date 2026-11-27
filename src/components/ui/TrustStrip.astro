@@ -104,6 +104,9 @@ const items = badges.slice(0, 4).map((label) => ({ icon: iconFor(label), label }
       })}
     </div>
     
+    {/* rankai:strip-once (AI Search 2026-11-27): the desktop row prints its labels from
+        data-label via CSS, so the badge text is in the HTML once (the mobile stack); AI
+        readers saw it twice. Same box, same inherited type: the look is unchanged. */}
     {/* DESKTOP VIEW: Horizontal Row */}
     <div class="hidden lg:flex justify-between items-center gap-8 overflow-x-auto whitespace-nowrap">
       {items.map((item) => {
@@ -113,7 +116,7 @@ const items = badges.slice(0, 4).map((label) => ({ icon: iconFor(label), label }
             <span class="text-primary-500">
               <Icon size={24} />
             </span>
-            {item.label}
+            <span class="before:content-[attr(data-label)]" data-label={item.label}></span>
           </div>
         );
       })}

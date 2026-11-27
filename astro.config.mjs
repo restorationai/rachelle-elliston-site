@@ -56,6 +56,13 @@ function contentLastmodMap() {
 
 const LASTMOD_BY_PATH = contentLastmodMap();
 
+// rankai:page-dates (AI Search 2026-11-27): <lastmod> = the date the page's CONTENT
+// last really changed (scripts/page_dates.py -> src/data/page-dates.json, the same
+// file schema dateModified reads). A page without a date gets no lastmod, never the
+// build date.
+const PAGE_DATES_FILE = path.join(path.dirname(fileURLToPath(import.meta.url)), "src", "data", "page-dates.json");
+const PAGE_DATES = fs.existsSync(PAGE_DATES_FILE) ? JSON.parse(fs.readFileSync(PAGE_DATES_FILE, "utf8")) : {};
+
 export default defineConfig({
   site: "https://desertvalleyrestoration.com",
   output: "static",
@@ -73,7 +80,8 @@ export default defineConfig({
           item.priority = item.url === "https://desertvalleyrestoration.com/" ? 1.0 : 0.7;
         }
         const urlPath = new URL(item.url).pathname;
-        item.lastmod = (LASTMOD_BY_PATH.get(urlPath) ?? BUILD_DATE).toISOString();
+        if (PAGE_DATES[urlPath]?.modified) item.lastmod = PAGE_DATES[urlPath].modified;
+        else delete item.lastmod;
         return item;
       },
     }),

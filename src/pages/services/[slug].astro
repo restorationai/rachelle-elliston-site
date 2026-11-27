@@ -1,4 +1,5 @@
 ---
+import UpdatedLine from "~/components/ui/UpdatedLine.astro";
 import { getCollection } from "astro:content";
 import BaseLayout from "~/layouts/BaseLayout.astro";
 import CtaBanner from "~/components/CtaBanner.astro";
@@ -85,6 +86,7 @@ const homeVideoId = (geoVideos as Record<string, string>)[
       <div class="max-w-2xl">
         <div class="eyebrow">{data.service_display}</div>
         <h1 class="mb-6">{pageH1}</h1>
+        <UpdatedLine class="text-sm font-semibold text-dark/70 -mt-3 mb-5" />
         <p class="text-lg text-dark/85 mb-8 leading-relaxed">{pageMeta}</p>
         <div class="flex flex-col sm:flex-row gap-4">
           <a href={`tel:${brand.phoneRaw}`} class="btn-accent">📞 Call {brand.phone}</a>

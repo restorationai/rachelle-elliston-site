@@ -32,6 +32,11 @@ import { brand } from "~/lib/brand";
             a.setAttribute("href", "tel:" + toRaw);
           }
         });
+        // rankai:dni-data-phone: CSS-printed numbers (the header's stacked call button) live in data-phone
+        document.querySelectorAll("[data-phone]").forEach(function (el) {
+          var v = el.getAttribute("data-phone") || "";
+          if (v.indexOf(fromFmt) !== -1) el.setAttribute("data-phone", v.split(fromFmt).join(toFmt));
+        });
         var walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
         var hits = [];
         while (walker.nextNode()) {
