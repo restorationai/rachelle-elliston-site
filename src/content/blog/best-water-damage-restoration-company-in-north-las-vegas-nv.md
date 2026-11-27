@@ -106,7 +106,7 @@ SERVPRO is one of the most recognized names in the restoration industry national
 
 | Company | Google Rating | Reviews | 24/7 Emergency | IICRC Certified |
 |---|---|---|---|---|
-| Desert Valley Restoration | 4.4 | 109 | Yes | Yes (WRT, ASD, AMRT, FSRT) |
+| Desert Valley Restoration | 4.4 | 114 | Yes | Yes (WRT, ASD, AMRT, FSRT) |
 | WFM Restoration LLC | 4.9 | 1,069 | Not listed | Not listed |
 | 911 Restoration of Las Vegas | 5.0 | 86 | Not listed | Not listed |
 | Elevate Restore | 4.9 | 188 | Not listed | Not listed |
